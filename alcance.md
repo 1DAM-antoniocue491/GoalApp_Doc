@@ -1,6 +1,6 @@
-# Al
+# Alcance
 
-## Visión general
+#### Visión general
 
 La aplicación permitirá:
 
@@ -15,9 +15,9 @@ La aplicación permitirá:
 
 
 
-## Cobertura funcional
+#### Cobertura funcional
 
 
 
-## Producto mínimo viable
+#### Producto mínimo viable
 

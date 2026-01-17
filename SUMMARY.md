@@ -2,7 +2,16 @@
 
 * [Inicio](README.md)
 * [Objetivos](objetivos.md)
-* [Al](al.md)
+* [Alcance](alcance.md)
+* [Audiencia](audiencia.md)
+* [Motivación y justificación](motivacion-y-justificacion.md)
+* [Tecnologías y herramientas](tecnologias-y-herramientas.md)
+* [Valoración de alternativas en el mercado](valoracion-de-alternativas-en-el-mercado.md)
+
+## Objetivos y Requisitos
+
+* [Objetivos](objetivos-y-requisitos/objetivos.md)
+* [Page 9](objetivos-y-requisitos/page-9.md)
 
 ## Modelo de datos
 
@@ -35,3 +44,8 @@
 ## Extras y mejoras futuras
 
 * [Page 8](extras-y-mejoras-futuras/page-8.md)
+* [Page](extras-y-mejoras-futuras/page.md)
+
+## Repositorio Git/Github
+
+* [Page 10](repositorio-git-github/page-10.md)
