@@ -1,7 +1,5 @@
 # Inicio
 
-## Nombre
-
 **Aplicación de gestión de ligas amateur de fútbol:&#x20;**_**GoalApp**_
 
 <figure><img src=".gitbook/assets/futbol.webp" alt=""><figcaption></figcaption></figure>
