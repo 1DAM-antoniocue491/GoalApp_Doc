@@ -10,19 +10,6 @@ El proyecto consiste en el desarrollo de una **aplicación móvil multiplataform
 
 La aplicación permitirá administrar de forma sencilla y centralizada todos los elementos necesarios para el funcionamiento de una competición: **ligas, equipos, jugadores, partidos, resultados, clasificaciones y estadísticas**, evitando el uso de hojas de cálculo u otras herramientas externas poco especializadas.
 
-#### Funcionalidades principales
-
-La aplicación permitirá:
-
-* Crear y gestionar **múltiples ligas**, configurando su formato de competición.
-* Registrar **equipos**, incluyendo información básica como nombre y escudo.
-* Gestionar **jugadores**, asignándolos a equipos y registrando datos relevantes.
-* Crear y programar **partidos**, asignando fechas y equipos.
-* Introducir **resultados**, goles, tarjetas e incidencias.
-* Generar automáticamente la **clasificación**, actualizada tras cada partido.
-* Consultar **estadísticas básicas**, como máximos goleadores o rachas de resultados.
-* Diferenciar **roles de usuario**, limitando las acciones según permisos (administrador o usuario).
-
 #### Trabajo en equipo y organización
 
 El desarrollo se realiza de forma colaborativa, con una **división clara de roles y responsabilidades** entre los miembros del equipo.
