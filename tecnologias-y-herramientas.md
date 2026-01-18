@@ -43,6 +43,7 @@
   * Documentación oficial del proyecto, organizada por partes y páginas.
 * **Hosting / Despliegue**
   * Railway o Render para desplegar el backend.
+  * Firebase Cloud para desplegar la web.
   * Exportación de la app para Android / iOS a través de Expo.
 * **Herramientas gráficas**
   * Para diagramas ER, mockups o prototipos (Draw.io, Figma o similares).
