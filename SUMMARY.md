@@ -45,7 +45,3 @@
 
 * [Page 8](extras-y-mejoras-futuras/page-8.md)
 * [Page](extras-y-mejoras-futuras/page.md)
-
-## Repositorio Git/Github
-
-* [Page 10](repositorio-git-github/page-10.md)
