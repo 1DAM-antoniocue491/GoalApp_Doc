@@ -11,6 +11,8 @@
 ## Objetivos y Requisitos
 
 * [Objetivos](objetivos-y-requisitos/objetivos.md)
+* [Requisitos funcionales](objetivos-y-requisitos/requisitos-funcionales/README.md)
+  * [OBJ-1. Gestión de usuarios y roles](objetivos-y-requisitos/requisitos-funcionales/obj-1.-gestion-de-usuarios-y-roles.md)
 * [Page 9](objetivos-y-requisitos/page-9.md)
 
 ## Modelo de datos
