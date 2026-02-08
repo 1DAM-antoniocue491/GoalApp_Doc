@@ -1,3 +1,10 @@
+---
+description: >-
+  Tabla que muestra qué acciones puede realizar cada rol. Los roles superiores
+  heredan permisos de los inferiores, y el rol Delegate tiene permisos puntuales
+  independientes.
+---
+
 # Matriz de permisos
 
 | Permiso / Rol                        | Viewer | Player | Delegate | Coach | Admin |
