@@ -48,6 +48,11 @@
 ## Reglas y Convenciones
 
 * [Reglas de negocio del sistema](reglas-y-convenciones/reglas-de-negocio-del-sistema.md)
+* [Page 1](reglas-y-convenciones/page-1.md)
+
+## Decisiones Técnicas / Arquitectura
+
+* [Decisiones de Arquitectura y Tecnología](decisiones-tecnicas-arquitectura/decisiones-de-arquitectura-y-tecnologia.md)
 
 ## Extras y mejoras futuras
 
