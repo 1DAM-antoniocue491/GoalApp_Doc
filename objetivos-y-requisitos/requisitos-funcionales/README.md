@@ -1,3 +1,2 @@
 # Requisitos funcionales
 
-afdag
