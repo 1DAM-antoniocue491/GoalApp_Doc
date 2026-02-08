@@ -35,7 +35,7 @@
 
 #### **Herramientas adicionales**
 
-* **Notion**
+* **Google Drive**
   * Organización de tareas, backlog, registro de actividades y documentación interna del equipo.
 * **Git / GitHub**
   * Control de versiones, colaboración en equipo y gestión de ramas.

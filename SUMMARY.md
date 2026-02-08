@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Inicio](README.md)
-* [Objetivos](objetivos.md)
 * [Alcance](alcance.md)
 * [Audiencia](audiencia.md)
 * [Motivación y justificación](motivacion-y-justificacion.md)
