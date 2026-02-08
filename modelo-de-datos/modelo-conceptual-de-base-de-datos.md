@@ -234,7 +234,19 @@ Almacena notificaciones enviadas a los usuarios.
 
 ***
 
-### 4. Relaciones entre entidades
+### 4. Diagrama MER de las entidades
+
+#### Roles y usuarios
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### Partidos y ligas
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+### 5. Relaciones entre entidades
 
 * Cada **usuario** puede tener varios **roles**, mediante la tabla `usuario_rol`.
 * Cada **jugador** corresponde a un **usuario** registrado.
@@ -244,7 +256,7 @@ Almacena notificaciones enviadas a los usuarios.
 
 ***
 
-### 5. Reglas de negocio
+### 6. Reglas de negocio
 
 * Un jugador siempre es un usuario.
 * Cada equipo tiene entrenador y delegado.
@@ -254,7 +266,7 @@ Almacena notificaciones enviadas a los usuarios.
 
 ***
 
-### 6. Integridad y consistencia
+### 7. Integridad y consistencia
 
 * Uso de PK y FK en todas las relaciones críticas.
 * Eliminaciones en cascada controladas (ej.: eliminar un partido elimina sus eventos y alineaciones asociadas).
@@ -263,7 +275,7 @@ Almacena notificaciones enviadas a los usuarios.
 
 ***
 
-### 7. Seguridad
+### 8. Seguridad
 
 * Contraseñas almacenadas en hash.
 * Acceso a información sensible controlado por roles.
@@ -271,7 +283,7 @@ Almacena notificaciones enviadas a los usuarios.
 
 ***
 
-### 8. Escalabilidad y mejoras futuras
+### 9. Escalabilidad y mejoras futuras
 
 * Historial completo de estadísticas de jugadores.
 * Integración con panel web administrativo.
