@@ -20,28 +20,26 @@
   * [OBJ-7. Registro de eventos del partido](objetivos-y-requisitos/requisitos-funcionales/obj-7.-registro-de-eventos-del-partido.md)
   * [OBJ-8. Generación de clasificaciones](objetivos-y-requisitos/requisitos-funcionales/obj-8.-generacion-de-clasificaciones.md)
   * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/requisitos-funcionales/obj-9.-gestion-de-estadisticas.md)
-  * [OBJ-10. Consulta de información](objetivos-y-requisitos/requisitos-funcionales/obj-10.-consulta-de-informacion.md)
-* [Page 9](objetivos-y-requisitos/page-9.md)
+* [Requisitos no funcionales](objetivos-y-requisitos/requisitos-no-funcionales.md)
+* [Requisitos de interfaz](objetivos-y-requisitos/requisitos-de-interfaz.md)
 
 ## Modelo de datos
 
-* [Page 1](modelo-de-datos/page-1.md)
-
-## Documentación SQL
-
-* [Page 2](documentacion-sql/page-2.md)
-
-## Backend
-
-* [Page 3](backend/page-3.md)
+* [Modelo conceptual de Base de Datos](modelo-de-datos/modelo-conceptual-de-base-de-datos.md)
 
 ## Frontend
 
 * [Page 4](frontend/page-4.md)
 
+## Backend
+
+* [Page 3](backend/page-3.md)
+
 ## Roles y Permisos
 
-* [Page 5](roles-y-permisos/page-5.md)
+* [Roles y permisos](roles-y-permisos/roles-y-permisos.md)
+* [Roles del sistema](roles-y-permisos/roles-del-sistema.md)
+* [Matriz de permisos](roles-y-permisos/matriz-de-permisos.md)
 
 ## Eventos y Notificaciones
 
@@ -49,7 +47,7 @@
 
 ## Reglas y Convenciones
 
-* [Page 7](reglas-y-convenciones/page-7.md)
+* [Reglas de negocio del sistema](reglas-y-convenciones/reglas-de-negocio-del-sistema.md)
 
 ## Extras y mejoras futuras
 

@@ -28,4 +28,3 @@ Los objetivos específicos detallan de forma concreta las funcionalidades que de
 | OBJ-7       | Registro de eventos del partido     | Permitir al delegado de campo registrar eventos como goles, tarjetas y cambios durante el partido.                                                             |
 | OBJ-8       | Generación de clasificaciones       | Calcular y actualizar automáticamente la clasificación de la liga a partir de los resultados de los partidos.                                                  |
 | OBJ-9       | Gestión de estadísticas             | Generar estadísticas individuales de jugadores y estadísticas globales por equipo o liga.                                                                      |
-| OBJ-10      | Consulta de información             | Permitir a los usuarios consultar datos, resultados, clasificaciones y estadísticas de forma clara y accesible.                                                |
