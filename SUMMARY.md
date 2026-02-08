@@ -12,6 +12,15 @@
 * [Objetivos](objetivos-y-requisitos/objetivos.md)
 * [Requisitos funcionales](objetivos-y-requisitos/requisitos-funcionales/README.md)
   * [OBJ-1. Gestión de usuarios y roles](objetivos-y-requisitos/requisitos-funcionales/obj-1.-gestion-de-usuarios-y-roles.md)
+  * [OBJ-2. Gestión de roles y permisos](objetivos-y-requisitos/requisitos-funcionales/obj-2.-gestion-de-roles-y-permisos.md)
+  * [OBJ-3. Gestión de ligas](objetivos-y-requisitos/requisitos-funcionales/obj-3.-gestion-de-ligas.md)
+  * [OBJ-4. Gestión de equipos](objetivos-y-requisitos/requisitos-funcionales/obj-4.-gestion-de-equipos.md)
+  * [OBJ-5. Gestión de jugadores](objetivos-y-requisitos/requisitos-funcionales/obj-5.-gestion-de-jugadores.md)
+  * [OBJ-6. Gestión de partidos](objetivos-y-requisitos/requisitos-funcionales/obj-6.-gestion-de-partidos.md)
+  * [OBJ-7. Registro de eventos del partido](objetivos-y-requisitos/requisitos-funcionales/obj-7.-registro-de-eventos-del-partido.md)
+  * [OBJ-8. Generación de clasificaciones](objetivos-y-requisitos/requisitos-funcionales/obj-8.-generacion-de-clasificaciones.md)
+  * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/requisitos-funcionales/obj-9.-gestion-de-estadisticas.md)
+  * [OBJ-10. Consulta de información](objetivos-y-requisitos/requisitos-funcionales/obj-10.-consulta-de-informacion.md)
 * [Page 9](objetivos-y-requisitos/page-9.md)
 
 ## Modelo de datos
