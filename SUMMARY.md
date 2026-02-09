@@ -22,6 +22,18 @@
   * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/requisitos-funcionales/obj-9.-gestion-de-estadisticas.md)
 * [Requisitos no funcionales](objetivos-y-requisitos/requisitos-no-funcionales.md)
 * [Requisitos de interfaz](objetivos-y-requisitos/requisitos-de-interfaz.md)
+* [Casos de uso](objetivos-y-requisitos/casos-de-uso/README.md)
+  * [OBJ-1. Gestión de usuarios y roles](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/README.md)
+    * [Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-1.md)
+    * [Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-2.md)
+  * [OBJ-2. Gestión de roles y permisos](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos.md)
+  * [OBJ-3. Gestión de ligas](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas.md)
+  * [OBJ-4. Gestión de equipos](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos.md)
+  * [OBJ-5. Gestión de jugadores](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores.md)
+  * [OBJ-6. Gestión de partidos](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos.md)
+  * [OBJ-7. Registro de eventos del partido](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido.md)
+  * [OBJ-8. Generación de clasificaciones](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones.md)
+  * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas.md)
 
 ## Modelo de datos
 
