@@ -40,28 +40,11 @@ El modelo de datos se compone de las siguientes tablas principales, con sus camp
 
 Tabla que almacena información de todos los usuarios registrados en el sistema.
 
-| Campo            | Descripción                     | Tipo de dato | Obligatorio | Único |
-| ---------------- | ------------------------------- | ------------ | ----------- | ----- |
-| id\_usuario (PK) | Identificador único del usuario | INT          | Sí          | Sí    |
-| nombre           | Nombre completo del usuario     | VARCHAR(100) | Sí          | No    |
-| email            | Correo electrónico del usuario  | VARCHAR(100) | Sí          | Sí    |
-| contraseña\_hash | Contraseña encriptada           | VARCHAR(255) | Sí          | No    |
-| created\_at      | Fecha de creación               | TIMESTAMP    | Sí          | No    |
-| updated\_at      | Fecha de actualización          | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### roles
 
 Tabla que almacena los diferentes roles que un usuario puede tener (Admin, Entrenador, Delegado, etc.).
-
-| Campo        | Descripción               | Tipo de dato | Obligatorio | Único |
-| ------------ | ------------------------- | ------------ | ----------- | ----- |
-| id\_rol (PK) | Identificador del rol     | INT          | Sí          | Sí    |
-| nombre       | Nombre del rol            | VARCHAR(50)  | Sí          | Sí    |
-| descripcion  | Breve descripción del rol | VARCHAR(255) | No          | No    |
-| created\_at  | Fecha de creación         | TIMESTAMP    | Sí          | No    |
-| updated\_at  | Fecha de actualización    | TIMESTAMP    | Sí          | No    |
 
 ***
 
@@ -69,30 +52,11 @@ Tabla que almacena los diferentes roles que un usuario puede tener (Admin, Entre
 
 Tabla intermedia que relaciona usuarios con roles, permitiendo que un usuario tenga múltiples roles.
 
-| Campo                 | Descripción                  | Tipo de dato | Obligatorio | Único |
-| --------------------- | ---------------------------- | ------------ | ----------- | ----- |
-| id\_usuario\_rol (PK) | Identificador de la relación | INT          | Sí          | Sí    |
-| id\_usuario (FK)      | Usuario asignado             | INT          | Sí          | No    |
-| id\_rol (FK)          | Rol asignado                 | INT          | Sí          | No    |
-| created\_at           | Fecha de creación            | TIMESTAMP    | Sí          | No    |
-| updated\_at           | Fecha de actualización       | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### jugadores
 
 Almacena información específica de los jugadores, incluyendo la posición, dorsal y equipo al que pertenecen. Cada jugador corresponde a un usuario registrado.
-
-| Campo            | Descripción                        | Tipo de dato | Obligatorio | Único |
-| ---------------- | ---------------------------------- | ------------ | ----------- | ----- |
-| id\_jugador (PK) | Identificador del jugador          | INT          | Sí          | Sí    |
-| id\_usuario (FK) | Usuario asociado                   | INT          | Sí          | Sí    |
-| id\_equipo (FK)  | Equipo al que pertenece            | INT          | Sí          | No    |
-| posicion         | Posición del jugador               | VARCHAR(50)  | Sí          | No    |
-| dorsal           | Número en la camiseta              | INT          | Sí          | No    |
-| activo           | Indica si está activo en el equipo | BOOLEAN      | Sí          | No    |
-| created\_at      | Fecha de creación                  | TIMESTAMP    | Sí          | No    |
-| updated\_at      | Fecha de actualización             | TIMESTAMP    | Sí          | No    |
 
 ***
 
@@ -100,31 +64,11 @@ Almacena información específica de los jugadores, incluyendo la posición, dor
 
 Tabla que contiene las ligas disponibles en el sistema y la temporada correspondiente.
 
-| Campo         | Descripción               | Tipo de dato | Obligatorio | Único |
-| ------------- | ------------------------- | ------------ | ----------- | ----- |
-| id\_liga (PK) | Identificador de la liga  | INT          | Sí          | Sí    |
-| nombre        | Nombre de la liga         | VARCHAR(100) | Sí          | Sí    |
-| temporada     | Temporada correspondiente | VARCHAR(20)  | Sí          | No    |
-| created\_at   | Fecha de creación         | TIMESTAMP    | Sí          | No    |
-| updated\_at   | Fecha de actualización    | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### equipos
 
 Almacena la información de los equipos, su liga, entrenador y delegado.
-
-| Campo               | Descripción                           | Tipo de dato | Obligatorio | Único |
-| ------------------- | ------------------------------------- | ------------ | ----------- | ----- |
-| id\_equipo (PK)     | Identificador del equipo              | INT          | Sí          | Sí    |
-| nombre              | Nombre del equipo                     | VARCHAR(100) | Sí          | Sí    |
-| escudo              | URL o referencia al escudo del equipo | VARCHAR(255) | No          | No    |
-| colores             | Colores representativos del equipo    | VARCHAR(50)  | No          | No    |
-| id\_liga (FK)       | Liga a la que pertenece               | INT          | Sí          | No    |
-| id\_entrenador (FK) | Usuario que actúa como entrenador     | INT          | Sí          | No    |
-| id\_delegado (FK)   | Usuario que actúa como delegado       | INT          | Sí          | No    |
-| created\_at         | Fecha de creación                     | TIMESTAMP    | Sí          | No    |
-| updated\_at         | Fecha de actualización                | TIMESTAMP    | Sí          | No    |
 
 ***
 
@@ -132,34 +76,11 @@ Almacena la información de los equipos, su liga, entrenador y delegado.
 
 Registra los partidos programados o jugados entre equipos de la misma liga, con su estado y resultados.
 
-| Campo                      | Descripción                    | Tipo de dato | Obligatorio | Único |
-| -------------------------- | ------------------------------ | ------------ | ----------- | ----- |
-| id\_partido (PK)           | Identificador del partido      | INT          | Sí          | Sí    |
-| id\_liga (FK)              | Liga del partido               | INT          | Sí          | No    |
-| id\_equipo\_local (FK)     | Equipo local                   | INT          | Sí          | No    |
-| id\_equipo\_visitante (FK) | Equipo visitante               | INT          | Sí          | No    |
-| fecha                      | Fecha y hora del partido       | TIMESTAMP    | Sí          | No    |
-| estado                     | Programado, jugado o cancelado | VARCHAR(50)  | Sí          | No    |
-| goles\_local               | Goles del equipo local         | INT          | No          | No    |
-| goles\_visitante           | Goles del equipo visitante     | INT          | No          | No    |
-| created\_at                | Fecha de creación              | TIMESTAMP    | Sí          | No    |
-| updated\_at                | Fecha de actualización         | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### eventos\_partido
 
 Almacena los eventos ocurridos en un partido, como goles, tarjetas, cambios y MVP.
-
-| Campo            | Descripción                                | Tipo de dato | Obligatorio | Único |
-| ---------------- | ------------------------------------------ | ------------ | ----------- | ----- |
-| id\_evento (PK)  | Identificador del evento                   | INT          | Sí          | Sí    |
-| id\_partido (FK) | Partido asociado                           | INT          | Sí          | No    |
-| id\_jugador (FK) | Jugador involucrado                        | INT          | Sí          | No    |
-| tipo\_evento     | Tipo de evento (gol, tarjeta, cambio, MVP) | VARCHAR(50)  | Sí          | No    |
-| minuto           | Minuto en que ocurrió                      | INT          | Sí          | No    |
-| created\_at      | Fecha de creación                          | TIMESTAMP    | Sí          | No    |
-| updated\_at      | Fecha de actualización                     | TIMESTAMP    | Sí          | No    |
 
 ***
 
@@ -167,26 +88,11 @@ Almacena los eventos ocurridos en un partido, como goles, tarjetas, cambios y MV
 
 Define las formaciones tácticas disponibles para los equipos.
 
-| Campo              | Descripción                        | Tipo de dato | Obligatorio | Único |
-| ------------------ | ---------------------------------- | ------------ | ----------- | ----- |
-| id\_formacion (PK) | Identificador de la formación      | INT          | Sí          | Sí    |
-| nombre             | Nombre de la formación (ej. 4-3-3) | VARCHAR(20)  | Sí          | Sí    |
-| created\_at        | Fecha de creación                  | TIMESTAMP    | Sí          | No    |
-| updated\_at        | Fecha de actualización             | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### posicion
 
 Define las posiciones de cada formación (GK, CB, CM…).
-
-| Campo              | Descripción                  | Tipo de dato | Obligatorio | Único |
-| ------------------ | ---------------------------- | ------------ | ----------- | ----- |
-| id\_posicion (PK)  | Identificador de la posición | INT          | Sí          | Sí    |
-| id\_formacion (FK) | Formación a la que pertenece | INT          | Sí          | No    |
-| nombre             | Nombre de la posición        | VARCHAR(50)  | Sí          | No    |
-| created\_at        | Fecha de creación            | TIMESTAMP    | Sí          | No    |
-| updated\_at        | Fecha de actualización       | TIMESTAMP    | Sí          | No    |
 
 ***
 
@@ -194,43 +100,17 @@ Define las posiciones de cada formación (GK, CB, CM…).
 
 Relaciona formaciones asignadas a un equipo.
 
-| Campo                      | Descripción            | Tipo de dato | Obligatorio | Único |
-| -------------------------- | ---------------------- | ------------ | ----------- | ----- |
-| id\_formacion\_equipo (PK) | Identificador          | INT          | Sí          | Sí    |
-| id\_equipo (FK)            | Equipo asociado        | INT          | Sí          | No    |
-| id\_formacion (FK)         | Formación asignada     | INT          | Sí          | No    |
-| created\_at                | Fecha de creación      | TIMESTAMP    | Sí          | No    |
-| updated\_at                | Fecha de actualización | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### formacion\_partido
 
 Define qué formación utiliza un equipo en un partido específico.
 
-| Campo                       | Descripción                   | Tipo de dato | Obligatorio | Único |
-| --------------------------- | ----------------------------- | ------------ | ----------- | ----- |
-| id\_formacion\_partido (PK) | Identificador                 | INT          | Sí          | Sí    |
-| id\_partido (FK)            | Partido asociado              | INT          | Sí          | No    |
-| id\_equipo (FK)             | Equipo que usará la formación | INT          | Sí          | No    |
-| id\_formacion (FK)          | Formación utilizada           | INT          | Sí          | No    |
-| created\_at                 | Fecha de creación             | TIMESTAMP    | Sí          | No    |
-| updated\_at                 | Fecha de actualización        | TIMESTAMP    | Sí          | No    |
-
 ***
 
 #### notificaciones
 
 Almacena notificaciones enviadas a los usuarios.
-
-| Campo                 | Descripción                         | Tipo de dato | Obligatorio | Único |
-| --------------------- | ----------------------------------- | ------------ | ----------- | ----- |
-| id\_notificacion (PK) | Identificador de la notificación    | INT          | Sí          | Sí    |
-| id\_usuario (FK)      | Usuario receptor                    | INT          | Sí          | No    |
-| mensaje               | Contenido de la notificación        | TEXT         | Sí          | No    |
-| leida                 | Indica si la notificación fue leída | BOOLEAN      | Sí          | No    |
-| created\_at           | Fecha de creación                   | TIMESTAMP    | Sí          | No    |
-| updated\_at           | Fecha de actualización              | TIMESTAMP    | Sí          | No    |
 
 ***
 
