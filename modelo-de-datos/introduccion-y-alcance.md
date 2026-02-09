@@ -20,18 +20,86 @@ La base de datos soporta todas las funcionalidades principales de la aplicación
 
 El modelo de datos abarca todas las entidades necesarias para el funcionamiento del sistema, incluyendo:
 
-* **Usuarios y roles** Gestión de usuarios registrados y asignación de múltiples roles (Administrador, Entrenador, Delegado, etc.).
-* **Jugadores, entrenadores y delegados** Información específica de cada perfil, vinculada a usuarios del sistema.
-* **Equipos y ligas** Datos de equipos, temporadas, ligas y su estructura organizativa.
-* **Partidos y eventos** Registro de partidos programados o jugados, así como eventos asociados (goles, tarjetas, cambios, MVP).
-* **Formaciones tácticas y alineaciones** Definición de formaciones disponibles y alineaciones utilizadas por cada equipo en cada partido.
-* **Notificaciones** Mensajes enviados a los usuarios dentro de la aplicación.
-* **Auditoría** Campos `created_at` y `updated_at` para seguimiento de cambios y trazabilidad.
+<details>
+
+<summary><strong>Usuarios y roles</strong></summary>
+
+Gestión de usuarios registrados y asignación de múltiples roles (Administrador, Entrenador, Delegado, etc.)
+
+</details>
+
+<details>
+
+<summary><strong>Jugadores, entrenadores y delegados</strong></summary>
+
+Información específica de cada perfil, vinculada a usuarios del sistema.
+
+</details>
+
+<details>
+
+<summary><strong>Equipos y ligas</strong></summary>
+
+Datos de equipos, temporadas, ligas y su estructura organizativa.
+
+</details>
+
+<details>
+
+<summary><strong>Partidos y eventos</strong></summary>
+
+Registro de partidos programados o jugados, así como eventos asociados (goles, tarjetas, cambios, MVP).
+
+</details>
+
+<details>
+
+<summary><strong>Formaciones tácticas y alineaciones</strong></summary>
+
+Definición de formaciones disponibles y alineaciones utilizadas por cada equipo en cada partido.
+
+</details>
+
+<details>
+
+<summary><strong>Notificaciones</strong></summary>
+
+Mensajes enviados a los usuarios dentro de la aplicación.
+
+</details>
+
+<details>
+
+<summary><strong>Auditoría</strong></summary>
+
+Campos `created_at` y `updated_at` para seguimiento de cambios y trazabilidad.
+
+</details>
 
 #### **Datos no almacenados**
 
 El modelo excluye explícitamente ciertos tipos de información que no forman parte del alcance actual:
 
-* **Contenido multimedia pesado** Fotografías, vídeos o archivos de gran tamaño no se almacenan directamente en la base de datos.
-* **Mensajes privados entre usuarios** No se contempla un sistema de mensajería interna en esta versión.
-* **Historial completo de estadísticas** Solo se almacena el valor final por partido; el historial detallado queda fuera del alcance inicial, aunque se prevé su incorporación futura.
+<details>
+
+<summary><strong>Contenido multimedia pesado</strong></summary>
+
+Fotografías, vídeos o archivos de gran tamaño no se almacenan directamente en la base de datos.
+
+</details>
+
+<details>
+
+<summary><strong>Mensajes privados entre usuarios</strong></summary>
+
+No se contempla un sistema de mensajería interna en esta versión.
+
+</details>
+
+<details>
+
+<summary><strong>Historial completo de estadísticas</strong></summary>
+
+Solo se almacena el valor final por partido; el historial detallado queda fuera del alcance inicial, aunque se prevé su incorporación futura.
+
+</details>

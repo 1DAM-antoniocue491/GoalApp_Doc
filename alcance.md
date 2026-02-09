@@ -13,7 +13,7 @@ La aplicación permitirá:
 * Consultar **estadísticas básicas**, como máximos goleadores o rachas de resultados.
 * Diferenciar **roles de usuario**, limitando las acciones según permisos (administrador o usuario).
 
-
+***
 
 #### Cobertura funcional
 
@@ -94,7 +94,7 @@ El sistema no incluirá funcionalidades como:
 * Aplicación para smartwatch
 * Transmisión en vivo de partidos
 
-
+***
 
 #### Producto mínimo viable
 

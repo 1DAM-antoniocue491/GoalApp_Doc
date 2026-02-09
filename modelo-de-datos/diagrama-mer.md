@@ -1,10 +1,10 @@
 # Diagrama MER
 
-El Modelo Entidad–Relación (MER) representa gráficamente la estructura de la base de datos y las relaciones entre las entidades principales del sistema. Este diagrama sirve como referencia visual para comprender cómo se conectan los usuarios, equipos, ligas, partidos y demás componentes del proyecto.
+El **Modelo Entidad–Relación (MER)** representa gráficamente la estructura de la base de datos y las relaciones entre las entidades principales del sistema. Este diagrama sirve como referencia visual para comprender cómo se conectan los usuarios, equipos, ligas, partidos y demás componentes del proyecto.
 
 A continuación se presentan los diagramas organizados por áreas funcionales, junto con una breve explicación de cada uno.
 
-### **3.1 Visión General del Modelo**
+### **1. Visión General del Modelo**
 
 Este diagrama muestra todas las entidades principales del sistema y sus relaciones. Incluye:
 
@@ -14,11 +14,11 @@ Este diagrama muestra todas las entidades principales del sistema y sus relacion
 * Formaciones y alineaciones
 * Notificaciones
 
-**\[Insertar aquí el diagrama MER general]**
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Este diagrama permite obtener una visión completa del sistema y entender cómo interactúan las distintas partes entre sí.
 
-### **3.2 Usuarios y Roles**
+### **2. Usuarios y Roles**
 
 Este diagrama detalla la relación entre:
 
@@ -27,7 +27,7 @@ Este diagrama detalla la relación entre:
 * `usuario_rol`
 * `jugadores`
 
-**\[Insertar aquí el diagrama de Usuarios y Roles]**
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -35,7 +35,7 @@ Este diagrama detalla la relación entre:
 * Un jugador siempre está asociado a un usuario.
 * La tabla intermedia `usuario_rol` implementa la relación N:N.
 
-### **3.3 Equipos, Ligas y Jugadores**
+### **3. Equipos, Ligas y Jugadores**
 
 Este diagrama muestra cómo se relacionan:
 
@@ -43,7 +43,7 @@ Este diagrama muestra cómo se relacionan:
 * `equipos`
 * `jugadores`
 
-**\[Insertar aquí el diagrama de Equipos y Ligas]**
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -51,14 +51,14 @@ Este diagrama muestra cómo se relacionan:
 * Cada jugador pertenece a un equipo.
 * Cada equipo tiene asignado un entrenador y un delegado (ambos usuarios).
 
-### **3.4 Partidos y Eventos**
+### **4. Partidos y Eventos**
 
 Este diagrama representa:
 
 * `partidos`
 * `eventos_partido`
 
-**\[Insertar aquí el diagrama de Partidos y Eventos]**
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -66,7 +66,7 @@ Este diagrama representa:
 * Un partido puede tener múltiples eventos.
 * Cada evento está asociado a un jugador y a un partido.
 
-### **3.5 Formaciones y Alineaciones**
+### **5. Formaciones y Alineaciones**
 
 Este diagrama incluye:
 
@@ -75,7 +75,7 @@ Este diagrama incluye:
 * `formacion_equipo`
 * `formacion_partido`
 
-**\[Insertar aquí el diagrama de Formaciones y Alineaciones]**
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -84,21 +84,21 @@ Este diagrama incluye:
 * En cada partido, un equipo selecciona una formación concreta.
 * Las alineaciones deben respetar la formación definida.
 
-### **3.6 Notificaciones**
+### **6. Notificaciones**
 
 Este diagrama muestra la relación entre:
 
 * `notificaciones`
 * `usuarios`
 
-**\[Insertar aquí el diagrama de Notificaciones]**
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
 * Cada notificación tiene un usuario destinatario.
 * Se registra el estado (leída/no leída) y la fecha de envío.
 
-### **3.7 Notas sobre el MER**
+### **7. Notas sobre el MER**
 
 * Todas las relaciones críticas están reforzadas mediante claves foráneas.
 * Las cardinalidades reflejan las reglas de negocio del sistema.

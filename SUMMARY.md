@@ -32,7 +32,6 @@
 * [Reglas de negocio](modelo-de-datos/reglas-de-negocio.md)
 * [Integridad y Seguridad](modelo-de-datos/integridad-y-seguridad.md)
 * [Escalabilidad y mejoras futuras](modelo-de-datos/escalabilidad-y-mejoras-futuras.md)
-* [Modelo conceptual de Base de Datos](modelo-de-datos/modelo-conceptual-de-base-de-datos.md)
 
 ## Frontend
 
@@ -54,8 +53,13 @@
 
 ## Reglas y Convenciones
 
+* [Usuarios, Roles y Control de Acceso](reglas-y-convenciones/usuarios-roles-y-control-de-acceso.md)
+* [Gestión de ligas](reglas-y-convenciones/gestion-de-ligas.md)
+* [Equipos y Jugadores](reglas-y-convenciones/equipos-y-jugadores.md)
+* [Partidos y eventos](reglas-y-convenciones/partidos-y-eventos.md)
+* [Clasificación y Estadísticas](reglas-y-convenciones/clasificacion-y-estadisticas.md)
+* [Consulta y Visibilidad de la Información](reglas-y-convenciones/consulta-y-visibilidad-de-la-informacion.md)
 * [Reglas de negocio del sistema](reglas-y-convenciones/reglas-de-negocio-del-sistema.md)
-* [Page 1](reglas-y-convenciones/page-1.md)
 
 ## Decisiones Técnicas / Arquitectura
 

@@ -2,7 +2,7 @@
 
 El modelo de datos está compuesto por un conjunto de tablas que representan las entidades principales del sistema y sus relaciones. Cada tabla cumple un propósito específico dentro de la gestión de usuarios, equipos, ligas, partidos y estadísticas. A continuación se describen las tablas principales y su función dentro del sistema.
 
-### **2.1 Usuarios y Roles**
+### **1. Usuarios y Roles**
 
 #### **usuarios**
 
@@ -64,7 +64,7 @@ Permite:
 | created\_at           | Fecha de creación            | TIMESTAMP    | Sí          | No    |
 | updated\_at           | Fecha de actualización       | TIMESTAMP    | Sí          | No    |
 
-### **2.2 Jugadores y Personal Técnico**
+### **2. Jugadores y Personal Técnico**
 
 #### **jugadores**
 
@@ -90,7 +90,7 @@ Esta tabla permite diferenciar a los jugadores del resto de perfiles del sistema
 | created\_at      | Fecha de creación                  | TIMESTAMP    | Sí          | No    |
 | updated\_at      | Fecha de actualización             | TIMESTAMP    | Sí          | No    |
 
-### **2.3 Ligas, Equipos y Temporadas**
+### **3. Ligas, Equipos y Temporadas**
 
 #### **ligas**
 
@@ -136,7 +136,7 @@ Cada equipo puede tener múltiples jugadores, pero solo un entrenador y un deleg
 | created\_at         | Fecha de creación                     | TIMESTAMP    | Sí          | No    |
 | updated\_at         | Fecha de actualización                | TIMESTAMP    | Sí          | No    |
 
-### **2.4 Partidos y Eventos**
+### **4. Partidos y Eventos**
 
 #### **partidos**
 
@@ -194,17 +194,21 @@ Incluye:
 | created\_at      | Fecha de creación                          | TIMESTAMP    | Sí          | No    |
 | updated\_at      | Fecha de actualización                     | TIMESTAMP    | Sí          | No    |
 
-### **2.5 Formaciones y Alineaciones**
+### **5. Formaciones y Alineaciones**
 
 #### **formaciones**
 
 Define las formaciones tácticas disponibles para los equipos.
 
-Ejemplos:
+{% hint style="success" %}
+
+
+**Ejemplos:**
 
 * 4-3-3
 * 4-4-2
 * 3-5-2
+{% endhint %}
 
 Incluye:
 
@@ -222,12 +226,16 @@ Incluye:
 
 Define las posiciones dentro de una formación.
 
-Ejemplos:
+{% hint style="success" %}
+
+
+**Ejemplos:**
 
 * GK (portero)
 * CB (central)
 * CM (centrocampista)
 * ST (delantero)
+{% endhint %}
 
 Cada posición está asociada a una formación.
 
@@ -276,7 +284,7 @@ Incluye:
 | created\_at                 | Fecha de creación             | TIMESTAMP    | Sí          | No    |
 | updated\_at                 | Fecha de actualización        | TIMESTAMP    | Sí          | No    |
 
-### **2.6 Notificaciones**
+### **6. Notificaciones**
 
 #### **notificaciones**
 
@@ -299,7 +307,7 @@ Incluye:
 | created\_at           | Fecha de creación                   | TIMESTAMP    | Sí          | No    |
 | updated\_at           | Fecha de actualización              | TIMESTAMP    | Sí          | No    |
 
-### **2.7 Auditoría**
+### **7. Auditoría**
 
 Todas las tablas principales incluyen:
 

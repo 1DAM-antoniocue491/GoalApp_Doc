@@ -4,7 +4,7 @@ Esta sección define las reglas de negocio que rigen el funcionamiento del siste
 
 Las reglas se agrupan por áreas funcionales para facilitar su comprensión.
 
-## **5.1 Gestión de Usuarios, Roles y Control de Acceso**
+## **1. Gestión de Usuarios, Roles y Control de Acceso**
 
 #### **Control de acceso basado en roles (RBAC)**
 
@@ -32,7 +32,7 @@ Los roles se asignan automáticamente según la participación del usuario en un
 * Un usuario puede tener múltiples roles (tabla `usuario_rol`).
 * Un jugador siempre corresponde a un usuario registrado (relación 1:1).
 
-## **5.2 Gestión de Ligas**
+## **2. Gestión de Ligas**
 
 #### **Estados de la liga**
 
@@ -56,7 +56,7 @@ Una liga puede estar en uno de los siguientes estados:
 * Los equipos pertenecen a una única liga.
 * Los partidos solo pueden registrarse entre equipos de la misma liga.
 
-## **5.3 Gestión de Equipos**
+## **3. Gestión de Equipos**
 
 #### **Estructura del equipo**
 
@@ -79,7 +79,7 @@ No es obligatorio asignarlos al crear el equipo, pero **sí antes de disputar pa
 * Un equipo tiene múltiples jugadores.
 * Entrenador y delegado son usuarios con roles específicos.
 
-## **5.4 Gestión de Jugadores**
+## **4. Gestión de Jugadores**
 
 #### **Reglas generales**
 
@@ -98,7 +98,7 @@ No es obligatorio asignarlos al crear el equipo, pero **sí antes de disputar pa
 * Cada jugador corresponde a un usuario.
 * Cada jugador pertenece a un equipo.
 
-## **5.5 Gestión de Partidos**
+## **5. Gestión de Partidos**
 
 #### **Reglas generales**
 
@@ -129,7 +129,7 @@ Tipos permitidos:
 * Cambio
 * MVP
 
-## **5.6 Formaciones y Alineaciones**
+## **6. Formaciones y Alineaciones**
 
 #### **Reglas de uso**
 
@@ -144,7 +144,7 @@ Tipos permitidos:
 * No se permite registrar alineaciones sin formación asignada.
 * Las posiciones deben coincidir con las definidas en la tabla `posicion`.
 
-## **5.7 Notificaciones**
+## **7. Notificaciones**
 
 #### **Reglas generales**
 
@@ -152,7 +152,7 @@ Tipos permitidos:
 * No se envían notificaciones a usuarios eliminados o inactivos.
 * Las notificaciones registran estado (leída/no leída) y fecha de envío.
 
-## **5.8 Auditoría e Integridad**
+## **8. Auditoría e Integridad**
 
 #### **Auditoría**
 
@@ -167,7 +167,7 @@ Tipos permitidos:
   * Alineaciones asociadas a una formación de partido.
 * Restricciones NOT NULL, UNIQUE y CHECK para garantizar consistencia.
 
-## **5.9 Resumen de Reglas Críticas**
+## **9. Resumen de Reglas Críticas**
 
 * El acceso depende del rol del usuario en cada liga.
 * Un jugador siempre es un usuario.
