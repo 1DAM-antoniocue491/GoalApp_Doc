@@ -22,61 +22,6 @@
   * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/requisitos-funcionales/obj-9.-gestion-de-estadisticas.md)
 * [Requisitos no funcionales](objetivos-y-requisitos/requisitos-no-funcionales.md)
 * [Requisitos de interfaz](objetivos-y-requisitos/requisitos-de-interfaz.md)
-* [Casos de uso](objetivos-y-requisitos/casos-de-uso/README.md)
-  * [OBJ-1. Gestión de usuarios y roles](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/README.md)
-    * [Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-1.md)
-    * [Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-2.md)
-    * [Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-3.md)
-    * [Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-4.md)
-    * [Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-1.-gestion-de-usuarios-y-roles/caso-de-uso-5.md)
-  * [OBJ-2. Gestión de roles y permisos](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos/README.md)
-    * [Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos/caso-de-uso-1.md)
-    * [Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos/caso-de-uso-2.md)
-    * [Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos/caso-de-uso-3.md)
-    * [Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos/caso-de-uso-4.md)
-    * [Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-2.-gestion-de-roles-y-permisos/caso-de-uso-5.md)
-  * [OBJ-3. Gestión de ligas](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas/README.md)
-    * [Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas/caso-de-uso-1.md)
-    * [Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas/caso-de-uso-2.md)
-    * [Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas/caso-de-uso-3.md)
-    * [Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas/caso-de-uso-4.md)
-    * [Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-3.-gestion-de-ligas/caso-de-uso-5.md)
-  * [OBJ-4. Gestión de equipos](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos/README.md)
-    * [Copy of Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos/copy-of-caso-de-uso-1.md)
-    * [Copy of Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos/copy-of-caso-de-uso-2.md)
-    * [Copy of Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos/copy-of-caso-de-uso-3.md)
-    * [Copy of Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos/copy-of-caso-de-uso-4.md)
-    * [Copy of Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-4.-gestion-de-equipos/copy-of-caso-de-uso-5.md)
-  * [OBJ-5. Gestión de jugadores](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores/README.md)
-    * [Copy of Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores/copy-of-caso-de-uso-1.md)
-    * [Copy of Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores/copy-of-caso-de-uso-2.md)
-    * [Copy of Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores/copy-of-caso-de-uso-3.md)
-    * [Copy of Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores/copy-of-caso-de-uso-4.md)
-    * [Copy of Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-5.-gestion-de-jugadores/copy-of-caso-de-uso-5.md)
-  * [OBJ-6. Gestión de partidos](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos/README.md)
-    * [Copy of Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos/copy-of-caso-de-uso-1.md)
-    * [Copy of Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos/copy-of-caso-de-uso-2.md)
-    * [Copy of Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos/copy-of-caso-de-uso-3.md)
-    * [Copy of Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos/copy-of-caso-de-uso-4.md)
-    * [Copy of Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-6.-gestion-de-partidos/copy-of-caso-de-uso-5.md)
-  * [OBJ-7. Registro de eventos del partido](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido/README.md)
-    * [Copy of Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido/copy-of-caso-de-uso-1.md)
-    * [Copy of Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido/copy-of-caso-de-uso-2.md)
-    * [Copy of Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido/copy-of-caso-de-uso-3.md)
-    * [Copy of Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido/copy-of-caso-de-uso-4.md)
-    * [Copy of Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-7.-registro-de-eventos-del-partido/copy-of-caso-de-uso-5.md)
-  * [OBJ-8. Generación de clasificaciones](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones/README.md)
-    * [Copy of Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones/copy-of-caso-de-uso-1.md)
-    * [Copy of Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones/copy-of-caso-de-uso-2.md)
-    * [Copy of Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones/copy-of-caso-de-uso-3.md)
-    * [Copy of Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones/copy-of-caso-de-uso-4.md)
-    * [Copy of Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-8.-generacion-de-clasificaciones/copy-of-caso-de-uso-5.md)
-  * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas/README.md)
-    * [Copy of Caso de uso 1](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas/copy-of-caso-de-uso-1.md)
-    * [Copy of Caso de uso 2](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas/copy-of-caso-de-uso-2.md)
-    * [Copy of Caso de uso 3](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas/copy-of-caso-de-uso-3.md)
-    * [Copy of Caso de uso 4](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas/copy-of-caso-de-uso-4.md)
-    * [Copy of Caso de uso 5](objetivos-y-requisitos/casos-de-uso/obj-9.-gestion-de-estadisticas/copy-of-caso-de-uso-5.md)
 
 ## Modelo de datos
 
@@ -104,7 +49,7 @@
 
 ## Eventos y Notificaciones
 
-* [Page 6](eventos-y-notificaciones/page-6.md)
+* [Informe de notificaciones](eventos-y-notificaciones/informe-de-notificaciones.md)
 
 ## Reglas y Convenciones
 
@@ -122,5 +67,4 @@
 
 ## Extras y mejoras futuras
 
-* [Page 8](extras-y-mejoras-futuras/page-8.md)
-* [Page](extras-y-mejoras-futuras/page.md)
+* [Integración de Códigos QR](extras-y-mejoras-futuras/integracion-de-codigos-qr.md)

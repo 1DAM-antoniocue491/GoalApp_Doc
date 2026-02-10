@@ -26,3 +26,7 @@ La aplicación debe adaptarse a distintos idiomas y formatos regionales (fecha, 
 
 **RNF-9: Copias de seguridad**\
 Se deben realizar backups automáticos de la base de datos y la información crítica. La app debe permitir restaurar datos en caso de fallo, asegurando continuidad del servicio y preservación de estadísticas y resultados históricos.
+
+**RNF-10: Integridad y lógica en la base de datos**
+
+El sistema debe garantizar que toda la lógica implementada mediante triggers, funciones y procedimientos almacenados en la base de datos sea consistente, eficiente y fácil de mantener. Los triggers no deben afectar negativamente al rendimiento general y deben ejecutarse de forma segura, preservando la integridad referencial y evitando estados inconsistentes incluso ante fallos o transacciones incompletas. Toda la lógica embebida en la base de datos debe estar documentada y versionada para facilitar su actualización y asegurar que su comportamiento sea predecible y coherente con las reglas de negocio definidas.
