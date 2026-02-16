@@ -22,6 +22,7 @@
   * [OBJ-9. Gestión de estadísticas](objetivos-y-requisitos/requisitos-funcionales/obj-9.-gestion-de-estadisticas.md)
 * [Requisitos no funcionales](objetivos-y-requisitos/requisitos-no-funcionales.md)
 * [Requisitos de interfaz](objetivos-y-requisitos/requisitos-de-interfaz.md)
+* [Casos de uso](objetivos-y-requisitos/casos-de-uso.md)
 
 ## Modelo de datos
 
@@ -59,7 +60,6 @@
 * [Partidos y eventos](reglas-y-convenciones/partidos-y-eventos.md)
 * [Clasificación y Estadísticas](reglas-y-convenciones/clasificacion-y-estadisticas.md)
 * [Consulta y Visibilidad de la Información](reglas-y-convenciones/consulta-y-visibilidad-de-la-informacion.md)
-* [Reglas de negocio del sistema](reglas-y-convenciones/reglas-de-negocio-del-sistema.md)
 
 ## Decisiones Técnicas / Arquitectura
 
