@@ -1,36 +1,22 @@
 # Integración de Códigos QR
 
-Los **códigos QR** encajan de forma natural en tu proyecto porque resuelven varios problemas a la vez: acceso rápido, control de permisos, verificación en campo y simplificación del flujo de información. Este informe reúne su utilidad, impacto técnico y cómo se integran con tu arquitectura (FastAPI, JWT, triggers y roles).
-
 ### Función estratégica de los códigos QR en el proyecto
 
 Los QR actúan como **puentes seguros** entre el mundo físico (campo, entrenadores, delegados, jugadores) y la información digital del sistema. Permiten acceder a datos o registrar acciones sin necesidad de navegar por menús o buscar elementos manualmente.
 
 Su valor principal es que **reducen fricción** y **aumentan la fiabilidad operativa** durante los partidos.
 
-### Para qué sirven en tu sistema
+### Para qué sirven en nuestro sistema
 
 #### Acceso rápido a información del partido
 
 Un QR asociado a un partido permite que delegados, entrenadores o jugadores accedan directamente a:
 
 * Ficha del partido
-* Convocatoria
 * Eventos registrados
 * Estado del encuentro
 
 Esto evita búsquedas y reduce errores en momentos de presión.
-
-#### Registro seguro de eventos en campo
-
-El delegado escanea el QR del partido y accede directamente al módulo de eventos. El QR incluye un **token firmado (JWT)** que:
-
-* Identifica el partido
-* Verifica que el usuario tiene permisos
-* Evita manipulación
-* Permite acceso rápido sin navegar por la app
-
-Esto agiliza registrar goles, tarjetas o sustituciones.
 
 #### Control de permisos según rol
 
@@ -55,7 +41,6 @@ El botón “Compartir” genera:
 Esto permite compartir:
 
 * Partidos
-* Convocatorias
 * Clasificaciones
 * Estadísticas
 
