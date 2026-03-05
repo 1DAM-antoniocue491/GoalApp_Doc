@@ -34,13 +34,34 @@
 * [Integridad y Seguridad](modelo-de-datos/integridad-y-seguridad.md)
 * [Escalabilidad y mejoras futuras](modelo-de-datos/escalabilidad-y-mejoras-futuras.md)
 
-## Frontend
+## Frontend Web
 
-* [Page 4](frontend/page-4.md)
+* [Arquitectura](frontend-web/arquitectura.md)
+* [Estructura del proyecto](frontend-web/estructura-del-proyecto.md)
+* [Sistema de rutas](frontend-web/sistema-de-rutas.md)
+* [Gestión de estados](frontend-web/gestion-de-estados.md)
+* [Autenticación JWT](frontend-web/autenticacion-jwt.md)
+* [Consumo de la API](frontend-web/consumo-de-la-api.md)
+* [Diseño UI](frontend-web/diseno-ui.md)
+
+## Frontend Movile
+
+* [Arquitectura](frontend-movile/arquitectura.md)
+* [Estructura del proyecto](frontend-movile/estructura-del-proyecto.md)
+* [Navegación](frontend-movile/navegacion.md)
+* [Gestión de estados](frontend-movile/gestion-de-estados.md)
+* [Autenticación JWT](frontend-movile/autenticacion-jwt.md)
+* [Consumo de la API](frontend-movile/consumo-de-la-api.md)
+* [Diseño UI](frontend-movile/diseno-ui.md)
 
 ## Backend
 
-* [Page 3](backend/page-3.md)
+* [Arquitectura backend](backend/arquitectura-backend.md)
+* [Estructura del proyecto](backend/estructura-del-proyecto.md)
+* [Base de datos](backend/base-de-datos.md)
+* [Api REST](backend/api-rest.md)
+* [Autenticación JWT](backend/autenticacion-jwt.md)
+* [Despliegue backend](backend/despliegue-backend.md)
 
 ## Roles y Permisos
 
