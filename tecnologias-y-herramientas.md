@@ -3,9 +3,12 @@
 #### **Frontend**
 
 * **React Native + Expo**
-  * Framework para desarrollo móvil multiplataforma (iOS, Android y Web) con un solo código base.
+  * Framework para desarrollo móvil multiplataforma (iOS, Android) con un solo código base.
   * Permite crear **interfaces dinámicas y adaptables** con componentes reutilizables.
   * Expo facilita la **compilación y despliegue rápido** en dispositivos reales y simuladores.
+* **React**
+  * Framework para el desarrollo frontend web.
+  * Permite crear **interfaces dinámicas y adaptables** con componentes reutilizables.
 * **React Navigation**
   * Gestión de rutas y navegación entre pantallas dentro de la app.
 * **Tailwind CSS**
@@ -35,7 +38,7 @@
 
 #### **Herramientas adicionales**
 
-* **Google Drive**
+* **Taiga**
   * Organización de tareas, backlog, registro de actividades y documentación interna del equipo.
 * **Git / GitHub**
   * Control de versiones, colaboración en equipo y gestión de ramas.
