@@ -61,7 +61,10 @@
 * [Base de datos](backend/base-de-datos.md)
 * [Api REST](backend/api-rest.md)
 * [Autenticación JWT](backend/autenticacion-jwt.md)
-* [Despliegue backend](backend/despliegue-backend.md)
+* [Despliegue](backend/despliegue.md)
+* [Seguridad](backend/seguridad.md)
+* [Testing](backend/testing.md)
+* [Dependencias](backend/dependencias.md)
 
 ## Roles y Permisos
 
