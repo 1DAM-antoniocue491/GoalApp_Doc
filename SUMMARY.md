@@ -53,7 +53,7 @@
 * [Autenticación JWT](frontend-movile/autenticacion-jwt.md)
 * [Consumo de la API](frontend-movile/consumo-de-la-api.md)
 * [Diseño UI](frontend-movile/diseno-ui/README.md)
-  * [Administrador](frontend-movile/diseno-ui/administrador.md)
+  * [Administradorh](frontend-movile/diseno-ui/administradorh.md)
   * [Entrenador](frontend-movile/diseno-ui/entrenador.md)
   * [Delegado de Campo](frontend-movile/diseno-ui/delegado-de-campo.md)
   * [Jugador](frontend-movile/diseno-ui/jugador.md)
