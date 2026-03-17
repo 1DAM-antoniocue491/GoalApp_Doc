@@ -32,3 +32,4 @@ En los partidos en finalizados, se incluye un buscador que permite filtrar por e
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt="" width="277"><figcaption></figcaption></figure>
 
+Dentro de perfil, podemos observar nuestra información personal y podremos editar el perfil a partir del botón situado en la zona superior.
