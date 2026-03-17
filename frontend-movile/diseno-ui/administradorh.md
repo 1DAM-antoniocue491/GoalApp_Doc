@@ -12,7 +12,7 @@ Dentro de la **liga**, se pueden ver diferentes tipos de clasificaciones, como l
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt="" width="310"><figcaption></figcaption></figure>
 
-Podremos consultar la **información de cada equipo**(nombre liga, estadio, colores, entrenador y delegado de campo) y **sus jugadores** distinguido por la posición en la que juegan.
+Podremos consultar la **información de cada equipo**(nombre liga, estadio, colores, entrenador y delegado de campo) y **sus jugadores** distinguido por la posición en la que juegan. El administrador podra ver las estadísticas del jugador.
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt="" width="118"><figcaption></figcaption></figure>
 
