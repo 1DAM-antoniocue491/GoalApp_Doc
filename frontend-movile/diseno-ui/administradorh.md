@@ -25,3 +25,7 @@ En la sección de **partidos**, es posible consultar el estado de los encuentros
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro, accesibles mediante un botón situado en la parte superior.
