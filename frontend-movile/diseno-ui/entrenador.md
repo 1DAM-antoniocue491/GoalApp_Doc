@@ -10,11 +10,11 @@ Respecto a la interfaz contará con con **dashboard** donde al usuario se le dar
 
 Dentro de la **liga**, se pueden ver diferentes tipos de clasificaciones, como la **clasificación general**. Además, utilizando las estadísticas, se crean **rankings** tanto de equipos como de jugadores para analizar su rendimiento. Se creara un botón para **seguir la liga** y se podrán consultar temporadas pasadas.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="310"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="310"><figcaption></figcaption></figure>
 
 Podremos consultar la **información de cada equipo**(nombre liga, estadio, colores, entrenador y delegado de campo) y **sus jugadores** distinguido por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="133"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="133"><figcaption></figcaption></figure>
 
 También podremos consultar la **información del jugador** (nombre equipo, posición, dorsal, fecha nacimiento y el género) y si se encuentra **activo**.&#x20;
 
@@ -24,7 +24,7 @@ En la sección de **partidos**, es posible consultar el estado de los encuentros
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior. El entrenador podrá añadir la convocatoria mediante el botón situado en la parte superior.
+Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior. El entrenador podrá añadir la convocatoria mediante el botón situado en la parte superior.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
