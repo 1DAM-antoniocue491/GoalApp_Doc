@@ -1,6 +1,6 @@
 # Administrador
 
-La aplicación cuanta con una interfaz diferente según el rol que tenga el usuario. En este caso, nos centraremos en administrador.  El administrador tiene acceso a diferentes herramientas que le facilitan la gestión de la liga y el mantenimiento de la información actualizada. Además, incluye un task  que estara presente en todas las pantallas que será inicio, liga, añadir, partidos y perfil.
+El administrador tiene acceso a diferentes herramientas que le facilitan la gestión de la liga y el mantenimiento de la información actualizada. Además, incluye un task que estara presente en todas las pantallas que será inicio, liga, añadir, partidos y perfil.
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt="" width="138"><figcaption></figcaption></figure>
 
@@ -26,6 +26,6 @@ En la sección de **partidos**, es posible consultar el estado de los encuentros
 
 &#x20;Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro, accesibles mediante un botón situado en la parte superior.
