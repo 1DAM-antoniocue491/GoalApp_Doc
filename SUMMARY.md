@@ -42,7 +42,8 @@
 * [Gestión de estados](frontend-web/gestion-de-estados.md)
 * [Autenticación JWT](frontend-web/autenticacion-jwt.md)
 * [Consumo de la API](frontend-web/consumo-de-la-api.md)
-* [Diseño UI](frontend-web/diseno-ui.md)
+* [Diseño UI](frontend-web/diseno-ui/README.md)
+  * [Administrador](frontend-web/diseno-ui/administrador.md)
 
 ## Frontend Movile
 
