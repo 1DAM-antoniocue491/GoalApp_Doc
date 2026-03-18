@@ -50,6 +50,7 @@
 * [Estructura del proyecto](frontend-movile/estructura-del-proyecto.md)
 * [Navegación](frontend-movile/navegacion/README.md)
   * [Usuario sin Registrar](frontend-movile/navegacion/usuario-sin-registrar.md)
+  * [Usuario Registrado](frontend-movile/navegacion/usuario-registrado.md)
   * [Administrador](frontend-movile/navegacion/administrador.md)
   * [Entrenador](frontend-movile/navegacion/entrenador.md)
   * [Delegado de Campo](frontend-movile/navegacion/delegado-de-campo.md)

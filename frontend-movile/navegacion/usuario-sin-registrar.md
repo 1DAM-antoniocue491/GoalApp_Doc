@@ -12,6 +12,6 @@ Además, conteremos con un task en la parte inferior (inicio, liga, partidos, pe
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 * **Regitrarse.** El usuario deberá rellenar todos los campos y pulsar el botón de registrarse. Una vez se comprueben que todos los campos son correctos abrirá la pantalla de Iniciar Sesión.
-* **Iniciar Sesión. m**
+* **Iniciar sesión:** El usuario deberá introducir el correo electrónico y la contraseña proporcionados durante el registro. En caso de haber olvidado la contraseña, dispondrá de una opción para recuperarla. Una vez completados los campos, deberá pulsar el botón de inicio de sesión y, tras la verificación de los datos, se accederá al dashboard, donde se mostrará un mensaje de bienvenida.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="247"><figcaption></figcaption></figure>
