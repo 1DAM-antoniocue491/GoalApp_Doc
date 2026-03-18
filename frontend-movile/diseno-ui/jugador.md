@@ -30,6 +30,6 @@ Los partidos programado, se incluye un buscador que permite filtrar por equipo y
 
 En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="248"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="248"><figcaption></figcaption></figure>
 
 Dentro de perfil, podemos observar nuestra información personal y podremos editar el perfil a partir del botón situado en la zona superior.

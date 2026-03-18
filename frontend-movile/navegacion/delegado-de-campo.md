@@ -78,25 +78,23 @@ Perfil → Editar perfil / Cerrar sesión
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
-    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Además, permitirás crear eventos del partido (goles, tarjetas, sustituciones, MVP) y finalizar el evento.
+    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Además, permitirás crear eventos del partido (goles, tarjetas, sustituciones, MVP), finalizar el evento y editar eventos.
 
 
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-    Si quisieramos registrar un evento pulsariamos el botón '+' de arriba e iriamos a una pantalla en el seleccionarimos el evento que querramos registra.
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido. Además, permitirás poner en directo el partido.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="265"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="265"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 
@@ -107,9 +105,27 @@ Perfil → Editar perfil / Cerrar sesión
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
+7. **Eventos.**
+
+Para observar los eventos que tenemos podemos ir:
+
+```
+Partidos → En directo → Partido → + → Mis Evento
+```
+
+Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="128"><figcaption></figcaption></figure>
+
+En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento y nos dirigira al evento que hemos seleccionado:
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+8. **Estado Partidos.**
 
 
-6. **Restricciones.**
+
+8. **Restricciones.**
 
 Las limitaciones que presenta este usuario son:
 
