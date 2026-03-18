@@ -1,6 +1,6 @@
-# Delegado de Campo
+# Jugador
 
-El rol de usuario una vez registrado e iniciado sesión accederá a una interfaz parecida a la de usuario sin registrar pero ademas le permitirá ver sus estadísticas personales..&#x20;
+El rol de jugador una vez registrado e iniciado sesión accederá a una interfaz parecida a la de usuario registrado pero ademas le permitirá ver sus propias estadísticas personales.
 
 
 
@@ -72,7 +72,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="155"><figcaption></figcaption></figure>
 
-* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador, con la unica diferencia que el propio jugado podrá observar sus estadísticas. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
+* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador, con la unica diferencia que el propio jugado podrá observar sus estadísticas. El usuario tendrá la posibilidad de seguir tanto a la liga como al equipo.
 
 <figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 

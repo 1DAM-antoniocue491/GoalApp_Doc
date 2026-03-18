@@ -23,8 +23,24 @@ Root
 Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tabs son:
 
 * **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-* **Liga:** Se consulta la clasificación de la liga con las estadísticas de todos los equipos que la forman
-* **Partido**: Consulta el estado de los partidos.&#x20;
+*   **Liga:** Mostrara la información de la liga.
+
+    * Clasificación. Consultar la clasificación de la liga según los equipos.
+    * Equipo. Clasificaciones según criterios como máximos goleadores, victorias, etc.
+    * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
+
+    <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
+
+
+*   **Partido**: Consulta el estado de los partidos.&#x20;
+
+    * Directo. Ver los partidos en directo.
+    * Programado. Ver los partidos programados.
+    * Finalizado. Ver los partidos finalizados.
+
+
+
+    <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -56,7 +72,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="155"><figcaption></figcaption></figure>
 
-* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general y estadísticas de los equipos. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador.
+* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -77,14 +93,22 @@ Perfil → Editar perfil / Cerrar sesión
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt="" width="299"><figcaption></figcaption></figure>
 
+5. **Tabs principales.**
 
+* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
+* **Liga:** Se consulta la clasificación de la liga con las estadísticas de todos los equipos que la forman
+* **Partido**: Consulta el estado de los partidos (directo, programado, finalizado).&#x20;
+* **Perfil:** Permite ver la información del usuario registrado.
 
-Seguiremos contando con un task en la parte inferior (inicio, liga, partidos, perfil).
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-* **Dashboard:** Será la pantalla de inicio. Podremos elegir la liga que más nos interese visitar. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.
+6. **Restricciones.**
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt="" width="124"><figcaption></figcaption></figure>
+Las limitaciones que presenta este usuario son:
 
-* Liga:
-
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+* No podrá crear ligas de fútbol.
+* No podrá crear equipos.
+* No podrá asignar roles ni eliminarlos.
+* No podra crear un evento.
+* No podrá consultar estadísticar personales de un jugador.
+* No podrá ver estadísticas personales del jugador.
