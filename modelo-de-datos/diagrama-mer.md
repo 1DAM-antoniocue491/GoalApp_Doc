@@ -14,7 +14,7 @@ Este diagrama muestra todas las entidades principales del sistema y sus relacion
 * Formaciones y alineaciones
 * Notificaciones
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Este diagrama permite obtener una visión completa del sistema y entender cómo interactúan las distintas partes entre sí.
 
@@ -75,7 +75,7 @@ Este diagrama incluye:
 * `formacion_equipo`
 * `formacion_partido`
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 

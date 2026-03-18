@@ -1,6 +1,6 @@
 # Entrenador
 
-El rol de delegado de campo una vez registrado e iniciado sesión permitirá registrar eventos en los partidos.
+El rol de entrenador, una vez registrado e iniciada la sesión, permitirá gestionar las convocatorias y definir las alineaciones del equipo que dirige.
 
 
 
@@ -43,7 +43,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -70,31 +70,31 @@ Perfil → Editar perfil / Cerrar sesión
 
 * **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="155"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
 * **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador, con la unica diferencia que el propio jugado podrá observar sus estadísticas. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
-    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Además, permitirás crear eventos del partido (goles, tarjetas, sustituciones, MVP), finalizar el evento y editar eventos.
+    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Permitirá crear la alineación del partido.
 
 
 
     <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-    * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido. Además, permitirás poner en directo el partido.
+    * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido. Además, permitirá crear la convocatoria del partido.
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="323"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="323"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 
@@ -105,37 +105,15 @@ Perfil → Editar perfil / Cerrar sesión
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-7. **Eventos.**
+7. **Crear convocatoria.**
 
-Para observar los eventos que tenemos podemos ir:
-
-```
-Partidos → En directo → Partido → + → Mis Evento
-```
-
-Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
-
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="128"><figcaption></figcaption></figure>
-
-En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento y nos dirigira al evento que hemos seleccionado:
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-8. **Estado Partidos.**
-
-Los partidos pueden modificarse para cambiar el estado en el que se encuentran (en directo, programado o finalizado).
+Se creará la convocatoria del partido:
 
 ```
-Partidos → En directo → Partido → + → Estado
-Partidos → Programado → Partido → + → Estado
-Partidos → Finalizado → Partido → + → Estado
+Partidos → Programado → Partido → +
 ```
 
-Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pulsaremos el botón de 'Restablecer Estado':
-
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="127"><figcaption></figcaption></figure>
-
-
+Nos redigirá a una pantalla de&#x20;
 
 9. **Restricciones.**
 

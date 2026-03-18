@@ -2,11 +2,11 @@
 
 El entrenador tiene acceso a la creación de convocatorias de su propio equipo en un partido y asignar un once inicial. Además, incluye un task que estara presente en todas las pantallas que será inicio, liga, añadir, partidos y perfil.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
 
 Respecto a la interfaz contará con con **dashboard** donde al usuario se le dará la bienvenida a la aplicación, se pondran ver el resultado de un partido en directo y los siguientes programados en esa misma jornada de la liga escogida.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Dentro de la **liga**, se pueden ver diferentes tipos de clasificaciones, como la **clasificación general**. Además, utilizando las estadísticas, se crean **rankings** tanto de equipos como de jugadores para analizar su rendimiento. Se creara un botón para **seguir la liga** y se podrán consultar temporadas pasadas.
 
@@ -30,6 +30,6 @@ Los partidos programado, se incluye un buscador que permite filtrar por equipo y
 
 En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="277"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="277"><figcaption></figcaption></figure>
 
 Dentro de perfil, podemos observar nuestra información personal y podremos editar el perfil a partir del botón situado en la zona superior.
