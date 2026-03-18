@@ -94,7 +94,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="265"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="323"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 
@@ -115,11 +115,11 @@ Partidos → En directo → Partido → + → Mis Evento
 
 Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="128"><figcaption></figcaption></figure>
 
 En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento y nos dirigira al evento que hemos seleccionado:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 8. **Estado Partidos.**
 
@@ -131,7 +131,11 @@ Partidos → Programado → Partido → + → Estado
 Partidos → Finalizado → Partido → + → Estado
 ```
 
-Todas las pantallas redigiran a
+Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pulsaremos el botón de 'Restablecer Estado':
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="127"><figcaption></figcaption></figure>
+
+
 
 9. **Restricciones.**
 
@@ -140,5 +144,4 @@ Las limitaciones que presenta este usuario son:
 * No podrá crear ligas de fútbol.
 * No podrá crear equipos.
 * No podrá asignar roles ni eliminarlos.
-* No podra crear un evento.
 * No podrá consultar estadísticas personales de un jugador.

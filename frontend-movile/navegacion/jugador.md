@@ -88,7 +88,7 @@ Perfil → Editar perfil / Cerrar sesión
 
     * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
 
-    <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="299"><figcaption></figcaption></figure>
@@ -106,8 +106,9 @@ Perfil → Editar perfil / Cerrar sesión
 
 Las limitaciones que presenta este usuario son:
 
-* No podrá crear ligas de fútbol.
-* No podrá crear equipos.
-* No podrá asignar roles ni eliminarlos.
-* No podra crear un evento.
+* No podrá crear, modificar, eliminar ligas de fútbol.
+* No podrá crear, modificar, eliminar equipos.
+* No podrá asignar roles, modificar, eliminar ni eliminarlos.
+* No podra crear, modificar, eliminar un evento.
 * No podrá consultar estadísticas personales de un jugador.
+* No podrá cambiar y eliminar el estado de los partidos.

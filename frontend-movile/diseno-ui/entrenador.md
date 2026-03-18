@@ -22,11 +22,11 @@ También podremos consultar la **información del jugador** (nombre equipo, posi
 
 En la sección de **partidos**, es posible consultar el estado de los encuentros (en directo, programados o finalizados). En los partidos en directo, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro. El entrenador podrá añadir la alineación mediante el botón situado en la parte superior.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior. El entrenador podrá añadir la convocatoria mediante el botón situado en la parte superior.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.
 
