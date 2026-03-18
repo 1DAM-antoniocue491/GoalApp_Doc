@@ -123,9 +123,17 @@ En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento 
 
 8. **Estado Partidos.**
 
+Los partidos pueden modificarse para cambiar el estado en el que se encuentran (en directo, programado o finalizado).
 
+```
+Partidos → En directo → Partido → + → Estado
+Partidos → Programado → Partido → + → Estado
+Partidos → Finalizado → Partido → + → Estado
+```
 
-8. **Restricciones.**
+Todas las pantallas redigiran a
+
+9. **Restricciones.**
 
 Las limitaciones que presenta este usuario son:
 
