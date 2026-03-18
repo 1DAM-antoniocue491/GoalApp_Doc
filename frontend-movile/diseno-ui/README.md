@@ -1,3 +1,5 @@
 # Diseño UI
 
 La interfaz de esta aplicación esta diseñada para facilitar **la creación y la gestión de ligas de fútbol de forma sencilla e intuitiva**. El diseño prioriza la claridad visual y la facilidad de navegación, permitiendo a los usuarios acceder rápidamente a las principales funciones de la aplicación, como crear una liga, añadir equipos, consultar la clasificación, estadísticas, ver el calendario de partidos. La aplicación cuanta con una interfaz diferente según el rol que contenga el usuario (administrador, entrenador, delegado de campo, jugador, usuario regitrado y usuario no registrado).
+
+Todos los usuarios menos el de administrador deben estar previmente registrado. Para registrarse contaremos con una pantalla de registro que debe rellenar los campos&#x20;

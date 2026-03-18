@@ -48,7 +48,11 @@
 
 * [Arquitectura](frontend-movile/arquitectura.md)
 * [Estructura del proyecto](frontend-movile/estructura-del-proyecto.md)
-* [Navegación](frontend-movile/navegacion.md)
+* [Navegación](frontend-movile/navegacion/README.md)
+  * [Administrador](frontend-movile/navegacion/administrador.md)
+  * [Entrenador](frontend-movile/navegacion/entrenador.md)
+  * [Delegado de Campo](frontend-movile/navegacion/delegado-de-campo.md)
+  * [Usuario sin Registrar](frontend-movile/navegacion/usuario-sin-registrar.md)
 * [Gestión de estados](frontend-movile/gestion-de-estados.md)
 * [Autenticación JWT](frontend-movile/autenticacion-jwt.md)
 * [Consumo de la API](frontend-movile/consumo-de-la-api.md)
