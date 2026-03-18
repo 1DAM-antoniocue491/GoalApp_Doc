@@ -14,7 +14,7 @@ Este diagrama muestra todas las entidades principales del sistema y sus relacion
 * Formaciones y alineaciones
 * Notificaciones
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Este diagrama permite obtener una visión completa del sistema y entender cómo interactúan las distintas partes entre sí.
 
@@ -27,7 +27,7 @@ Este diagrama detalla la relación entre:
 * `usuario_rol`
 * `jugadores`
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -43,7 +43,7 @@ Este diagrama muestra cómo se relacionan:
 * `equipos`
 * `jugadores`
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -58,7 +58,7 @@ Este diagrama representa:
 * `partidos`
 * `eventos_partido`
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -75,7 +75,7 @@ Este diagrama incluye:
 * `formacion_equipo`
 * `formacion_partido`
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -91,7 +91,7 @@ Este diagrama muestra la relación entre:
 * `notificaciones`
 * `usuarios`
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
