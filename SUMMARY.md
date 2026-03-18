@@ -63,6 +63,7 @@
 * [Navegación](frontend-movile/navegacion/README.md)
   * [Jugador](frontend-movile/navegacion/jugador.md)
   * [Delegado de Campo](frontend-movile/navegacion/delegado-de-campo.md)
+  * [Entrenador](frontend-movile/navegacion/entrenador.md)
   * [Usuario Registrado](frontend-movile/navegacion/usuario-registrado.md)
   * [Usuario sin Registrar](frontend-movile/navegacion/usuario-sin-registrar.md)
 * [Gestión de estados](frontend-movile/gestion-de-estados.md)
