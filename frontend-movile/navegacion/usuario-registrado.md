@@ -43,7 +43,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -53,7 +53,7 @@ La navegación y las funcionalidades de la aplicación para usuarios autenticado
   Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
 * **Acceso completo según rol y permisos:**\
   Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
-* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de quipos, partidos e incluso jugadores.
+* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
 
 
 
@@ -70,28 +70,28 @@ Perfil → Editar perfil / Cerrar sesión
 
 * **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="155"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
 * **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
     * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos.
 
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido.
 
-    <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
 
-    <figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="" width="299"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="299"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 

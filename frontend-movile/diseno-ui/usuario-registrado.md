@@ -14,7 +14,7 @@ Dentro de la **liga**, se pueden ver diferentes tipos de clasificaciones, como l
 
 Podremos consultar la **información de cada equipo**(nombre liga, estadio, colores, entrenador y delegado de campo) y **sus jugadores** distinguido por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="118"><figcaption></figcaption></figure>
 
 También podremos consultar la **información del jugador** (nombre equipo, posición, dorsal, fecha nacimiento y el género) y si se encuentra **activo**.&#x20;
 
@@ -30,6 +30,6 @@ Los partidos programado, se incluye un buscador que permite filtrar por equipo y
 
 En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="250"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="250"><figcaption></figcaption></figure>
 
 Dentro de perfil, podemos observar nuestra información personal y podremos editar el perfil a partir del botón situado en la zona superior.

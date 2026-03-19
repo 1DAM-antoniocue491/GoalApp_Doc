@@ -32,6 +32,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
 
 
+* **Añadir:** Aparecera un menú flotante para añadir jugadores al equipo.
 *   **Partido**: Consulta el estado de los partidos.&#x20;
 
     * Directo. Ver los partidos en directo.
@@ -43,7 +44,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -53,7 +54,7 @@ La navegación y las funcionalidades de la aplicación para usuarios autenticado
   Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
 * **Acceso completo según rol y permisos:**\
   Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
-* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de quipos, partidos e incluso jugadores.
+* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
 
 
 
@@ -64,58 +65,83 @@ El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro
 ```
 Dashboard → Información Liga
 Liga → Detalle de ligas, equipos y jugadores.
+Añadir → Añadir jugadores al equipo.
 Partidos → Detalle de partido. 
 Perfil → Editar perfil / Cerrar sesión
 ```
 
 * **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="155"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="137"><figcaption></figcaption></figure>
 
-* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador, con la unica diferencia que el propio jugado podrá observar sus estadísticas. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
+* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
     * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Permitirá crear la alineación del partido.
 
-
-
-    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
     * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido. Además, permitirá crear la convocatoria del partido.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-* **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
+    * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="323"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="284"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 
 * **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-* **Liga:** Se consulta la clasificación de la liga con las estadísticas de todos los equipos que la forman
+* **Liga:** Se consulta la clasificación de la liga con las estadísticas de todos los equipos que la forman.
+* **Añadir:** Permite añadir jugadores a un equipo.
 * **Partido**: Consulta el estado de los partidos (directo, programado, finalizado).&#x20;
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-7. **Crear convocatoria.**
+7. **Añadir Jugador.**
 
-Se creará la convocatoria del partido:
+El rol de entrenador podrá añadir jugadores al equipo que se encuentra dirigiendo:
 
 ```
-Partidos → Programado → Partido → +
++ → Añadir Jugadores.
 ```
 
-Nos redigirá a una pantalla de&#x20;
+Nos redigirá a una pantalla de añadir jugadores. Una vez registrado los jugadores nos redigirá a Dashboard:
 
-9. **Restricciones.**
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="149"><figcaption></figcaption></figure>
+
+8. **Registrar Convocatoria.**
+
+Antes de cada encuentro, el entrenador decide qué jugadores van a jugar o estar disponibles (titulares y suplentes). Esa selección se llama convocatoria. Para añadir los jugadores a la convocatoria de un partido:&#x20;
+
+```
+Partidos → Programado → Partido → + → Convocatoria
+```
+
+Nos redigirá a una pantalla de añadir convocatoria. Una vez registrado los jugadores a la convocatoria nos redigirá al Partido:
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="131"><figcaption></figcaption></figure>
+
+9. **Registrar Alineación.**
+
+La _alineación_ es la lista de jugadores que empiezan jugando desde el inicio del partido. Para añadir los jugadores a la convocatoria de un partido:&#x20;
+
+```
+Partidos → En Directo → Partido → + → Alineación
+```
+
+Nos redigirá a una pantalla de añadir alineación. Una vez registrado los jugadores a la alineación nos redigirá al Partido:
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="131"><figcaption></figcaption></figure>
+
+10. **Restricciones.**
 
 Las limitaciones que presenta este usuario son:
 
