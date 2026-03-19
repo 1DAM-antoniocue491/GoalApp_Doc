@@ -119,9 +119,15 @@ En una liga, los equipos se enfrentan en varios partidos (normalmente todos cont
 + → Añadir Liga
 ```
 
+Nos redigirá a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimode jugadores y una pequeña descripción), cuando se compruebn que los datos son correctos nos diri:
+
+<figure><img src="../../.gitbook/assets/image (58).png" alt="" width="87"><figcaption></figcaption></figure>
+
+7. **Añadir Partido.**
 
 
-7. **Añadir Jugador.**
+
+8. **Añadir Jugador.**
 
 El rol de administrador podrá añadir jugadores al equipo que se encuentra dirigiendo:
 
@@ -133,7 +139,7 @@ Nos redigirá a una pantalla de añadir jugadores. Una vez registrado los jugado
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt="" width="149"><figcaption></figcaption></figure>
 
-8. **Registrar Convocatoria.**
+9. **Registrar Convocatoria.**
 
 Antes de cada encuentro, el entrenador decide qué jugadores van a jugar o estar disponibles (titulares y suplentes). Esa selección se llama convocatoria. Para añadir los jugadores a la convocatoria de un partido:&#x20;
 
@@ -145,7 +151,7 @@ Nos redigirá a una pantalla de añadir convocatoria. Una vez registrado los jug
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt="" width="131"><figcaption></figcaption></figure>
 
-9. **Registrar Alineación.**
+10. **Registrar Alineación.**
 
 La _alineación_ es la lista de jugadores que empiezan jugando desde el inicio del partido. Para añadir los jugadores a la convocatoria de un partido:&#x20;
 
@@ -157,7 +163,7 @@ Nos redigirá a una pantalla de añadir alineación. Una vez registrado los juga
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt="" width="131"><figcaption></figcaption></figure>
 
-10. **Evento.**
+11. **Evento.**
 
 Para observar los eventos que tenemos podemos ir:
 
@@ -173,7 +179,7 @@ En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento 
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-11. **Estado Partidos.**
+12. **Estado Partidos.**
 
 Los partidos pueden modificarse para cambiar el estado en el que se encuentran (en directo, programado o finalizado).
 
@@ -187,6 +193,6 @@ Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pul
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="127"><figcaption></figcaption></figure>
 
-12. **Restricciones.**
+13. **Restricciones.**
 
 El administrador no contiene ninguna restricción contiene todos los permisos de la aplicación.
