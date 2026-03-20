@@ -92,12 +92,12 @@ Perfil → Editar perfil / Cerrar sesión
 
     * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido y cambiar el estado de los partidos.
 
-    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 * **Perfil**: Permitirá ver los roles que tenemos y los usuarios registrados en la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt="" width="307"><figcaption></figcaption></figure>
 
-Para ver el perfil del administrador debemos pulsar el icono superior:
+Para ver el perfil del administrador debemos pulsar el icono superior y nos saldrá un menú flotante de ver mi perfil o cerrar sesión:
 
 <figure><img src="../../.gitbook/assets/image (57).png" alt="" width="301"><figcaption></figcaption></figure>
 
@@ -110,6 +110,18 @@ Para ver el perfil del administrador debemos pulsar el icono superior:
 * **Perfil:** Permite ver la información del usuario registrado.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+7. **Asignar Roles.**
+
+El administrador es responsable de la asignación de roles, estableciendo los niveles de acceso y permisos de cada usuario para garantizar una gestión segura y organizada. Para asignar los roles:
+
+```
+Perfil → Usuarios → >
+```
+
+Nos parecera uan venta para asignar el rol que deseamos conceder:
+
+<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="218"><figcaption></figcaption></figure>
 
 7. **Añadir Liga, Editar o Eliminar Liga.**
 
@@ -145,17 +157,69 @@ Nos aparecera una pantalla para donde se mostrarán todas las ligas registradas 
 
 
 
+7. **Añadir, editar o Eliminar Equipos.**
+
+**a. Añadir Equipo**
+
+El administrador se encarga de la gestión de equipos, incluyendo su creación, edición y organización, con el objetivo de mantener un control eficiente y facilitar el trabajo de los usuarios. Para añadir un equipo podremos hacerlo a traves de:
+
+```
++ → Añadir Equipo
+```
+
+Otra forma de añadir un equipo a la liga podrá serlo:
+
+```
+Perfil → Setting → Mis Equipos → +
+```
+
+Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre equipo, ciudad, colores principales, liga, capitán entrenado, delegado de campo y nombre del estadio), cuando se comprueben que los datos son correctos nos dirige:
+
+<figure><img src="../../.gitbook/assets/image (65).png" alt="" width="122"><figcaption></figcaption></figure>
+
+**b. Editar o Eliminar Partido.**
+
+A través de la opción editar y eliminar liga, el administrador puede realizar cambios en una liga sin necesidad de volver a crear una nueva, para ello debemos dirigirnos:
+
+```
+Perfil → Setting → Mis Equipos
+```
+
+Nos aparecera una pantalla para donde se mostrarán todos los equipos según la liga registrados en la aplicación:
+
+<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="135"><figcaption></figcaption></figure>
+
 7. **Añadir, editar o Eliminar Partidos.**
 
 **a. Añadir Partido.**
 
 El rol de administrador podrá añadir nuevos partidos al sistema, incluyendo información básica como equipos, fecha, hora y lugar, y también podrá editarlos o eliminarlos cuando sea necesario:
 
+```
++ → Añadir Partido
+```
+
+Otra forma de añadir un nuevo partido será a traves de:
+
+```
+Perfil → Setting → Mis Partidos → +
+```
+
+Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre equipo local, nombre equipo visitante, nombre de la liga, fecha del partido, estado), cuando se comprueben que los datos son correctos nos dirige:
+
+<figure><img src="../../.gitbook/assets/image (63).png" alt="" width="139"><figcaption></figcaption></figure>
+
 **b. Editar o Eliminar Partido.**
 
+A través de la opción editar y eliminar partido, el administrador puede realizar cambios en un partido sin necesidad de crear uno nuevo, para ello debemos dirigirnos:
 
+```
+Perfil → Setting → Mis ligas
+```
 
+Nos aparecera una pantalla para donde se mostrarán todos los partidos registrados en la aplicación diferenciandolos por liga:
 
+<figure><img src="../../.gitbook/assets/image (62).png" alt="" width="148"><figcaption></figcaption></figure>
 
 8. **Añadir Jugador.**
 
