@@ -1,8 +1,8 @@
 # Admistrador
 
-El administrador tiene el control total o principal de la aplicación. Se encarga de crear y mantener la información actualizada, organizar a los equipos y jugadores, y asegurarse de que todo funcione sin problemas. Además, es quien toma decisiones importantes dentro de la plataforma.
+El administrador tiene el control total de la aplicación. Se encarga de crear y mantener la información actualizada, organizar a los equipos y jugadores, y asegurarse de que todo funcione sin problemas. Además, es quien toma decisiones importantes dentro de la plataforma.
 
-Por ejemplo, puede crear equipos, añadir o eliminar jugadores, publicar convocatorias y alineaciones para los partidos, gestionar calendarios y resultados, y controlar el acceso de los usuarios. También supervisa que no haya errores y que la experiencia de uso sea correcta.
+Puede crear equipos, añadir o eliminar jugadores, publicar convocatorias y alineaciones para los partidos, gestionar calendarios y resultados, y controlar el acceso de los usuarios. También supervisa que no haya errores y que la experiencia de uso sea correcta.
 
 
 
@@ -121,21 +121,37 @@ En una liga, los equipos se enfrentan en varios partidos (normalmente todos cont
 + → Añadir Liga
 ```
 
-Nos redigirá a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimo de jugadores y una pequeña descripción), cuando se comprueben que los datos son correctos nos dirige:
+Otra forma de añadir una nueva liga será a traves de:
+
+```
+Perfil → Setting → Mis ligas → +
+```
+
+Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimo de jugadores y una pequeña descripción), cuando se comprueben que los datos son correctos nos dirige:
 
 <figure><img src="../../.gitbook/assets/image (58).png" alt="" width="87"><figcaption></figcaption></figure>
 
-**b. Editar Liga.**
+**b. Editar y Eliminar Liga.**
 
-A través de la opción ‘editar liga’, el administrador puede realizar cambios en una liga sin necesidad de volver a crear una nueva, para ello :
+A través de la opción editar y eliminar liga, el administrador puede realizar cambios en una liga sin necesidad de volver a crear una nueva, para ello debemos dirigirnos:
+
+```
+Perfil → Setting → Mis ligas
+```
+
+Nos aparecera una pantalla para donde se mostrarán todas las ligas registradas en la aplicación:
+
+<figure><img src="../../.gitbook/assets/image (60).png" alt="" width="148"><figcaption></figcaption></figure>
 
 
 
 7. **Añadir, editar o Eliminar Partidos.**
 
+**a. Añadir Partido.**
+
 El rol de administrador podrá añadir nuevos partidos al sistema, incluyendo información básica como equipos, fecha, hora y lugar, y también podrá editarlos o eliminarlos cuando sea necesario:
 
-
+**b. Editar o Eliminar Partido.**
 
 
 
