@@ -91,7 +91,7 @@ Perfil → Editar perfil / Cerrar sesión
     <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="299"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt="" width="214"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 

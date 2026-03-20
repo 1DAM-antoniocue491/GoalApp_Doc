@@ -207,7 +207,7 @@ Perfil → Setting → Mis Partidos → +
 
 Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre equipo local, nombre equipo visitante, nombre de la liga, fecha del partido, estado), cuando se comprueben que los datos son correctos nos dirige:
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt="" width="139"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (73).png" alt="" width="139"><figcaption></figcaption></figure>
 
 **b. Editar o Eliminar Partido.**
 
