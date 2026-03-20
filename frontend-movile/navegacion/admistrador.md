@@ -111,7 +111,9 @@ Para ver el perfil del administrador debemos pulsar el icono superior:
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-7. **Añadir Liga.**
+7. **Añadir Liga, Editar o Eliminar Liga.**
+
+**a. Añadir Liga.**
 
 En una liga, los equipos se enfrentan en varios partidos (normalmente todos contra todos). Cada partido da puntos (por ejemplo, ganar, empatar o perder), y al final se hace una clasificación. El equipo con más puntos es el ganador de la liga. Para añadir una liga:
 
@@ -119,17 +121,29 @@ En una liga, los equipos se enfrentan en varios partidos (normalmente todos cont
 + → Añadir Liga
 ```
 
-Nos redigirá a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimode jugadores y una pequeña descripción), cuando se compruebn que los datos son correctos nos diri:
+Nos redigirá a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimo de jugadores y una pequeña descripción), cuando se comprueben que los datos son correctos nos dirige:
 
 <figure><img src="../../.gitbook/assets/image (58).png" alt="" width="87"><figcaption></figcaption></figure>
 
-7. **Añadir Partido.**
+**b. Editar Liga.**
+
+A través de la opción ‘editar liga’, el administrador puede realizar cambios en una liga sin necesidad de volver a crear una nueva, para ello :
+
+
+
+7. **Añadir, editar o Eliminar Partidos.**
+
+El rol de administrador podrá añadir nuevos partidos al sistema, incluyendo información básica como equipos, fecha, hora y lugar, y también podrá editarlos o eliminarlos cuando sea necesario:
+
+
+
+
 
 
 
 8. **Añadir Jugador.**
 
-El rol de administrador podrá añadir jugadores al equipo que se encuentra dirigiendo:
+El rol de administrador podrá añadir jugadores al equipo que crea conveniente:
 
 ```
 + → Añadir Jugadores.
