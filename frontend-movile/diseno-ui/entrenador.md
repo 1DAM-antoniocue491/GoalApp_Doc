@@ -36,8 +36,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 * La bienvenida a la aplicación al usuario iniciado sesión.
 * Pondran ver el resultado de un partido en directo.
-* Programados en esa misma jornada de la liga escogida.&#x20;
-* Resumen de la liga donde se podrán consultar el numero de equipos de la liga, partidos, jugadores y delegados de campo.
+* Programados en esa misma jornada de la liga escogida.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="157"><figcaption></figcaption></figure>
 
