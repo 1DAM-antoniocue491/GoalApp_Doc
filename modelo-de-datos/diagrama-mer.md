@@ -75,7 +75,7 @@ Este diagrama incluye:
 * `formacion_equipo`
 * `formacion_partido`
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 
@@ -91,7 +91,7 @@ Este diagrama muestra la relación entre:
 * `notificaciones`
 * `usuarios`
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Puntos clave:
 

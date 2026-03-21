@@ -28,7 +28,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 2. **Dashboard (Inicio)**
 
@@ -39,7 +39,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 * Programados en esa misma jornada de la liga escogida.&#x20;
 * Resumen de la liga donde se podrán consultar el numero de equipos de la liga, partidos, jugadores y delegados de campo.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="132"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="132"><figcaption></figcaption></figure>
 
 2. **Liga.**
 
@@ -49,7 +49,7 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 * **Ranking de equipos.** Según el rendimiento de los equipos.
 * **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 2. 1 **Equipos.**&#x20;
 
@@ -63,7 +63,7 @@ El administrador podrá **seguir a equipos,** mostrar la información de **tempo
 
 Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="308"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="308"><figcaption></figcaption></figure>
 
 2. 2 **Jugadores.**
 
@@ -81,7 +81,7 @@ Además, se podrán consultar las estadísticas personales de todos los jugadore
 * Tarjetas.
 * MVP.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="130"><figcaption></figcaption></figure>
 
 
 
@@ -105,28 +105,19 @@ El administrador podrá visualizar los distintos partidos, claramente diferencia
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 4. 2 **Programados**.
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
-
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 4. 3 **Finalizados**.
 
 Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
+5. **Perfil**.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-En la sección de **partidos**, es posible consultar el estado de los encuentros (en directo, programados o finalizados). En los partidos en directo, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro, accesibles mediante un botón situado en la parte superior.
-
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior.
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.

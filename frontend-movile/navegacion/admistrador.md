@@ -46,7 +46,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -109,7 +109,7 @@ Para ver el perfil del administrador debemos pulsar el icono superior y nos sald
 * **Partido**: Consulta el estado de los partidos (directo, programado, finalizado).&#x20;
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 7. **Asignar Roles.**
 
@@ -231,7 +231,7 @@ El rol de administrador podrá añadir jugadores al equipo que crea conveniente:
 
 Nos redigirá a una pantalla de añadir jugadores. Una vez registrado los jugadores nos redigirá a Dashboard:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="149"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="149"><figcaption></figcaption></figure>
 
 9. **Registrar Convocatoria.**
 
@@ -267,11 +267,11 @@ Partidos → En directo → Partido → + → Mis Evento
 
 Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
 
 En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento y nos dirigira al evento que hemos seleccionado:
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 12. **Estado Partidos.**
 

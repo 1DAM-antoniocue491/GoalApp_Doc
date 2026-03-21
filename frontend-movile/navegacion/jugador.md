@@ -70,7 +70,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 * **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
 * **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador, con la unica diferencia que el propio jugado podrá observar sus estadísticas. El usuario tendrá la posibilidad de seguir tanto a la liga como al equipo.
 
@@ -88,7 +88,7 @@ Perfil → Editar perfil / Cerrar sesión
 
     * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
 
-    <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (71).png" alt="" width="214"><figcaption></figcaption></figure>

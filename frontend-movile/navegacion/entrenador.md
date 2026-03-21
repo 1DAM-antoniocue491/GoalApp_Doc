@@ -44,7 +44,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -103,7 +103,7 @@ Perfil → Editar perfil / Cerrar sesión
 * **Partido**: Consulta el estado de los partidos (directo, programado, finalizado).&#x20;
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 7. **Añadir Jugador.**
 
@@ -115,7 +115,7 @@ El rol de entrenador podrá añadir jugadores al equipo que se encuentra dirigie
 
 Nos redigirá a una pantalla de añadir jugadores. Una vez registrado los jugadores nos redigirá a Dashboard:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="149"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="149"><figcaption></figcaption></figure>
 
 8. **Registrar Convocatoria.**
 
