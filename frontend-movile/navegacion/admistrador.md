@@ -158,7 +158,7 @@ Perfil → Setting → Mis ligas
 
 Nos aparecera una pantalla para donde se mostrarán todas las ligas registradas en la aplicación, si dejamos pulsado en la liga que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt="" width="110"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94).png" alt="" width="134"><figcaption></figcaption></figure>
 
 
 
@@ -192,7 +192,7 @@ Perfil → Setting → Mis Equipos
 
 Nos aparecera una pantalla para donde se mostrarán todos los equipos según la liga registrados en la aplicación, si dejamos pulsado en la equipo que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt="" width="133"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="134"><figcaption></figcaption></figure>
 
 7. **Añadir, editar o Eliminar Partidos.**
 
@@ -224,7 +224,7 @@ Perfil → Setting → Mis ligas
 
 Nos aparecera una pantalla para donde se mostrarán todos los partidos registrados en la aplicación diferenciandolos por liga, si dejamos pulsado en el partido que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="133"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96).png" alt="" width="135"><figcaption></figcaption></figure>
 
 8. **Añadir Jugador.**
 
