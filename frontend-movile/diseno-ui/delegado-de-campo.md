@@ -1,6 +1,133 @@
 # Delegado de Campo
 
-El delegado de campo tiene acceso a la creación de nuevos eventos en un partido (goles, tarjetas, MVP y sustituciones). Además, incluye un task que estara presente en todas las pantallas que será inicio, liga, partidos y perfil.
+El delegado de campo tiene acceso a la creación y gestión de nuevos eventos durante el transcurso de un partido, tales como goles, tarjetas, designación del MVP y sustituciones. Además, puede registrar estos sucesos en tiempo real, asegurando que la información del encuentro se mantenga actualizada y refleje con precisión todo lo ocurrido en el terreno de juego.
+
+1. **Navegación principal.**
+
+La aplicación incluira una barra de navegación persistente con las siguientes secciones:
+
+* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
+*   **Liga:** Mostrara la información de la liga.
+
+    * Clasificación. Consultar la clasificación de la liga según los equipos.
+    * Equipo. Clasificaciones según criterios como máximos goleadores, victorias, etc.
+    * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
+
+    <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
+*   **Partido**: Consulta el estado de los partidos.&#x20;
+
+    * Directo. Ver los partidos en directo.
+    * Programado. Ver los partidos programados.
+    * Finalizado. Ver los partidos finalizados.
+
+
+
+    <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
+* **Perfil:** Permite ver la información del usuario registrado.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+2. **Dashboard (Inicio)**
+
+&#x20;El **dashboard** actúa como pantalla principal y se le muestra:
+
+* La bienvenida a la aplicación al usuario iniciado sesión.
+* Pondran ver el resultado de un partido en directo.
+* Programados en esa misma jornada de la liga escogida.&#x20;
+* Resumen de la liga donde se podrán consultar el numero de equipos de la liga, partidos, jugadores y delegados de campo.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="158"><figcaption></figcaption></figure>
+
+2. **Liga.**
+
+Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
+
+* **La clasificación general**. El ranking se basa según los partidos ganados (3 puntos), empatados (1 punto) y perdidos (0 puntos).&#x20;
+* **Ranking de equipos.** Según el rendimiento de los equipos.
+* **Ranking de jugadores.**  Según el rendimiento de los jugadores.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
+2. 1 **Equipos.**&#x20;
+
+El delegado de campo podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
+
+* Nombre.
+* Descripción.
+* Colores principales.
+* Entrenador.
+* Delegado de campo.
+
+Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="335"><figcaption></figcaption></figure>
+
+2. 2 **Jugadores.**
+
+El delegado de campo podrá ver la información de cada jugador y ver sus estadísticas personales:
+
+* Nombre del equipo.
+* Posición.
+* Dorsal.
+* Fecha de nacimiento.
+* Género.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="138"><figcaption></figcaption></figure>
+
+
+
+4. **Partidos**.
+
+El delegado de campo podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
+
+4. 1  **Directo.**
+
+Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+Pulsando en los tres puntitos podremos:
+
+* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
+* Añadir Evento. Permite agregar un nuevo evento.
+
+
+
+4. 2 **Programados**.
+
+Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Pulsando en los tres puntitos podremos:
+
+* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
+
+
+
+4. 3 **Finalizados**.
+
+Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Pulsando en los tres puntitos podremos:
+
+* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
+
+
+
+5. **Perfil**.
+
+El delagado de campo podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="336"><figcaption></figcaption></figure>
+
+Pulsando en el botón de setting se podrá:
+
+* Cerrar Sesión.
+
+
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="131"><figcaption></figcaption></figure>
 
