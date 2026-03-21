@@ -121,3 +121,7 @@ Podremos visualizar los partidos que se encuentren finalizados según la liga qu
 
 5. **Perfil**.
 
+El administrador podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
+
+<figure><img src="../../.gitbook/assets/image (74).png" alt="" width="350"><figcaption></figcaption></figure>
+
