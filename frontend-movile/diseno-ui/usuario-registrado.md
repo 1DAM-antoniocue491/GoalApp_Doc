@@ -14,7 +14,7 @@ Dentro de la **liga**, se pueden ver diferentes tipos de clasificaciones, como l
 
 Podremos consultar la **información de cada equipo**(nombre liga, estadio, colores, entrenador y delegado de campo) y **sus jugadores** distinguido por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="118"><figcaption></figcaption></figure>
 
 También podremos consultar la **información del jugador** (nombre equipo, posición, dorsal, fecha nacimiento y el género) y si se encuentra **activo**.&#x20;
 

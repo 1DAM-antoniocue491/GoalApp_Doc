@@ -105,7 +105,7 @@ El administrador podrá visualizar los distintos partidos, claramente diferencia
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -119,12 +119,12 @@ Pulsando en los tres puntitos podremos:
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
 * Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
-* Añadir Convocatoria. Permiete agregar la convocatoria del partido.
+* Añadir Convocatoria. Permite agregar la convocatoria del partido.
 
 
 
@@ -132,7 +132,7 @@ Pulsando en los tres puntitos podremos:
 
 Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
