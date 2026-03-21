@@ -1,35 +1,109 @@
 # Usuario Registrado
 
-Los usuarios podrán acceder a la información de las ligas. Además, incluye un task que estara presente en todas las pantallas que será inicio, liga, partidos y perfil.
+El usuario podrá seguir ligas y equipos de su interés, consultar resultados en directo o ya finalizados, explorar partidos programados y acceder a información detallada como clasificaciones actualizadas, alineaciones y convocatorias de cada encuentro.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="131"><figcaption></figcaption></figure>
+1. **Navegación principal.**
 
-Respecto a la interfaz contará con con **dashboard** donde al usuario se le dará la bienvenida a la aplicación, se pondran ver el resultado de un partido en directo y los siguientes programados en esa misma jornada de la liga escogida.&#x20;
+La aplicación incluira una barra de navegación persistente con las siguientes secciones:
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
+*   **Liga:** Mostrara la información de la liga.
 
-Dentro de la **liga**, se pueden ver diferentes tipos de clasificaciones, como la **clasificación general**. Además, utilizando las estadísticas, se crean **rankings** tanto de equipos como de jugadores para analizar su rendimiento. Se creara un botón para **seguir la liga** y se podrán consultar temporadas pasadas.
+    * Clasificación. Consultar la clasificación de la liga según los equipos.
+    * Equipo. Clasificaciones según criterios como máximos goleadores, victorias, etc.
+    * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="275"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
 
-Podremos consultar la **información de cada equipo**(nombre liga, estadio, colores, entrenador y delegado de campo) y **sus jugadores** distinguido por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="118"><figcaption></figcaption></figure>
+*   **Partido**: Consulta el estado de los partidos.&#x20;
 
-También podremos consultar la **información del jugador** (nombre equipo, posición, dorsal, fecha nacimiento y el género) y si se encuentra **activo**.&#x20;
+    * Directo. Ver los partidos en directo.
+    * Programado. Ver los partidos programados.
+    * Finalizado. Ver los partidos finalizados.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-En la sección de **partidos**, es posible consultar el estado de los encuentros (en directo, programados o finalizados). En los partidos en directo, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
+* **Perfil:** Permite ver la información del usuario registrado.
 
-Los partidos programado, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar los encuentros anteriores si hubiesen datos registrados y la convocatoria de jugadores del partido, accesible mediante un botón situado en la parte superior.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+2. **Dashboard (Inicio)**
 
-En los partidos en finalizados, se incluye un buscador que permite filtrar por equipo y jornada. Asimismo, se pueden visualizar las **estadísticas** y las **alineaciones** iniciales de cada encuentro.
+&#x20;El **dashboard** actúa como pantalla principal y se le muestra:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="250"><figcaption></figcaption></figure>
+* La bienvenida a la aplicación al usuario iniciado sesión.
+* Pondran ver el resultado de un partido en directo.
+* Programados en esa misma jornada de la liga escogida.&#x20;
+* Resumen de la liga donde se podrán consultar el numero de equipos de la liga, partidos, jugadores y delegados de campo.
 
-Dentro de perfil, podemos observar nuestra información personal y podremos editar el perfil a partir del botón situado en la zona superior.
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="155"><figcaption></figcaption></figure>
+
+2. **Liga.**
+
+Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
+
+* **La clasificación general**. El ranking se basa según los partidos ganados (3 puntos), empatados (1 punto) y perdidos (0 puntos).&#x20;
+* **Ranking de equipos.** Según el rendimiento de los equipos.
+* **Ranking de jugadores.**  Según el rendimiento de los jugadores.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+
+2. 1 **Equipos.**&#x20;
+
+El usuario podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
+
+* Nombre.
+* Descripción.
+* Colores principales.
+* Entrenador.
+* Delegado de campo.
+
+Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="331"><figcaption></figcaption></figure>
+
+2. 2 **Jugadores.**
+
+El usuario podrá ver la información de cada jugador y ver sus estadísticas personales:
+
+* Nombre del equipo.
+* Posición.
+* Dorsal.
+* Fecha de nacimiento.
+* Género.
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="138"><figcaption></figcaption></figure>
+
+4. **Partidos**.
+
+El usuario podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
+
+4. 1  **Directo.**
+
+Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
+
+4. 2 **Programados**.
+
+Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+
+4. 3 **Finalizados**.
+
+Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+
+5. **Perfil**.
+
+El usuario podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="268"><figcaption></figcaption></figure>
+
+Pulsando en el botón de setting se podrá:
+
+* Cerrar Sesión.

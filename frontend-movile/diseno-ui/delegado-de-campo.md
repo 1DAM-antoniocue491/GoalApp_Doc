@@ -25,7 +25,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 2. **Dashboard (Inicio)**
 
@@ -36,7 +36,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 * Programados en esa misma jornada de la liga escogida.&#x20;
 * Resumen de la liga donde se podrán consultar el numero de equipos de la liga, partidos, jugadores y delegados de campo.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="158"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="158"><figcaption></figcaption></figure>
 
 2. **Liga.**
 
@@ -46,7 +46,7 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 * **Ranking de equipos.** Según el rendimiento de los equipos.
 * **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. 1 **Equipos.**&#x20;
 
@@ -60,7 +60,7 @@ El delegado de campo podrá **seguir a equipos,** mostrar la información de **t
 
 Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="335"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="335"><figcaption></figcaption></figure>
 
 2. 2 **Jugadores.**
 
@@ -72,7 +72,7 @@ El delegado de campo podrá ver la información de cada jugador y ver sus estad�
 * Fecha de nacimiento.
 * Género.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="138"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="138"><figcaption></figcaption></figure>
 
 
 
@@ -84,7 +84,7 @@ El delegado de campo podrá visualizar los distintos partidos, claramente difere
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -97,7 +97,7 @@ Pulsando en los tres puntitos podremos:
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -109,7 +109,7 @@ Pulsando en los tres puntitos podremos:
 
 Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -121,7 +121,7 @@ Pulsando en los tres puntitos podremos:
 
 El delagado de campo podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="336"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="336"><figcaption></figcaption></figure>
 
 Pulsando en el botón de setting se podrá:
 
