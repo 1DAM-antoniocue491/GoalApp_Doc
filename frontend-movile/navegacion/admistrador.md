@@ -46,7 +46,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -285,7 +285,7 @@ Partidos → Finalizado → Partido → + → Estado
 
 Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pulsaremos el botón de 'Restablecer Estado':
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="127"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="127"><figcaption></figcaption></figure>
 
 13. **Restricciones.**
 
