@@ -119,7 +119,7 @@ Pulsando en los tres puntitos podremos:
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 

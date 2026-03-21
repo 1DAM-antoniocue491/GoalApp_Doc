@@ -72,34 +72,39 @@ Partidos → Detalle de partido.
 Perfil → Editar perfil / Cerrar sesión
 ```
 
-* **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”. Además, contiene un pequeño resumen de la liga(equipos, jugadores, partidos, delegados de campo).
+* **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal.  Si queremos ver todos los partidos programados, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt="" width="134"><figcaption></figcaption></figure>
 
-* **Liga.** Desde la sección _Liga_, el administrador puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador. El administrador tendrá la posibilidad de seguir tanto a la liga como al equipo.
+* **Liga.** Desde la sección _Liga_,  al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
-    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Permitirá crear la alineación del partido.
+    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, en los tres puntitos podremos (cambiar estado, añadir evento, añadir alineación).
 
-    <figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-    * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido. Además, permitirá crear la convocatoria del partido y cambiar el estado de los partidos.
 
-    <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (84).png" alt="" width="375"><figcaption></figcaption></figure>
 
-    * **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido y cambiar el estado de los partidos.
+    * **Programado**. Consultar los partidos programados y, al seleccionar el que nos interese, en los tres puntitos podremos (cambiar estado, añadir convocatoria).
 
-    <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
-* **Perfil**: Permitirá ver los roles que tenemos y los usuarios registrados en la aplicación.
+    <figure><img src="../../.gitbook/assets/image (85).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt="" width="307"><figcaption></figcaption></figure>
+    * **Finalizado**.  Consultar los partidos programados y, al seleccionar el que nos interese, en los tres puntitos podremos (cambiar estado).
 
-Para ver el perfil del administrador debemos pulsar el icono superior y nos saldrá un menú flotante de ver mi perfil o cerrar sesión:
+    <figure><img src="../../.gitbook/assets/image (86).png" alt="" width="375"><figcaption></figcaption></figure>
+*   **Perfil**: El administrador podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt="" width="301"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (74).png" alt="" width="350"><figcaption></figcaption></figure>
+
+Pulsando en el botón de setting se podrá:
+
+* Cerrar Sesión.
+* Roles y Usuarios. Se podrán ver los roles que existen en la aplicación y los usuarios con su rol asignado.
+
+<figure><img src="../../.gitbook/assets/image (87).png" alt="" width="319"><figcaption></figcaption></figure>
 
 5. **Tabs principales.**
 
@@ -116,12 +121,12 @@ Para ver el perfil del administrador debemos pulsar el icono superior y nos sald
 El administrador es responsable de la asignación de roles, estableciendo los niveles de acceso y permisos de cada usuario para garantizar una gestión segura y organizada. Para asignar los roles:
 
 ```
-Perfil → Usuarios → >
+Perfil → Setting
 ```
 
-Nos parecera uan venta para asignar el rol que deseamos conceder:
+Nos parecera una venta para asignar el rol que deseamos conceder:
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88).png" alt="" width="277"><figcaption></figcaption></figure>
 
 7. **Añadir Liga, Editar o Eliminar Liga.**
 
@@ -151,9 +156,9 @@ A través de la opción editar y eliminar liga, el administrador puede realizar 
 Perfil → Setting → Mis ligas
 ```
 
-Nos aparecera una pantalla para donde se mostrarán todas las ligas registradas en la aplicación:
+Nos aparecera una pantalla para donde se mostrarán todas las ligas registradas en la aplicación, si dejamos pulsado en la liga que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt="" width="148"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt="" width="110"><figcaption></figcaption></figure>
 
 
 
@@ -185,9 +190,9 @@ A través de la opción editar y eliminar liga, el administrador puede realizar 
 Perfil → Setting → Mis Equipos
 ```
 
-Nos aparecera una pantalla para donde se mostrarán todos los equipos según la liga registrados en la aplicación:
+Nos aparecera una pantalla para donde se mostrarán todos los equipos según la liga registrados en la aplicación, si dejamos pulsado en la equipo que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="135"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91).png" alt="" width="133"><figcaption></figcaption></figure>
 
 7. **Añadir, editar o Eliminar Partidos.**
 
@@ -217,9 +222,9 @@ A través de la opción editar y eliminar partido, el administrador puede realiz
 Perfil → Setting → Mis ligas
 ```
 
-Nos aparecera una pantalla para donde se mostrarán todos los partidos registrados en la aplicación diferenciandolos por liga:
+Nos aparecera una pantalla para donde se mostrarán todos los partidos registrados en la aplicación diferenciandolos por liga, si dejamos pulsado en el partido que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt="" width="148"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="133"><figcaption></figcaption></figure>
 
 8. **Añadir Jugador.**
 
