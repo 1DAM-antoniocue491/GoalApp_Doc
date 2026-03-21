@@ -107,11 +107,26 @@ Podremos visualizar los partidos que se estén disputando en directo según la l
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
+Pulsando en los tres puntitos podremos:
+
+* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
+* Añadir Evento. Permite agregar un nuevo evento.
+* Añadir Alineación. Permiete agregar la alineación del partido.
+
+
+
 4. 2 **Programados**.
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Pulsando en los tres puntitos podremos:
+
+* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
+* Añadir Convocatoria. Permiete agregar la convocatoria del partido.
+
+
 
 4. 3 **Finalizados**.
 
@@ -119,9 +134,19 @@ Podremos visualizar los partidos que se encuentren finalizados según la liga qu
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
+Pulsando en los tres puntitos podremos:
+
+* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
+
+
+
 5. **Perfil**.
 
 El administrador podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
 
 <figure><img src="../../.gitbook/assets/image (74).png" alt="" width="350"><figcaption></figcaption></figure>
 
+Pulsando en el botón de setting se podrá:
+
+* Cerrar Sesión.
+* Roles y Usuarios. Se podrán ver los roles que existen en la aplicación y los usuarios con su rol asignado.
