@@ -101,7 +101,7 @@ Podremos visualizar los partidos que se encuentren finalizados según la liga qu
 
 El usuario podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="268"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt="" width="317"><figcaption></figcaption></figure>
 
 Pulsando en el botón de setting se podrá:
 
