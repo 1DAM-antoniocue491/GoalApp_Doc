@@ -4,4 +4,4 @@ La interfaz de esta aplicación esta diseñada para facilitar **la creación y l
 
 Para acceder a más funcionalidades de la aplicación el usuario debe registrarse, por ello contaremos con una pantalla de **registro** donde se deben rellenar los campos (nombre, gmail, contraseña y repetir contraseña). Por ultimo, podremos **iniciar sesión** a partir de el gmail y contraseña añadido anteriormente.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="247"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="247"><figcaption></figcaption></figure>

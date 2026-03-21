@@ -290,7 +290,7 @@ Partidos → Finalizado → Partido → + → Estado
 
 Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pulsaremos el botón de 'Restablecer Estado':
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="127"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="127"><figcaption></figcaption></figure>
 
 13. **Restricciones.**
 
