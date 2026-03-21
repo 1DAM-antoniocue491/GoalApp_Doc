@@ -270,9 +270,9 @@ Para observar los eventos que tenemos podemos ir:
 Partidos → En directo → Partido → + → Mis Evento
 ```
 
-Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
+Vemos los eventos que tenemos, si dejamos pulsado en el evento que nos interesa saldrá un menú flotante con la opción de eliminar o editar:
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92).png" alt="" width="112"><figcaption></figcaption></figure>
 
 En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento y nos dirigira al evento que hemos seleccionado:
 
