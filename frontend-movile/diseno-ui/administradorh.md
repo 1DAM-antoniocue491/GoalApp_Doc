@@ -49,9 +49,11 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 * **Ranking de equipos.** Según el rendimiento de los equipos.
 * **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
-2. 1 **Equipos.**&#x20;
+Por último, podrá cambiar el estado de una liga en el botón de Elipsis.
+
+**a. Equipos.**&#x20;
 
 El administrador podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
 
@@ -65,7 +67,7 @@ Además, podrá **consultar la plantilla** ordenados por la posición en la que 
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" width="308"><figcaption></figcaption></figure>
 
-2. 2 **Jugadores.**
+**b. Jugadores.**
 
 El administrador podrá ver la información de cada jugador y ver sus estadísticas personales:
 
@@ -101,7 +103,7 @@ El administrador cuando pulse aparecerá un menú flotante con diferentes opcion
 
 El administrador podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
 
-4. 1  **Directo.**
+a.  **Directo.**
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
@@ -111,13 +113,13 @@ Pulsando en los tres puntitos podremos:
 
 * Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
 * Añadir Evento. Permite agregar un nuevo evento.
-* Añadir Alineación. Permiete agregar la alineación del partido.
+* Añadir Alineación. Permite agregar la alineación del partido.
 
 
 
-4. 2 **Programados**.
+&#x20;b. **Programados**.
 
-Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
+Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentros anteriores sobre los dos equipos, así como la convocatoria correspondiente. Por último, apareceran con un icono los jugadores que formaran parte del once inicial.
 
 <figure><img src="../../.gitbook/assets/image (83).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -125,10 +127,9 @@ Pulsando en los tres puntitos podremos:
 
 * Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
 * Añadir Convocatoria. Permite agregar la convocatoria del partido.
+* Añadir Alineación. Permite agregar la alineación del partido.
 
-
-
-4. 3 **Finalizados**.
+c.  **Finalizados**.
 
 Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
