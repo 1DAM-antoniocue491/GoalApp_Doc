@@ -68,11 +68,11 @@ Partidos → Detalle de partido.
 Perfil → Editar perfil / Cerrar sesión
 ```
 
-* **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar. Si queremos ver todos los partidos, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.
+* **Dashboard**.  Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal.  Si queremos ver todos los partidos programados, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
-* **Liga.** Desde la sección _Liga_, el usuario puede ver la clasificación general, estadísticas de los equipos y estadísticas de jugadores. Al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador. El usuario tendrá la psosibilidad de seguir tanto a la liga como al equipo.
+* **Liga.**&#x44;esde la sección _Liga_,  al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -109,7 +109,7 @@ Perfil → Editar perfil / Cerrar sesión
 Para observar los eventos que tenemos podemos ir:
 
 ```
-Partidos → En directo → Partido → + → Mis Evento
+Partidos → En directo → Partido → Elipsis → Mis Evento
 ```
 
 Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
@@ -125,9 +125,9 @@ En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento 
 Los partidos pueden modificarse para cambiar el estado en el que se encuentran (en directo, programado o finalizado).
 
 ```
-Partidos → En directo → Partido → + → Estado
-Partidos → Programado → Partido → + → Estado
-Partidos → Finalizado → Partido → + → Estado
+Partidos → En directo → Partido → Elipsis → Estado
+Partidos → Programado → Partido → Elipsis → Estado
+Partidos → Finalizado → Partido → Elipsis → Estado
 ```
 
 Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pulsaremos el botón de 'Restablecer Estado':

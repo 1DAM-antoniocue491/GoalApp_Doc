@@ -120,7 +120,7 @@ Nos redigirá a una pantalla de añadir jugadores. Una vez registrado los jugado
 Antes de cada encuentro, el entrenador decide qué jugadores van a jugar o estar disponibles (titulares y suplentes). Esa selección se llama convocatoria. Para añadir los jugadores a la convocatoria de un partido:&#x20;
 
 ```
-Partidos → Programado → Partido → + → Convocatoria
+Partidos → Programado → Partido → Elipsis → Convocatoria
 ```
 
 Nos redigirá a una pantalla de añadir convocatoria. Una vez registrado los jugadores a la convocatoria nos redigirá al Partido:
@@ -132,7 +132,7 @@ Nos redigirá a una pantalla de añadir convocatoria. Una vez registrado los jug
 La _alineación_ es la lista de jugadores que empiezan jugando desde el inicio del partido. Para añadir los jugadores a la convocatoria de un partido:&#x20;
 
 ```
-Partidos → En Directo → Partido → + → Alineación
+Partidos → En Directo → Partido → Elipsis → Alineación
 ```
 
 Nos redigirá a una pantalla de añadir alineación. Una vez registrado los jugadores a la alineación nos redigirá al Partido:
