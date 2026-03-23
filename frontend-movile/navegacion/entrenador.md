@@ -133,6 +133,7 @@ La _alineación_ es la lista de jugadores que empiezan jugando desde el inicio d
 
 ```
 Partidos → En Directo → Partido → Elipsis → Alineación
+Partidos → Programado→ Partido → Elipsis → Alineación
 ```
 
 Nos redigirá a una pantalla de añadir alineación. Una vez registrado los jugadores a la alineación nos redigirá al Partido:

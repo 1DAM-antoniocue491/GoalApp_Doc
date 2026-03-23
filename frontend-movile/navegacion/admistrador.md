@@ -252,9 +252,10 @@ Nos redigirá a una pantalla de añadir convocatoria. Una vez registrado los jug
 
 10. **Registrar Alineación.**
 
-La _alineación_ es la lista de jugadores que empiezan jugando desde el inicio del partido. Para añadir los jugadores a la convocatoria de un partido:&#x20;
+La _alineación_ es la lista de jugadores que empiezan jugando desde el inicio del partido. Para añadir los jugadores al once inicial de un partido:&#x20;
 
 ```
+Partidos → Programado → Partido → Elipsis → Alineación
 Partidos → En Directo → Partido → Elipsis → Alineación
 ```
 
