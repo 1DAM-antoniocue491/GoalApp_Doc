@@ -31,7 +31,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 <figure><img src="../../.gitbook/assets/image (75).png" alt="" width="124"><figcaption></figcaption></figure>
 
-2. **Liga.**
+3. **Liga.**
 
 Dentro de la sección de liga, el usuario puede ver:
 
@@ -39,29 +39,29 @@ Dentro de la sección de liga, el usuario puede ver:
 
 <figure><img src="../../.gitbook/assets/image (76).png" alt="" width="123"><figcaption></figcaption></figure>
 
-3. **Partidos**.
+4. **Partidos**.
 
 El usuario podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
 
-3. 1 **Directo.**
+a. **Directo.**
 
 Podremos visualizar los 3 partidos que se estén disputando en directo según la liga que seleccionemos.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (77).png" alt="" width="154"><figcaption></figcaption></figure>
 
-3. 2 **Programados**.
+b. **Programados**.
 
 Podremos visualizar los 3 partidos que se encuentren programados según la liga que seleccionemos.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (79).png" alt="" width="152"><figcaption></figcaption></figure>
 
-3. 3 **Finalizados**.
+c. **Finalizados**.
 
 Podremos visualizar los 3 partidos que se encuentren finalizados según la liga que seleccionemos.
 
 <figure><img src="../../.gitbook/assets/image (80).png" alt="" width="153"><figcaption></figcaption></figure>
 
-4. **Perfil**.
+5. **Perfil**.
 
 El usuario podrá observar su información personal (email, teléfono, fecha de nacimiento, género), como no está registrado e iniciado sesión aparecera como vacía.
 

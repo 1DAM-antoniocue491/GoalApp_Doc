@@ -37,7 +37,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="158"><figcaption></figcaption></figure>
 
-2. **Liga.**
+3. **Liga.**
 
 Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 
@@ -47,7 +47,7 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-2. 1 **Equipos.**&#x20;
+**a. Equipos.**&#x20;
 
 El delegado de campo podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
 
@@ -61,7 +61,7 @@ Además, podrá **consultar la plantilla** ordenados por la posición en la que 
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="335"><figcaption></figcaption></figure>
 
-2. 2 **Jugadores.**
+**b. Jugadores.**
 
 El delegado de campo podrá ver la información de cada jugador y ver sus estadísticas personales:
 
@@ -79,7 +79,7 @@ El delegado de campo podrá ver la información de cada jugador y ver sus estad�
 
 El delegado de campo podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
 
-4. 1  **Directo.**
+a.  **Directo.**
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
@@ -90,9 +90,7 @@ Pulsando en los tres puntitos podremos:
 * Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
 * Añadir Evento. Permite agregar un nuevo evento.
 
-
-
-4. 2 **Programados**.
+b. **Programados**.
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
@@ -102,9 +100,7 @@ Pulsando en los tres puntitos podremos:
 
 * Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
 
-
-
-4. 3 **Finalizados**.
+b. **Finalizados**.
 
 Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
