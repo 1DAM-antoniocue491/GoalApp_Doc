@@ -78,7 +78,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 * **Liga.** Desde la sección _Liga_,  al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
@@ -168,7 +168,7 @@ Ligas → Elipsis → Estado Liga.
 
 Apareciendo una nueva ventana donde podrá los diferentes estados de las ligas:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="134"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="134"><figcaption></figcaption></figure>
 
 
 
