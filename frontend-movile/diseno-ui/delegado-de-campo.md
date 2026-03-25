@@ -35,7 +35,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 * Pondran ver el resultado de un partido en directo.
 * Programados en esa misma jornada de la liga escogida.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="158"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="158"><figcaption></figcaption></figure>
 
 3. **Liga.**
 
