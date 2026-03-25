@@ -146,7 +146,7 @@ Perfil → Setting → Mis ligas → +
 
 Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimo de jugadores y una pequeña descripción), cuando se comprueben que los datos son correctos nos dirige:
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt="" width="87"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt="" width="114"><figcaption></figcaption></figure>
 
 **b. Editar y Eliminar Liga.**
 
@@ -170,7 +170,9 @@ Apareciendo una nueva ventana donde podrá los diferentes estados de las ligas:
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="134"><figcaption></figcaption></figure>
 
+Por otro lado, podremos editar la información de una liga con un menú flotante. Saldrán los campos(nombre liga, categoría, máximo de equipos, mínimo de partidos, máximo convocados, mínimo convocados, número de titulres, mínimo partidos):
 
+<figure><img src="../../.gitbook/assets/image (99).png" alt="" width="115"><figcaption></figcaption></figure>
 
 8. **Añadir, editar o Eliminar Equipos.**
 
@@ -190,7 +192,7 @@ Perfil → Setting → Mis Equipos → +
 
 Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre equipo, ciudad, colores principales, liga, capitán entrenado, delegado de campo y nombre del estadio), cuando se comprueben que los datos son correctos nos dirige:
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt="" width="122"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103).png" alt="" width="117"><figcaption></figcaption></figure>
 
 **b. Editar o Eliminar Partido.**
 
@@ -222,7 +224,7 @@ Perfil → Setting → Mis Partidos → +
 
 Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre equipo local, nombre equipo visitante, nombre de la liga, fecha del partido, estado), cuando se comprueben que los datos son correctos nos dirige:
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt="" width="139"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104).png" alt="" width="117"><figcaption></figcaption></figure>
 
 **b. Editar o Eliminar Partido.**
 
@@ -258,7 +260,7 @@ Partidos → Programado → Partido → Elipsis → Convocatoria
 
 Nos redigirá a una pantalla de añadir convocatoria. Una vez registrado los jugadores a la convocatoria nos redigirá al Partido:
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="131"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (105).png" alt="" width="116"><figcaption></figcaption></figure>
 
 10. **Registrar Alineación.**
 
@@ -271,7 +273,7 @@ Partidos → En Directo → Partido → Elipsis → Alineación
 
 Nos redigirá a una pantalla de añadir alineación. Una vez registrado los jugadores a la alineación nos redigirá al Partido:
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt="" width="131"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (106).png" alt="" width="116"><figcaption></figcaption></figure>
 
 11. **Evento.**
 

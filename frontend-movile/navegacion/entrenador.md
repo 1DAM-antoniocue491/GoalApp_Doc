@@ -113,7 +113,7 @@ El rol de entrenador podrá añadir jugadores al equipo que se encuentra dirigie
 
 Nos redigirá a una pantalla de añadir jugadores. Una vez registrado los jugadores nos redigirá a Dashboard:
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="149"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt="" width="124"><figcaption></figcaption></figure>
 
 8. **Registrar Convocatoria.**
 
@@ -138,7 +138,7 @@ Partidos → Programado→ Partido → Elipsis → Alineación
 
 Nos redigirá a una pantalla de añadir alineación. Una vez registrado los jugadores a la alineación nos redigirá al Partido:
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt="" width="131"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt="" width="123"><figcaption></figcaption></figure>
 
 10. **Restricciones.**
 
