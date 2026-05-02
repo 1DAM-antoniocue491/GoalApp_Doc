@@ -216,55 +216,46 @@ El administrador cuando pulse aparecerá un menú flotante con diferentes opcion
   * Correo electrónico.
   * Rol dentro de la liga.
 
-4. **Partidos**.
 
-El administrador podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
 
-a.  **Directo.**
+4. **Estadísticas**.
 
-Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+La pantalla **Estadísticas** reúne los principales datos de rendimiento de la liga en una sola vista.\
+Su estructura general es común para todos los roles, pero cambia en un punto clave: **si el usuario es jugador, aparece además el bloque “Mis estadísticas”** con sus datos personales dentro de la competición.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+El objetivo de esta pantalla es permitir al usuario:
 
-Pulsando en los tres puntitos podremos:
-
-* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
-* Añadir Evento. Permite agregar un nuevo evento.
-* Añadir Alineación. Permite agregar la alineación del partido.
+* Consultar el estado estadístico de la temporada.
+* Identificar a los jugadores y equipos más destacados.
+* Revisar tendencias generales de rendimiento.
+* Si el usuario es jugador, visualizar también su aportación personal.
 
 
 
-&#x20;b. **Programados**.
+5. **Perfil**
 
-Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentros anteriores sobre los dos equipos, así como la convocatoria correspondiente. Por último, apareceran con un icono los jugadores que formaran parte del once inicial.
+El **Perfil** es la sección donde el usuario puede ver y gestionar su información personal dentro de la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt="" width="375"><figcaption></figcaption></figure>
+El objetivo principal de esta pantalla es:
 
-Pulsando en los tres puntitos podremos:
+* Ver la información personal.
+* Editar los datos básicos del usuario.
+* Cerrar la sesión actual.
 
-* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
-* Añadir Convocatoria. Permite agregar la convocatoria del partido.
-* Añadir Alineación. Permite agregar la alineación del partido.
+**a. Comportamiento esperado**
 
-c.  **Finalizados**.
+* **Ver Perfil.** Abre un modal con la información personal del usuario en modo consulta.
+* **Editar Perfil.** Cambia el modal a modo edición para actualizar los datos permitidos.
+* **Guardar.** Guarda los cambios realizados y devuelve el modal al modo visualización.
+* **Cancelar**. Descarta los cambios no guardados y vuelve al modo visualización
+* **Cerrar la sesión.** Finaliza la sesión del usuario y lo saca del sistema.
 
-Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+**b. Reglas funcionales.**
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+* El perfil siempre pertenece al **usuario autenticado**..
+* El modal puede cerrarse con el icono **X**.
+* En modo edición, solo deben poder modificarse los campos habilitados.
+* Si el usuario pulsa **Cancelar**, no se aplican cambios.
+* Si pulsa **Guardar**, la información se actualiza en su cuenta.
+* **Cerrar sesión** debe redirigir al iniciar sesión.
 
-Pulsando en los tres puntitos podremos:
-
-* Cambiar Estado. Permite modificar el estado de los partidos (directo, programados y finalizados).
-
-
-
-5. **Perfil**.
-
-El administrador podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
-
-<figure><img src="../../.gitbook/assets/image (74).png" alt="" width="350"><figcaption></figcaption></figure>
-
-Pulsando en el botón de setting se podrá:
-
-* Cerrar Sesión.
-* Roles y Usuarios. Se podrán ver los roles que existen en la aplicación y los usuarios con su rol asignado.
