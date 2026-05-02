@@ -8,16 +8,17 @@ Puede crear equipos, añadir o eliminar jugadores, publicar convocatorias y alin
 
 1. **Estructura de navegación.**
 
-El apartado de _MainTabs_, disponible en modo completo para usuarios autenticados, que contiene las secciones principales de la aplicación: _Dashboard_, _Liga_, _Partidos_ y _Perfil_. Estas secciones permiten al usuario navegar entre los distintos apartados de forma sencilla mediante una barra de navegación.
+El apartado de (tabs), disponible en modo completo para usuarios autenticados, que contiene las secciones principales de la aplicación: _Dashboard_, Calendarios, estadisticas y _Perfil_. Estas secciones permiten al usuario navegar entre los distintos apartados de forma sencilla mediante una barra de navegación.
 
 ```
-Root
-└── MainTabs (modo completo)
-    ├── Dashboard
-    ├── Liga
-    ├── Partidos
-    └── Perfil
-        └── Editar perfil
+src
+└── (tabs)
+    ├── _layout.tsx
+    ├── add.tsx
+    ├── calendar.tsx
+    ├── index.tsx
+    ├── profile.tsx
+    └── statistics.tsx
 ```
 
 2. **Navegación Disponible.**
