@@ -6,8 +6,7 @@ El administrador tiene acceso a diferentes herramientas que le facilitan la gest
 
 La aplicación incluira una barra de navegación persistente con las siguientes secciones:
 
-* **Iniciar Sesión:** El I**nicio de Sesión** es el proceso mediante el cual un usuario se identifica en una aplicación o sistema para poder acceder a sus funcionalidades privadas.
-* **Registrarse:** El R**egistro** es el proceso mediante el cual un usuario crea una cuenta nueva en una aplicación proporcionando sus datos personales.
+* **Iniciar Sesión y Resgistrase:** El registro y el inicio de sesión son procesos fundamentales en la aplicación: el registro permite a un usuario crear una cuenta nueva introduciendo sus datos personales, mientras que el inicio de sesión le permite identificarse con esas credenciales para acceder a las funcionalidades privadas del sistema.
 * **Dashboard:** El **Dashboard** es la pantalla principal de la aplicación, a la que accede el usuario después de iniciar sesión. Desde aquí puede gestionar las funciones más importantes de forma rápida y sencilla.
 * **Inicio:** La **pantalla de Inicio** es la vista principal que aparece una vez que el usuario selecciona una liga. Desde aquí puede ver la información más relevante y acceder a las distintas funcionalidades relacionadas con esa liga.
 * **Calendario:** La pantalla de **Calendario** mostrara la información de la liga.
@@ -22,18 +21,93 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-2. **Inicio Sesión.**
-
-El inicio de sesión consiste en que el usuario introduce sus credenciales, el sistema las verifica y, si son correctas, le permite acceder a las funcionalidades de la aplicación.
+2. **Inicio Sesión y Registrarse.**
 
 Sus objetivos principales son:
 
-* permitir el acceso a usuarios ya registrados,
-* permitir el alta de nuevos usuarios,
-* concentrar ambos flujos en una misma interfaz,
-* mantener la coherencia visual del sistema desde el primer contacto.
+* Permitir el acceso a usuarios ya registrados.
+* Permitir el alta de nuevos usuarios.
+* Concentrar ambos flujos en una misma interfaz.
+* Mantener la coherencia visual del sistema desde el primer contacto.
 
-2.
+**a. Login**
+
+Permitir que un usuario ya registrado acceda a su cuenta mediante sus credenciales.
+
+* El usuario introduce su correo y contraseña.
+* El sistema valida las credenciales.
+* Si son correctas, accede al sistema.
+* Tras autenticarse, el usuario es redirigido al **Onboarding**.
+
+**b. Registro**
+
+Permitir el alta de nuevos usuarios en la plataforma.
+
+* El usuario completa sus datos básicos.
+* Debe confirmar la contraseña.
+* Debe aceptar los términos y condiciones.
+* Si el formulario es válido, se crea la cuenta.
+* Tras el registro exitoso, el usuario accede al sistema y es dirigido al **Onboarding**.
+
+3. **Onboarding.**
+
+El **onboarding** es la primera sección que aparece después del login o del registro.\
+Su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
+
+Desde aquí el usuario puede:
+
+* **crear una nueva liga.**
+* **editar una liga** si tiene permisos.
+* **unirse a una liga existente** mediante código.
+* **consultar sus ligas.**
+* **filtrarlas** por estado.
+* **entrar** en una liga.
+* **reactivar** una liga finalizada.
+
+Por tanto, esta sección no es todavía un panel operativo de partido o gestión diaria, sino el **punto de acceso y organización inicial** del sistema.
+
+**a. Comportamiento Esperado.**
+
+Cuando el usuario entra al onboarding, ve primero dos acciones principales:
+
+* **Crear liga**
+* **Unirme**&#x20;
+
+Debajo aparece el bloque **Mis ligas**, donde puede buscar, filtrar y seleccionar cualquiera de las ligas asociadas a su cuenta.
+
+Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
+
+* Subir logo.
+* Nombre de la liga.
+* Temporada,
+* Categoría,
+* Número mínimo y máximo de equipos,
+* Mínimo y máximo de convocados,
+* Mínimo y máximo de jugadores que forman parte de la plantilla.
+* Duración de los partidos,
+* Cantidad máxima de partidos.
+
+Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
+
+Si el usuario tiene permisos de administración sobre una liga, puede abrir el modal **Editar Liga** para actualizar esa configuración.\
+Desde ahí también puede **eliminar la liga** si corresponde.
+
+Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
+Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
+
+Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
+
+Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
+Cuando la reactiva:
+
+* La liga vuelve a estar activa.
+* Conserva todos sus datos.
+* Desaparece del filtro **Finalizadas.**
+* Vuelve a **Todas.**
+* La acción principal cambia a **Entrar**.
+
+
+
 3. **Dashboard (Inicio)**
 
 &#x20;El **dashboard** actúa como pantalla principal y se le muestra:
