@@ -106,62 +106,80 @@ Cuando la reactiva:
 * Vuelve a **Todas.**
 * La acción principal cambia a **Entrar**.
 
-
-
 3. **Dashboard (Inicio)**
 
-&#x20;El **dashboard** actúa como pantalla principal y se le muestra:
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.\
+La base visual es la misma para todos los usuarios, pero las acciones disponibles cambian según su nivel de permiso.
 
-* La bienvenida a la aplicación al usuario iniciado sesión.
-* Pondran ver el resultado de un partido en directo.
-* Programados en esa misma jornada de la liga escogida.&#x20;
-* Resumen de la liga donde se podrán consultar el numero de equipos de la liga, partidos, jugadores y delegados de campo.
+El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a su rol para que pueda:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="132"><figcaption></figcaption></figure>
+* Consultar el estado general de la liga.
+* Actuar sobre los partidos si tiene permisos.
+* Revisar resultados recientes.
+* Acceder rápidamente a la información más relevante.
 
-2. **Liga.**
+Los roles contemplados en esta sección son:
 
-Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
+* **Administrador**
+* **Delegado de campo**
+* **Entrenador**
+* **Jugador / Observador.**
 
-* **La clasificación general**. El ranking se basa según los partidos ganados (3 puntos), empatados (1 punto) y perdidos (0 puntos).&#x20;
-* **Ranking de equipos.** Según el rendimiento de los equipos.
-* **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Por último, podrá cambiar el estado de una liga en el botón de Elipsis.
+2. **Calendario.**
 
-**a. Equipos.**&#x20;
+La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-El administrador podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
+El objetivo de esta pantalla es:
 
-* Nombre.
-* Descripción.
-* Colores principales.
-* Entrenador.
-* Delegado de campo.
+* Visualizar encuentros según su estado (en vivo, programado o finalizado),
+* Ver la información por jornadas, equipos y clasificación,
+* Iniciar encuentros según el rol,
+* Trabajar sobre convocatoria y previa del partido,
+* Crear partidos manualmente,
+* Generar el calendario automáticamente,
+* Editar tanto el calendario como partidos concretos.
+* Editar información de equipos.
 
-Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
+**a. Resultados Esperados.**
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" width="308"><figcaption></figcaption></figure>
+El **administrador** puede generar un calendario automático para toda la liga o crear partidos de forma manual.
 
-**b. Jugadores.**
+Si pulsa **Crear calendario automático**, se abre un modal donde define:
 
-El administrador podrá ver la información de cada jugador y ver sus estadísticas personales:
+* Tipo de calendario.
+* Fecha de inicio.
+* Días de partido.
+* Hora de los encuentros.
 
-* Nombre del equipo.
-* Posición.
-* Dorsal.
-* Fecha de nacimiento.
-* Género.
+Si ese calendario ya existe, puede abrir **Editar calendario** para actualizar esos parámetros generales.
 
-Además, se podrán consultar las estadísticas personales de todos los jugadores el número de:
+Si pulsa **Nuevo partido**, se abre un modal de creación manual del partido.\
+En este caso debe indicar:
 
-* Goles.
-* Tarjetas.
-* MVP.
+* Equipo local.
+* Equipo visitante.
+* Fecha.
+* Hora.
+* Estadio.
+* Jornada.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="130"><figcaption></figcaption></figure>
+Cuando el partido ha sido creado **manualmente**, su edición es **más completa**, porque permite modificar también:
+
+* Equipo local.
+* Equipo visitante.
+* Delegado del campo.
+* Fecha.
+* Hora.
+* Estadio.
+
+Cuando el partido ha sido generado por el **calendario automático**, la edición es **más limitada**.\
+En ese caso no se modifican los equipos del enfrentamiento, sino solo datos operativos como:
+
+* Fecha.
+* Hora.
+* Estadio.
 
 
 
@@ -169,11 +187,19 @@ Además, se podrán consultar las estadísticas personales de todos los jugadore
 
 El administrador cuando pulse aparecerá un menú flotante con diferentes opciones:
 
-* Añadir Jugador.
-* Añadir equipo.
-* Crear liga.
-* Añadir entrenador.
-* Añadir delegado de campo.
+* Añadir Partido.
+* Crear Calendario.
+* Añadir Equipo.
+* Gestionar Usuarios.
+
+a. Resultados Esperados.
+
+Si pulsa **Crear calendario automático**, se abre un modal donde define:
+
+* Tipo de calendario.
+* Fecha de inicio.
+* Días de partido.
+* Hora de los encuentros.
 
 
 
