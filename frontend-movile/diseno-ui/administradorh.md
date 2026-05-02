@@ -24,6 +24,8 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 2. **Inicio Sesión.**
 
+El inicio de sesión consiste en que el usuario introduce sus credenciales, el sistema las verifica y, si son correctas, le permite acceder a las funcionalidades de la aplicación.
+
 Sus objetivos principales son:
 
 * permitir el acceso a usuarios ya registrados,
