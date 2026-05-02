@@ -55,13 +55,22 @@ La navegación y las funcionalidades de la aplicación para usuarios autenticado
 El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
 ```
-Dashboard → Información Liga
-Liga → Detalle de ligas, equipos y jugadores.
-Añadir → Añadir jugadores al equipo.
-Partidos → Detalle de partido. 
+Onboarding → Información Ligas.
+Dashboard → Información Liga escogida.
+Liga → Detalle de las Jornadas, Equipos y Clasificación.
+Añadir → Añadir Partidos, Crear Calendario, Añadir equipo y Gestionar Usuarios..
+Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
 Perfil → Editar perfil / Cerrar sesión
 ```
 
+**a. Onboarding.**
+
+El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
+
+* **Crear liga.**
+* **Unirme a una liga.**
+* **Entrar en una liga.**
+*
 * **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal.  Si queremos ver todos los partidos programados, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt="" width="134"><figcaption></figcaption></figure>
