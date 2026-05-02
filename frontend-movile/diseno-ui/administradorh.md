@@ -192,16 +192,29 @@ El administrador cuando pulse aparecerá un menú flotante con diferentes opcion
 * Añadir Equipo.
 * Gestionar Usuarios.
 
-a. Resultados Esperados.
+**a. Resultados Esperados.**
 
-Si pulsa **Crear calendario automático**, se abre un modal donde define:
-
-* Tipo de calendario.
-* Fecha de inicio.
-* Días de partido.
-* Hora de los encuentros.
-
-
+* **Añadir partido**: al pulsar esta opción, se abre un modal para la creación manual de un partido, donde se deben indicar los siguientes datos:
+  * Equipo local.
+  * Equipo visitante.
+  * Fecha.
+  * Hora.
+  * Estadio.
+  * Jornada.
+* **Crear calendario**: al seleccionar esta opción, se abre un modal en el que se definen los siguientes parámetros:
+  * Tipo de calendario.
+  * Fecha de inicio.
+  * Días de partido.
+  * Hora de los encuentros.
+* **Añadir equipo**: al pulsar esta opción, se abre un modal para crear un nuevo equipo, donde se deben introducir:
+  * Logo,
+  * Nombre del equipo.
+  * Ciudad.
+  * Color.
+  * Estadio.
+* **Gestionar usuarios**: al seleccionar esta opción, se accede a una pantalla desde la que se pueden invitar nuevos usuarios, indicando:
+  * Correo electrónico.
+  * Rol dentro de la liga.
 
 4. **Partidos**.
 
