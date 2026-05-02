@@ -25,29 +25,18 @@ src
 
 Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tabs son:
 
-* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-*   **Liga:** Mostrara la información de la liga.
+* **Inicio:** La **pantalla de Inicio** es la vista principal que aparece una vez que el usuario selecciona una liga. Desde aquí puede ver la información más relevante y acceder a las distintas funcionalidades relacionadas con esa liga.
+* **Calendario:** La pantalla de **Calendario** mostrara la información de la liga.
+  * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
+  * **Equipos.** Mostraran los distintos equipos que componen la liga.
+  * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
+* **Añadir:** Aparecera un menú flotante para añadir partidos, crear calendarios, añadir equipos y getionar usuarios..
+* **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
+  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
+  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
+* **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-    * Clasificación. Consultar la clasificación de la liga según los equipos.
-    * Equipo. Clasificaciones según criterios como máximos goleadores, victorias, etc.
-    * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
-
-    <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
-
-
-* **Añadir:** Aparecera un menú flotante para añadir jugadores al equipo, equipo, liga, partidos, entrenador y delegado de campo.
-*   **Partido**: Consulta el estado de los partidos.&#x20;
-
-    * Directo. Ver los partidos en directo.
-    * Programado. Ver los partidos programados.
-    * Finalizado. Ver los partidos finalizados.
-
-
-
-    <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
-* **Perfil:** Permite ver la información del usuario registrado.
-
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -79,7 +68,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 * **Liga.** Desde la sección _Liga_,  al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 *   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
 
@@ -147,7 +136,7 @@ Perfil → Setting → Mis ligas → +
 
 Ambas nos redirigiran a una pantalla donde se deben rellenar los datos (nombre, temporada, categoria, máximo de quipos, mínimo de jugadores y una pequeña descripción), cuando se comprueben que los datos son correctos nos dirige:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="122"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="122"><figcaption></figcaption></figure>
 
 **b. Editar y Eliminar Liga.**
 
@@ -169,11 +158,11 @@ Ligas → Elipsis → Estado Liga.
 
 Apareciendo una nueva ventana donde podrá los diferentes estados de las ligas:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="134"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="134"><figcaption></figcaption></figure>
 
 Por otro lado, podremos editar la información de una liga con un menú flotante. Saldrán los campos(nombre liga, categoría, máximo de equipos, mínimo de partidos, máximo convocados, mínimo convocados, número de titulares, mínimo partidos):
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="114"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="114"><figcaption></figcaption></figure>
 
 8. **Añadir, editar o Eliminar Equipos.**
 
