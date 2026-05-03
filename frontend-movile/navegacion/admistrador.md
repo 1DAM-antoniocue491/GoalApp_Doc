@@ -67,10 +67,59 @@ Perfil → Editar perfil / Cerrar sesión
 
 El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
-* **Crear liga.**
-* **Unirme a una liga.**
-* **Entrar en una liga.**
-*
+*   **Crear liga.** Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
+
+    * Subir logo.
+    * Nombre de la liga.
+    * Temporada,
+    * Categoría,
+    * Número mínimo y máximo de equipos,
+    * Mínimo y máximo de convocados,
+    * Mínimo y máximo de jugadores que forman parte de la plantilla.
+    * Duración de los partidos,
+    * Cantidad máxima de partidos.
+
+    Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
+
+    Si el usuario tiene permisos de administración sobre una liga, puede abrir el modal **Editar Liga** para actualizar esa configuración.\
+    Desde ahí también puede **eliminar la liga** si corresponde.
+* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
+  Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
+* **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
+* **Reactivar una liga.** Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
+  Cuando la reactiva:
+  * La liga vuelve a estar activa.
+  * Conserva todos sus datos.
+  * Desaparece del filtro **Finalizadas.**
+  * Vuelve a **Todas.**
+  * La acción principal cambia a **Entrar**.
+
+**b. Dashboard.**
+
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
+
+* **Volver al onboarding.** El encabezado de la aplicación permite al usuario regresar a la pantalla de onboarding al ser pulsado.
+* **Ver notificaciones.** Al pulsar el icono de la campana en el encabezado, el usuario podrá visualizar todas las notificaciones recibidas, organizadas según su tipo (todas, en vivo, resultados, etc.). Para cerrar la pantalla pulsaremos el botón de retroceder.
+* **Finalizar Partidos en Vivo.** Al seleccionar la opción ‘Finalizar’, se desplegará un modal para completar la información correspondiente. Tras rellenar todos los datos, el usuario deberá confirmar pulsando ‘Finalizar partido’.
+*   **Añadir Evento.** Al seleccionar la opción ‘Añadir evento’, se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución
+
+
+
+    * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+    * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+    * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+    * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+* **Ver plantillas.** Al pulsar ‘Ver plantilla’, se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
+* **Ver calendarios.** Al pulsar ‘Ver calendarios’, se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
+* **Ver partido programado.**&#x20;
+* **Inicializar Partido.**&#x20;
+* **Convocatoria.**
+* **Alineación Titular.**
+
+**c. Calendario.**
+
+
+
 * **Dashboard**. Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal.  Si queremos ver todos los partidos programados, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt="" width="134"><figcaption></figcaption></figure>

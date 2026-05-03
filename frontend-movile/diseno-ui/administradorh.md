@@ -66,45 +66,7 @@ Desde aquí el usuario puede:
 
 Por tanto, esta sección no es todavía un panel operativo de partido o gestión diaria, sino el **punto de acceso y organización inicial** del sistema.
 
-**a. Comportamiento Esperado.**
 
-Cuando el usuario entra al onboarding, ve primero dos acciones principales:
-
-* **Crear liga**
-* **Unirme**&#x20;
-
-Debajo aparece el bloque **Mis ligas**, donde puede buscar, filtrar y seleccionar cualquiera de las ligas asociadas a su cuenta.
-
-Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
-
-* Subir logo.
-* Nombre de la liga.
-* Temporada,
-* Categoría,
-* Número mínimo y máximo de equipos,
-* Mínimo y máximo de convocados,
-* Mínimo y máximo de jugadores que forman parte de la plantilla.
-* Duración de los partidos,
-* Cantidad máxima de partidos.
-
-Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
-
-Si el usuario tiene permisos de administración sobre una liga, puede abrir el modal **Editar Liga** para actualizar esa configuración.\
-Desde ahí también puede **eliminar la liga** si corresponde.
-
-Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
-Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
-
-Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
-
-Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
-Cuando la reactiva:
-
-* La liga vuelve a estar activa.
-* Conserva todos sus datos.
-* Desaparece del filtro **Finalizadas.**
-* Vuelve a **Todas.**
-* La acción principal cambia a **Entrar**.
 
 3. **Dashboard (Inicio)**
 
