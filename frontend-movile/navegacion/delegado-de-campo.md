@@ -23,28 +23,17 @@ src
 
 Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tabs son:
 
-* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-*   **Liga:** Mostrara la información de la liga.
+* **Inicio:** La **pantalla de Inicio** es la vista principal que aparece una vez que el usuario selecciona una liga. Desde aquí puede ver la información más relevante y acceder a las distintas funcionalidades relacionadas con esa liga.
+* **Calendario:** La pantalla de **Calendario** mostrara la información de la liga.
+  * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
+  * **Equipos.** Mostraran los distintos equipos que componen la liga.
+  * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
+* **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
+  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
+  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
+* **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-    * Clasificación. Consultar la clasificación de la liga según los equipos.
-    * Equipo. Clasificaciones según criterios como máximos goleadores, victorias, etc.
-    * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
-
-    <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
-
-
-*   **Partido**: Consulta el estado de los partidos.&#x20;
-
-    * Directo. Ver los partidos en directo.
-    * Programado. Ver los partidos programados.
-    * Finalizado. Ver los partidos finalizados.
-
-
-
-    <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
-* **Perfil:** Permite ver la información del usuario registrado.
-
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -63,81 +52,69 @@ La navegación y las funcionalidades de la aplicación para usuarios autenticado
 El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
 ```
-Dashboard → Información Liga
-Liga → Detalle de ligas, equipos y jugadores.
-Partidos → Detalle de partido. 
+Onboarding → Información Ligas.
+Dashboard → Información Liga escogida.
+Liga → Detalle de las Jornadas, Equipos y Clasificación.
+Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
 Perfil → Editar perfil / Cerrar sesión
 ```
 
-* **Dashboard**.  Al iniciar sesión, el usuario accede al _Dashboard_, que funciona como pantalla principal.  Si queremos ver todos los partidos programados, debemos pulsar en el apartado “Ver todo”. Del mismo modo, para consultar los partidos en directo, es necesario pulsar el botón “En directo”.&#x20;
+**a. Onboarding.**
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
+El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
-* **Liga.**&#x44;esde la sección _Liga_,  al seleccionar un equipo específico, se accede a su _detalle_, mostrando la información del equipo. Lo mismo ocurre si seleccionamos a un jugador.&#x20;
+* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
+  Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
+* **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
+* **Reactivar una liga.** Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
+  Cuando la reactiva:
+  * La liga vuelve a estar activa.
+  * Conserva todos sus datos.
+  * Desaparece del filtro **Finalizadas.**
+  * Vuelve a **Todas.**
+  * La acción principal cambia a **Entrar**.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+**b. Dashboard.**
 
-*   **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
-    * &#x20;**Directo**. Consultar los partidos en directo y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación de los equipos. Además, permitirás crear eventos del partido (goles, tarjetas, sustituciones, MVP), finalizar el evento y editar eventos.
-
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-    * **Programado**. Consultar los partidos que se encuentrarn programados y, al seleccionar el que nos interese, acceder tanto a sus encentros anteriores como a la convocatoria del partido. Además, permitirás poner en directo el partido.
-
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-*   **Finalizado**.  Consultar los partidos que se encuentrarn finalizados y, al seleccionar el que nos interese, acceder tanto a sus estadísticas como a la alineación del partido.
-
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
-
-* **Perfil**: Los campos se han rellenado cuando el usuario se ha registrado. Además, podremos modificar los datos personales una vez iniciados en la aplicación.
-
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="297"><figcaption></figcaption></figure>
-
-5. **Tabs principales.**
-
-* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-* **Liga:** Se consulta la clasificación de la liga con las estadísticas de todos los equipos que la forman
-* **Partido**: Consulta el estado de los partidos (directo, programado, finalizado).&#x20;
-* **Perfil:** Permite ver la información del usuario registrado.
-
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-
-7. **Eventos.**
-
-Para observar los eventos que tenemos podemos ir:
-
-```
-Partidos → En directo → Partido → Elipsis → Mis Evento
-```
-
-Vemos los eventos que tenemos y podemos modificarlos e incluso eliminarlos si es conveniente:
-
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="154"><figcaption></figcaption></figure>
-
-En el caso de que queramos crear un evento pulsamos en '+', escogemos el evento y nos dirigira al evento que hemos seleccionado:
-
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-8. **Estado Partidos.**
-
-Los partidos pueden modificarse para cambiar el estado en el que se encuentran (en directo, programado o finalizado).
-
-```
-Partidos → En directo → Partido → Elipsis → Estado
-Partidos → Programado → Partido → Elipsis → Estado
-Partidos → Finalizado → Partido → Elipsis → Estado
-```
-
-Todas las pantallas redigiran a cambiar estado Partido, una ver seleccionado pulsaremos el botón de 'Restablecer Estado':
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="127"><figcaption></figcaption></figure>
+* **Volver al onboarding.** El encabezado de la aplicación permite al usuario regresar a la pantalla de onboarding al ser pulsado.
+* **Ver notificaciones.** Al pulsar el icono de la campana en el encabezado, el usuario podrá visualizar todas las notificaciones recibidas, organizadas según su tipo (todas, en vivo, resultados, etc.). Para cerrar la pantalla pulsaremos el botón de retroceder.
+*   **Añadir Evento.** Al seleccionar la opción ‘Añadir evento’, se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución
 
 
 
-9. **Restricciones.**
+    * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+    * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+    * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+    * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+* **Ver plantillas.** Al pulsar ‘Ver plantilla’, se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
+* **Ver calendarios.** Al pulsar ‘Ver calendarios’, se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
+* **Ver partido programado.**&#x20;
+* **Inicializar Partido.**&#x20;
+* **Convocatoria.**
+* **Alineación Titular.**
+
+**c. Calendario.**
+
+La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
+
+* **Jornada**. Se podrán ver todos los partidos según el estado en el que se encuentren (en vivo, programados o finalizados).
+* **Equipo.**
+* **Clasificación.**
+
+**e. Estadísticas.**
+
+**f. Perfil.**
+
+El perfil es la pantalla donde el usuario puede ver y gestionar sus datos personales dentro de la aplicación.
+
+* **Editar Perfil**. Al seleccionar el icono de editar ubicado en la parte superior derecha, se mostrará una pantalla con los datos del usuario, permitiendo su modificación.
+* **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
+
+
+
+3. **Restricciones.**
 
 Las limitaciones que presenta este usuario son:
 
