@@ -28,7 +28,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
   * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
-* **Añadir:** Aparecera un menú flotante para gestionar usuarios.
+* **Añadir:** Aparecera un menú flotante para añadir partidos, crear calendarios, añadir equipos y gestionar usuarios.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
   * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
@@ -56,7 +56,6 @@ El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro
 Onboarding → Información Ligas.
 Dashboard → Información Liga escogida.
 Liga → Detalle de las Jornadas, Equipos y Clasificación.
-Añadir → Gestionar Usuarios..
 Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
 Perfil → Editar perfil / Cerrar sesión
 ```
@@ -75,7 +74,6 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 
 * **Volver al onboarding.** El encabezado de la aplicación permite al usuario regresar a la pantalla de onboarding al ser pulsado.
 * **Ver notificaciones.** Al pulsar el icono de la campana en el encabezado, el usuario podrá visualizar todas las notificaciones recibidas, organizadas según su tipo (todas, en vivo, resultados, etc.). Para cerrar la pantalla pulsaremos el botón de retroceder.
-* **Finalizar Partidos en Vivo.** Al seleccionar la opción ‘Finalizar’, se desplegará un modal para completar la información correspondiente. Tras rellenar todos los datos, el usuario deberá confirmar pulsando ‘Finalizar partido’.
 * **Ver plantillas.** Al pulsar ‘Ver plantilla’, se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
 * **Ver calendarios.** Al pulsar ‘Ver calendarios’, se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
 * **Ver partido programado.**&#x20;
@@ -91,16 +89,6 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 * **Equipo.**
 * **Clasificación.**
 
-**d. Añadir.**
-
-La tabs de ‘Añadir’ abrirá un modal desde el cual el administrador podrá seleccionar entre diferentes opciones:
-
-* **Gestionar usuarios**: al seleccionar esta opción, se accede a una pantalla desde la que se pueden invitar nuevos usuarios, indicando:
-  * Correo electrónico.
-  * Rol dentro de la liga.
-
-
-
 **e. Estadísticas.**
 
 **f. Perfil.**
@@ -111,10 +99,6 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 * **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
 
-
-3. **Restricciones.**
-
-El administrador no contiene ninguna restricción contiene todos los permisos de la aplicación.
 
 10. **Restricciones.**
 
