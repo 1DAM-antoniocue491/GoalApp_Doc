@@ -25,7 +25,6 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
   * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
-* **Añadir:** Aparecera un menú flotante para añadir partidos, crear calendarios, añadir equipos y gestionar usuarios.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
   * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
@@ -94,8 +93,6 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 
 * **Editar Perfil**. Al seleccionar el icono de editar ubicado en la parte superior derecha, se mostrará una pantalla con los datos del usuario, permitiendo su modificación.
 * **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
-
-
 
 3. **Restricciones.**
 

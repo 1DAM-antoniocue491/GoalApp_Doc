@@ -4,64 +4,95 @@ El usuario que accede por primera vez a la aplicación encontrará una interfaz 
 
 1. **Estructura de navegación.**
 
-La aplicación se organiza a partir de una estructura principal denominada _Root_, desde la cual se gestionan dos flujos de navegación. Por un lado, se encuentra el _AuthStack_, que incluye las pantallas de autenticación, como inicio de sesión (_Login_) y registro (_Register_).
-
-Por otro lado, está el apartado de _MainTabs_, disponible en modo limitado para usuarios no autenticados, que contiene las secciones principales de la aplicación: _Dashboard_, _Liga_, _Partidos_ y _Perfil_. Estas secciones permiten al usuario navegar entre los distintos apartados de forma sencilla mediante una barra de navegación.
+El apartado de (tabs), disponible en modo completo para usuarios autenticados, que contiene las secciones principales de la aplicación: _Dashboard_, Calendarios, estadisticas y _Perfil_. Estas secciones permiten al usuario navegar entre los distintos apartados de forma sencilla mediante una barra de navegación.
 
 ```
-Root
-├── AuthStack
-│   ├── Login
-│   └── Register
-└── MainTabs (modo limitado)
-    ├── Dashboard
-    ├── Liga
-    ├── Partidos
-    └── Perfil
-
+src
+└── (tabs)
+    ├── _layout.tsx
+    ├── calendar.tsx
+    ├── index.tsx
+    ├── profile.tsx
+    └── statistics.tsx
 ```
 
 2. **Navegación Disponible.**
 
 Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tabs son:
 
-* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-* **Liga:** Se consulta la clasificación de la liga con las estadísticas de todos los equipos que la forman
-* **Partido**: Consulta el estado de los partidos.&#x20;
-* **Perfil:** Permite ver la información del usuario registrado.
+* **Inicio:** La **pantalla de Inicio** es la vista principal que aparece una vez que el usuario selecciona una liga. Desde aquí puede ver la información más relevante y acceder a las distintas funcionalidades relacionadas con esa liga.
+* **Calendario:** La pantalla de **Calendario** mostrara la información de la liga.
+  * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
+  * **Equipos.** Mostraran los distintos equipos que componen la liga.
+  * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
+* **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
+  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
+  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
+* **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
-Independientemente de la pagina que nos encontremos encontraremos una cabecera que invitara al usuario a registrarse o iniciar sesión.
+La navegación y las funcionalidades de la aplicación para usuarios autenticados presentan un comportamiento consistente y completo:
 
-* **Regitrarse.** Rellenar los campos (nombre, email, contraseña y repetir contraseña) y redirigue a iniciar sesión.
-* **Iniciar sesión:** Rellenar campos de email y contraseña, y ridirigue a dashboard.
+* **Sin cabecera:**\
+  Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
+* **Acceso completo según rol y permisos:**\
+  Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
+* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt="" width="247"><figcaption></figcaption></figure>
 
-4. **Flujo de Autentificación.**
 
-El flujo para autentificarse en la aplicación será la siguiente:
+4. **Flujo de usuario.**
 
-* **Regitrarse.** El usuario deberá rellenar todos los campos y pulsar el botón de registrarse. Una vez se comprueben que todos los campos son correctos abrirá la pantalla de Iniciar Sesión.
-* **Iniciar sesión:** El usuario deberá introducir el correo electrónico y la contraseña proporcionados durante el registro. En caso de haber olvidado la contraseña, dispondrá de una opción para recuperarla. Una vez completados los campos, deberá pulsar el botón de inicio de sesión y, tras la verificación de los datos, se accederá al dashboard, donde se mostrará un mensaje de bienvenida.
+El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
 ```
-Registro → Iniciar Sesión → Dashboard
+Onboarding → Información Ligas.
+Dashboard → Información Liga escogida.
+Liga → Detalle de las Jornadas, Equipos y Clasificación.
+Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
+Perfil → Editar perfil / Cerrar sesión
 ```
 
-5. **Tabs principales.**
+**a. Onboarding.**
 
-Los tabs que podemos encontrar en nuestra aplicación son los siguientes:
+El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
-* **Dashboard:** Será la pantalla de inicio. Podremos elegir la liga que más nos interese visitar. Habrá un apartado donde se podrán ver los partidos en directo y los 3 proximos por disputar.
-* **Liga:** El usuario podrá consultar la clasificación de la liga, la cual se organiza en función de un sistema de puntuación predefinido (0 puntos por derrota, 1 por empate y 3 por victoria). Asimismo, se pueden visualizar de forma detallada de cada equipo los partidos jugados, victorias, derrotas, empates, goles a favor y goles en contra.
-* **Partido**: Dentro de esta sección, tendremos un tabs del estado en el que se encuentran los partidos (Directo, Programado, Finalizado) de la liga escogida.&#x20;
-* **Perfil.** Los campos estarán vacios hasta que el usuario decida registrarse o iniciar sesión.
+* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
+  Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
+* **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+**b. Dashboard.**
+
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
+
+* **Volver al onboarding.** El encabezado de la aplicación permite al usuario regresar a la pantalla de onboarding al ser pulsado.
+* **Ver notificaciones.** Al pulsar el icono de la campana en el encabezado, el usuario podrá visualizar todas las notificaciones recibidas, organizadas según su tipo (todas, en vivo, resultados, etc.). Para cerrar la pantalla pulsaremos el botón de retroceder.
+* **Ver plantillas.** Al pulsar ‘Ver plantilla’, se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
+* **Ver calendarios.** Al pulsar ‘Ver calendarios’, se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
+* **Ver partido programado.**&#x20;
+* **Inicializar Partido.**&#x20;
+* **Convocatoria.**
+* **Alineación Titular.**
+
+**c. Calendario.**
+
+La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
+
+* **Jornada**. Se podrán ver todos los partidos según el estado en el que se encuentren (en vivo, programados o finalizados).
+* **Equipo.**
+* **Clasificación.**
+
+**e. Estadísticas.**
+
+**f. Perfil.**
+
+El perfil es la pantalla donde el usuario puede ver y gestionar sus datos personales dentro de la aplicación.
+
+* **Editar Perfil**. Al seleccionar el icono de editar ubicado en la parte superior derecha, se mostrará una pantalla con los datos del usuario, permitiendo su modificación.
+* **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
 6. **Restricciones.**
 

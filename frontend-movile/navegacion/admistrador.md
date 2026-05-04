@@ -30,7 +30,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
   * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
-* **Añadir:** Aparecera un menú flotante para añadir partidos, crear calendarios, añadir equipos y gestionar usuarios.
+* **Añadir:** Aparecera un menú flotante **gestionar usuarios**.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
   * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
@@ -42,13 +42,9 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
 
 La navegación y las funcionalidades de la aplicación para usuarios autenticados presentan un comportamiento consistente y completo:
 
-* **Sin cabecera:**\
-  Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
-* **Acceso completo según rol y permisos:**\
-  Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
+* **Sin cabecera:** Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
+* **Acceso completo según rol y permisos:** Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
 * **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
-
-
 
 4. **Flujo de usuario.**
 
@@ -58,7 +54,7 @@ El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro
 Onboarding → Información Ligas.
 Dashboard → Información Liga escogida.
 Liga → Detalle de las Jornadas, Equipos y Clasificación.
-Añadir → Añadir Partidos, Crear Calendario, Añadir equipo y Gestionar Usuarios..
+Añadir → Gestionar Usuarios.
 Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
 Perfil → Editar perfil / Cerrar sesión
 ```
@@ -69,14 +65,13 @@ El **onboarding** su función es situar al usuario dentro de GoalApp antes de en
 
 *   **Crear liga.** Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
 
-    * Subir logo.
     * Nombre de la liga.
-    * Temporada,
-    * Categoría,
-    * Número mínimo y máximo de equipos,
-    * Mínimo y máximo de convocados,
+    * Temporada.
+    * Categoría.
+    * Número mínimo y máximo de equipos.
+    * Mínimo y máximo de convocados.
     * Mínimo y máximo de jugadores que forman parte de la plantilla.
-    * Duración de los partidos,
+    * Duración de los partidos.
     * Cantidad máxima de partidos.
 
     Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
@@ -128,20 +123,24 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 La tabs de ‘Añadir’ abrirá un modal desde el cual el administrador podrá seleccionar entre diferentes opciones:
 
-* **Añadir partido**: al pulsar esta opción, se abre un modal para la creación manual de un partido, donde se deben indicar los siguientes datos:
-  * Equipo local.
-  * Equipo visitante.
-  * Fecha.
-  * Hora.
-  * Estadio.
-  * Jornada.
+*
+
+**Añadir partido**: al pulsar esta opción, se abre un modal para la creación manual de un partido, donde se deben indicar los siguientes datos:
+
+
+
+* Equipo local.
+* Equipo visitante.
+* Fecha.
+* Hora.
+* Estadio.
+* Jornada.
 * **Crear calendario**: al seleccionar esta opción, se abre un modal en el que se definen los siguientes parámetros:
   * Tipo de calendario.
   * Fecha de inicio.
   * Días de partido.
   * Hora de los encuentros.
 * **Añadir equipo**: al pulsar esta opción, se abre un modal para crear un nuevo equipo, donde se deben introducir:
-  * Logo,
   * Nombre del equipo.
   * Ciudad.
   * Color.
@@ -149,8 +148,6 @@ La tabs de ‘Añadir’ abrirá un modal desde el cual el administrador podrá 
 * **Gestionar usuarios**: al seleccionar esta opción, se accede a una pantalla desde la que se pueden invitar nuevos usuarios, indicando:
   * Correo electrónico.
   * Rol dentro de la liga.
-
-
 
 **e. Estadísticas.**
 
