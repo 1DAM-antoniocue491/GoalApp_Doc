@@ -82,7 +82,7 @@ Las funciones de Onboarding son:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -127,12 +127,12 @@ Cuando confirma la acción, la liga se crea y el usuario queda asociado como **a
 
 
 {% columns %}
-{% column %}
+{% column valign="middle" %}
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (107).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -145,6 +145,16 @@ Cuando confirma la acción, la liga se crea y el usuario queda asociado como **a
   * Desaparece del filtro **Finalizadas.**
   * Vuelve a **Todas.**
   * La acción principal cambia a **Entrar**.
+
+{% columns %}
+{% column %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 **b. Dashboard.**
 

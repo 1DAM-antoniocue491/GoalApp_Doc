@@ -19,7 +19,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Inicio Sesión y Registrarse.**
 
@@ -68,7 +68,7 @@ Desde aquí el usuario puede:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
