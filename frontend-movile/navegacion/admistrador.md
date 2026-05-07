@@ -188,8 +188,8 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
     * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
     * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
     * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-* **Ver plantillas.** Al pulsar ‘Ver plantilla’, se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
-* **Ver calendarios.** Al pulsar ‘Ver calendarios’, se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
+* **Ver plantillas.** Al pulsar 'Ver plantilla', se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
+* **Ver calendarios.** Al pulsar 'Ver calendarios', se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
 * **Ver partido programado.**&#x20;
 * **Inicializar Partido.**&#x20;
 * **Convocatoria.**
