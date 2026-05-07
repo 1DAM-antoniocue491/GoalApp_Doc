@@ -36,7 +36,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 3. **Comportamiento Global.**
 
@@ -51,7 +51,7 @@ La navegación y las funcionalidades de la aplicación para usuarios autenticado
 El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
 ```
-Onboarding → Información Ligas.
+Onboarding → Creación Ligas.
 Dashboard → Información Liga escogida.
 Liga → Detalle de las Jornadas, Equipos y Clasificación.
 Añadir → Gestionar Usuarios.
@@ -63,24 +63,81 @@ Perfil → Editar perfil / Cerrar sesión
 
 El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
-*   **Crear liga.** Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
+Las funciones de Onboarding son:
 
-    * Nombre de la liga.
-    * Temporada.
-    * Categoría.
-    * Número mínimo y máximo de equipos.
-    * Mínimo y máximo de convocados.
-    * Mínimo y máximo de jugadores que forman parte de la plantilla.
-    * Duración de los partidos.
-    * Cantidad máxima de partidos.
+* **Crear liga.** Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
+  * Nombre de la liga.
+  * Temporada.
+  * Categoría.
+  * Cantidad máxima de partidos.
+  * Minutos posibles de los partidos.
 
-    Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
 
-    Si el usuario tiene permisos de administración sobre una liga, puede abrir el modal **Editar Liga** para actualizar esa configuración.\
-    Desde ahí también puede **eliminar la liga** si corresponde.
-* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
-  Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
+
+{% columns %}
+{% column valign="middle" %}
+
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
+
+* **Editar y eliminar**, desde el cual es posible modificar y actualizar la configuración de la misma e incluso eliminarla. En esta sección se puede editar información adicional relacionada con la liga, permitiendo una gestión más completa y personalizada. Si pulsa en los ajustes de la liga, se abre el modal **Configuración de Liga**, donde puede configurar datos como:
+  * Nombre de la liga.
+  * Temporada.
+  * Categoría.
+  * Número mínimo y máximo de equipos.
+  * Mínimo y máximo de convocados.
+  * Mínimo y máximo de jugadores que forman parte de la plantilla.
+  * Duración de los partidos.
+  * Cantidad máxima de partidos.
+
+{% columns %}
+{% column valign="middle" %}
+<div align="center"><figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**. Si el código es válido, la liga se añade a su cuenta y tendrá los permisos del rol asignado.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<div align="center"><figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
+
 * **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
+
+
+
+{% columns %}
+{% column %}
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
 * **Reactivar una liga.** Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
   Cuando la reactiva:
   * La liga vuelve a estar activa.

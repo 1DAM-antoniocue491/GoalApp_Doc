@@ -19,7 +19,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Inicio Sesión y Registrarse.**
 
@@ -54,6 +54,8 @@ Permitir el alta de nuevos usuarios en la plataforma.
 El **onboarding** es la primera sección que aparece después del login o del registro.\
 Su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
+{% columns %}
+{% column %}
 Desde aquí el usuario puede:
 
 * **crear una nueva liga.**
@@ -63,22 +65,38 @@ Desde aquí el usuario puede:
 * **filtrarlas** por estado.
 * **entrar** en una liga.
 * **reactivar** una liga finalizada.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Por tanto, esta sección no es todavía un panel operativo de partido o gestión diaria, sino el **punto de acceso y organización inicial** del sistema.
 
-
-
 3. **Dashboard (Inicio)**
 
-El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.\
-La base visual es la misma para todos los usuarios, pero las acciones disponibles cambian según su nivel de permiso.
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.<br>
+
+La **base visual** es la misma para todos los usuarios, pero las acciones disponibles cambian según su nivel de permiso.
+
+{% columns %}
+{% column %}
+
 
 El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a su rol para que pueda:
 
-* Consultar el estado general de la liga.
-* Actuar sobre los partidos si tiene permisos.
-* Revisar resultados recientes.
-* Acceder rápidamente a la información más relevante.
+* **Consultar información** general sobre la liga.
+* **Actuar sobre los partidos** si tiene permisos.
+* **Acceder rápidamente a la información** más relevante.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
 
 Los roles contemplados en esta sección son:
 
@@ -93,92 +111,87 @@ Los roles contemplados en esta sección son:
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-El objetivo de esta pantalla es:
 
-* Visualizar encuentros según su estado (en vivo, programado o finalizado),
-* Ver la información por jornadas, equipos y clasificación,
-* Iniciar encuentros según el rol,
-* Trabajar sobre convocatoria y previa del partido,
-* Crear partidos manualmente,
-* Generar el calendario automáticamente,
-* Editar tanto el calendario como partidos concretos.
-* Editar información de equipos.
 
-**a. Resultados Esperados.**
+{% columns %}
+{% column %}
+El **objetivo** de esta pantalla Jornada es:
 
-El **administrador** puede generar un calendario automático para toda la liga o crear partidos de forma manual.
+* **Visualizar encuentros según su estado** (en vivo, programado o finalizado).
+* **Iniciar encuentros** según el rol.
+* **Trabajar sobre convocatoria** del partido.
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y elimina tanto el calendario como partidos** concretos.
+* **Crear Equipos.**
+{% endcolumn %}
 
-Si pulsa **Crear calendario automático**, se abre un modal donde define:
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-* Tipo de calendario.
-* Fecha de inicio.
-* Días de partido.
-* Hora de los encuentros.
 
-Si ese calendario ya existe, puede abrir **Editar calendario** para actualizar esos parámetros generales.
 
-Si pulsa **Nuevo partido**, se abre un modal de creación manual del partido.\
-En este caso debe indicar:
 
-* Equipo local.
-* Equipo visitante.
-* Fecha.
-* Hora.
-* Estadio.
-* Jornada.
 
-Cuando el partido ha sido creado **manualmente**, su edición es **más completa**, porque permite modificar también:
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Equipos es:
 
-* Equipo local.
-* Equipo visitante.
-* Delegado del campo.
-* Fecha.
-* Hora.
-* Estadio.
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y eliminar el calendario**.
+* **Editar información de equipos.**
+* **Crear Equipos.**
+{% endcolumn %}
 
-Cuando el partido ha sido generado por el **calendario automático**, la edición es **más limitada**.\
-En ese caso no se modifican los equipos del enfrentamiento, sino solo datos operativos como:
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-* Fecha.
-* Hora.
-* Estadio.
+
+
+
+
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Clasificación es:
+
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y eliminar el calendario**.
+* **Visualizar la clasificación.**
+* **Crear Equipos.**
+
+
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 
 
 3. **Añadir.**
 
-El administrador cuando pulse aparecerá un menú flotante con diferentes opciones:
+El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación mediante invitaciones enviadas por correo electrónico, facilitando así su incorporación a nuestra liga de una forma más organizada y eficiente. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente. Aun así, consideramos que se trata de una característica importante para el futuro de la aplicación, por lo que profundizaremos más en ella en la sección de mejoras futuras, donde se detallarán las posibles ampliaciones y funcionalidades previstas.
 
-* Añadir Partido.
-* Crear Calendario.
-* Añadir Equipo.
-* Gestionar Usuarios.
+{% columns %}
+{% column valign="middle" %}
+El objetivo principal de add es:
 
-**a. Resultados Esperados.**
+* **Añadir usuarios y roles.**
+{% endcolumn %}
 
-* **Añadir partido**: al pulsar esta opción, se abre un modal para la creación manual de un partido, donde se deben indicar los siguientes datos:
-  * Equipo local.
-  * Equipo visitante.
-  * Fecha.
-  * Hora.
-  * Estadio.
-  * Jornada.
-* **Crear calendario**: al seleccionar esta opción, se abre un modal en el que se definen los siguientes parámetros:
-  * Tipo de calendario.
-  * Fecha de inicio.
-  * Días de partido.
-  * Hora de los encuentros.
-* **Añadir equipo**: al pulsar esta opción, se abre un modal para crear un nuevo equipo, donde se deben introducir:
-  * Logo,
-  * Nombre del equipo.
-  * Ciudad.
-  * Color.
-  * Estadio.
-* **Gestionar usuarios**: al seleccionar esta opción, se accede a una pantalla desde la que se pueden invitar nuevos usuarios, indicando:
-  * Correo electrónico.
-  * Rol dentro de la liga.
+{% column %}
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-
+&#x20;
 
 4. **Estadísticas**.
 
@@ -198,26 +211,21 @@ El objetivo de esta pantalla es permitir al usuario:
 
 El **Perfil** es la sección donde el usuario puede ver y gestionar su información personal dentro de la aplicación.
 
-El objetivo principal de esta pantalla es:
 
-* Ver la información personal.
-* Editar los datos básicos del usuario.
-* Cerrar la sesión actual.
 
-**a. Comportamiento esperado**
+{% columns %}
+{% column valign="middle" %}
 
-* **Ver Perfil.** Abre un modal con la información personal del usuario en modo consulta.
-* **Editar Perfil.** Cambia el modal a modo edición para actualizar los datos permitidos.
-* **Guardar.** Guarda los cambios realizados y devuelve el modal al modo visualización.
-* **Cancelar**. Descarta los cambios no guardados y vuelve al modo visualización
-* **Cerrar la sesión.** Finaliza la sesión del usuario y lo saca del sistema.
 
-**b. Reglas funcionales.**
+El **objetivo** principal de esta pantalla es:
 
-* El perfil siempre pertenece al **usuario autenticado**..
-* El modal puede cerrarse con el icono **X**.
-* En modo edición, solo deben poder modificarse los campos habilitados.
-* Si el usuario pulsa **Cancelar**, no se aplican cambios.
-* Si pulsa **Guardar**, la información se actualiza en su cuenta.
-* **Cerrar sesión** debe redirigir al iniciar sesión.
+* **Ver la información personal**.
+* **Editar los datos básicos** del usuario.
+* **Cerrar la sesión actual.**
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
