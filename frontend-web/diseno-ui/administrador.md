@@ -9,19 +9,16 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 * **Iniciar Sesión y Resgistrase:** El registro y el inicio de sesión son procesos fundamentales en la aplicación: el registro permite a un usuario crear una cuenta nueva introduciendo sus datos personales, mientras que el inicio de sesión le permite identificarse con esas credenciales para acceder a las funcionalidades privadas del sistema.
 * **Dashboard:** El **Dashboard** es la pantalla principal de la aplicación, a la que accede el usuario después de iniciar sesión. Desde aquí puede gestionar las funciones más importantes de forma rápida y sencilla.
 * **Inicio:** La **pantalla de Inicio** es la vista principal que aparece una vez que el usuario selecciona una liga. Desde aquí puede ver la información más relevante y acceder a las distintas funcionalidades relacionadas con esa liga.
-* **Calendario:** La pantalla de **Calendario** mostrara la información de la liga.
-  * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
-  * **Equipos.** Mostraran los distintos equipos que componen la liga.
-  * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
-* **Añadir:** Aparecera un menú flotante para añadir partidos, crear calendarios, añadir equipos y gestionar usuarios.
+* **Calendario:** La **pantalla de** **Calendario** se gestiona los encuentros de la liga.
+* **Equipos:** La **pantalla de Equipos** muestra todos los equipos que forman parte de la liga mediante una clasificación por puntos y permite crear nuevos equipos.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
-  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
-  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
-* **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
+* **Usuarios:** La **pantalla de Usuarios** es la sección donde el usuario puede invitar a otros usuarios a formar parte de la liga, asignándoles distintos roles definidos por el administrador.
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 2. **Inicio Sesión y Registrarse.**
+
+El registro y el inicio de sesión son procesos fundamentales en la aplicación: el registro permite a un usuario crear una cuenta nueva introduciendo sus datos personales, mientras que el inicio de sesión le permite identificarse con esas credenciales para acceder a las funcionalidades privadas del sistema.
 
 Sus objetivos principales son:
 
@@ -55,7 +52,9 @@ Permitir el alta de nuevos usuarios en la plataforma.
 
 3. **Onboarding.**
 
-El **onboarding** es la primera sección que aparece después del login o del registro.\
+El **Onboarding** es la pantalla principal de la aplicación, a la que accede el usuario después de iniciar sesión.&#x20;
+
+\
 Su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
 Desde aquí el usuario puede:
@@ -99,71 +98,32 @@ Los roles contemplados en esta sección son:
 
 2. **Calendario.**
 
-La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
+La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas.**
 
 El **objetivo** de esta pantalla Jornada es:
 
-* **Visualizar encuentros según su estado** (en vivo, programado o finalizado).
 * **Iniciar encuentros** según el rol.
 * **Trabajar sobre convocatoria** del partido.
 * **Crear partidos manualmente.**
 * **Generar el calendario automáticamente.**
 * **Editar y elimina tanto el calendario como partidos** concretos.
-* **Crear Equipos.**
+
+<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+
+3. **Equipos.**
+
+La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la liga, organizados en una clasificación por puntos según los resultados de los partidos. Además, desde esta sección es posible crear nuevos equipos.
+
+El **objetivo** de esta pantalla es:
+
+* **Visualizar clasificación** de la liga.
+* **Añadir nuevos equipos.**
+
+<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+
+4. **Estadísticas.**
 
 
-
-{% columns %}
-{% column %}
-
-{% endcolumn %}
-
-{% column valign="middle" %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-
-
-{% columns %}
-{% column valign="middle" %}
-El **objetivo** de esta pantalla Equipos es:
-
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y eliminar el calendario**.
-* **Editar información de equipos.**
-* **Crear Equipos.**
-{% endcolumn %}
-
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-
-
-{% columns %}
-{% column valign="middle" %}
-El **objetivo** de esta pantalla Clasificación es:
-
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y eliminar el calendario**.
-* **Visualizar la clasificación.**
-* **Crear Equipos.**
-
-
-{% endcolumn %}
-
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
 
 
 
