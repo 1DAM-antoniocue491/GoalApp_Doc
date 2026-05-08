@@ -193,12 +193,13 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 Dentro de Calendario tenemos diferentes opciones para realizar en la aplicación:
 
-* **Generar Calendario:** Podemos generar el calendario de dos maneras distintas. Una vez seleccionada una opción, la otra quedará deshabilitada y no podrá escogerse:
-  * **Crear Calendario:** Permite generar automáticamente un calendario en función de los equipos que formen parte de la liga al pulsar sobre la opción 'Crear Calendario'. Nos paracera un modal con diferentes campos a rellenar:
-    * Tipo de Calendario.
-    * Fecha de Inicio.
-    * Días de Partido.
-    * Hora de los partidos.
+Podemos **generar el calendario** de dos maneras distintas. Una vez seleccionada una opción, la otra quedará deshabilitada y no podrá escogerse:
+
+* **Crear Calendario:** Permite generar automáticamente un calendario en función de los equipos que formen parte de la liga al pulsar sobre la opción 'Crear Calendario'. Nos paracera un modal con diferentes campos a rellenar:
+  * Tipo de Calendario.
+  * Fecha de Inicio.
+  * Días de Partido.
+  * Hora de los partidos.
 
 
 
@@ -214,13 +215,34 @@ Dentro de Calendario tenemos diferentes opciones para realizar en la aplicación
 
 
 
-* **Nuevo Partido:** Permite generar manualmente un calendario en función de los equipos que formen parte de la liga. Al pulsar sobre la opción 'Nuevo Partido', se mostrará un modal con distintos campos que deberán completarse:
+*   **Nuevo Partido:** Permite generar manualmente un calendario en función de los equipos que formen parte de la liga. Al pulsar sobre la opción 'Nuevo Partido', se mostrará un modal con distintos campos que deberán completarse:
+
+    * Equipo Local.
+    * Equipo Visitante.
+    * Fecha y Hora.
 
 
 
-* Equipo Local.
-* Equipo Visitante.
-* Fecha y Hora.
+
+
+
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+* **Nuevo Partido:** Permite generar manualmente un calendario en función de los equipos que formen parte de la liga. Al pulsar sobre la opción 'Crear encuentro', se mostrará un modal con distintos campos que deberán completarse:
+  * Equipo Local.
+  * Equipo Visitante.
+  * Fecha y Hora.
 
 {% columns %}
 {% column valign="middle" %}
@@ -228,7 +250,7 @@ Dentro de Calendario tenemos diferentes opciones para realizar en la aplicación
 {% endcolumn %}
 
 {% column %}
-
+<figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -241,41 +263,38 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
   * Hora de Inicio.
 
 {% columns %}
-{% column %}
-
-
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
-
-
-* **Eliminar calendario**: Función para eliminar todos los partidos de la liga. Al pulsar sobre la opción 'Eliminar calendario', se mostrará un aviso de confirmación para evitar eliminaciones accidentales.:
+* **Eliminar calendario**: Función para eliminar todos los partidos de la liga. Al pulsar sobre la opción 'Eliminar calendario', se mostrará un aviso de confirmación para evitar eliminaciones accidentales:
 
 {% columns %}
-{% column %}
-
-
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
-Toda la información generada estará disponible a través de diferentes pestañas:
 
-* Jornada. Se di
-* Equipos. Se mostraran los diferentes equipos que contiene la liga.
+
+Si únicamente se desea editar un partido, también es posible hacerlo de forma individual:
+
+* Editar Partido: Debemos pulsar el botón de 'Editar' y nos aparecerá un modal
+
+<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
 
