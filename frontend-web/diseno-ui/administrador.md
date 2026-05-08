@@ -123,25 +123,19 @@ El **objetivo** de esta pantalla es:
 
 4. **Estadísticas.**
 
+La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
+
+Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
+
+<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 
 
-
-3. **Añadir.**
+3. **Usuarios.**
 
 El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación mediante invitaciones enviadas por correo electrónico, facilitando así su incorporación a nuestra liga de una forma más organizada y eficiente. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente. Aun así, consideramos que se trata de una característica importante para el futuro de la aplicación, por lo que profundizaremos más en ella en la sección de mejoras futuras, donde se detallarán las posibles ampliaciones y funcionalidades previstas.
 
-{% columns %}
-{% column valign="middle" %}
-El objetivo principal de add es:
-
-* **Añadir usuarios y roles.**
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
