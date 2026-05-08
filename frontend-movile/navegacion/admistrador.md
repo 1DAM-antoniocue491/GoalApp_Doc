@@ -2,7 +2,7 @@
 
 El administrador tiene el control total de la aplicación. Se encarga de crear y mantener la información actualizada, organizar a los equipos y jugadores, y asegurarse de que todo funcione sin problemas. Además, es quien toma decisiones importantes dentro de la plataforma.
 
-Puede crear equipos, añadir o eliminar jugadores, publicar convocatorias y alineaciones para los partidos, gestionar calendarios y resultados, y controlar el acceso de los usuarios. También supervisa que no haya errores y que la experiencia de uso sea correcta.
+Puede crear ligas, equipos, añadir o eliminar jugadores, publicar convocatorias y alineaciones para los partidos, gestionar calendarios y resultados, y controlar el acceso de los usuarios. También supervisa que no haya errores y que la experiencia de uso sea correcta.
 
 
 
@@ -30,7 +30,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
   * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
-* **Añadir:** Aparecera un menú flotante **gestionar usuarios**.
+* **Añadir:** Aparecera una pantalla para **gestionar usuarios**.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
   * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
@@ -262,15 +262,42 @@ Podemos generar el calendario de dos maneras distintas. Una vez seleccionada una
 
 
 
-Además la información se mostrará a través de diferentes tabs:
+Toda la información generada estará disponible a través de diferentes pestañas:
 
 * Jornada. Se di
+* Equipos. Se mostraran los diferentes equipos que contiene la liga.
+
+<figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
+
+* Clasificación. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
+
+<figure><img src="../../.gitbook/assets/image (114).png" alt="" width="188"><figcaption></figcaption></figure>
 
 **d. Añadir.**
 
+El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
 
+Podrán unir por dos formas diferentes:
+
+* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+
+{% columns %}
+{% column %}
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+* **Invitar.**
 
 **e. Estadísticas.**
+
+
 
 **f. Perfil.**
 
