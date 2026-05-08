@@ -55,6 +55,13 @@
   * [Jugador](frontend-web/diseno-ui/jugador.md)
   * [Usuario registrado](frontend-web/diseno-ui/usuario-registrado.md)
   * [Usuario no registrado](frontend-web/diseno-ui/usuario-no-registrado.md)
+* [Navegación](frontend-web/navegacion/README.md)
+  * [Administración](frontend-web/navegacion/administracion.md)
+  * [Entrenador](frontend-web/navegacion/entrenador.md)
+  * [Delegado de Campo](frontend-web/navegacion/delegado-de-campo.md)
+  * [Jugador](frontend-web/navegacion/jugador.md)
+  * [Usuario Registrado](frontend-web/navegacion/usuario-registrado.md)
+  * [Usuario sin Registrar](frontend-web/navegacion/usuario-sin-registrar.md)
 
 ## Frontend Movile
 
