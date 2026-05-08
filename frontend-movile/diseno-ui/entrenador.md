@@ -28,7 +28,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Dashboard (Inicio)**
 
@@ -38,7 +38,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 * Pondran ver el resultado de un partido en directo.
 * Programados en esa misma jornada de la liga escogida.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="157"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="157"><figcaption></figcaption></figure>
 
 3. **Liga.**
 
@@ -48,7 +48,7 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 * **Ranking de equipos.** Según el rendimiento de los equipos.
 * **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **a. Equipos.**&#x20;
 
@@ -62,7 +62,7 @@ El entrenador podrá **seguir a equipos,** mostrar la información de **temporad
 
 Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="308"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="308"><figcaption></figcaption></figure>
 
 **b. Jugadores.**
 
@@ -74,7 +74,7 @@ El jugador podrá ver la información de cada jugador y ver sus estadísticas pe
 * Fecha de nacimiento.
 * Género.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="138"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="" width="138"><figcaption></figcaption></figure>
 
 4. **Añadir.**
 
@@ -94,7 +94,7 @@ El jugador podrá visualizar los distintos partidos, claramente diferenciados se
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -104,7 +104,7 @@ Pulsando en los tres puntitos podremos:
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -122,7 +122,7 @@ Podremos visualizar los partidos que se encuentren finalizados según la liga qu
 
 El jugador podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="306"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="306"><figcaption></figcaption></figure>
 
 Pulsando en el botón de setting se podrá:
 

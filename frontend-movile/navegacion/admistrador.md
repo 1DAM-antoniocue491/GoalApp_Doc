@@ -148,11 +148,11 @@ Cuando confirma la acción, la liga se crea y el usuario queda asociado como **a
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -195,13 +195,115 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 * **Convocatoria.**
 * **Alineación Titular.**
 
-**c. Calendario.**
+
+
+2. **Calendario.**
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-* **Jornada**. Se podrán ver todos los partidos según el estado en el que se encuentren (en vivo, programados o finalizados).
-* **Equipo.**
-* **Clasificación.**
+Dentro de los tres puntitos tenemos diferentes opciones para realizar en la aplicación:
+
+* **Nuevo Equipo:** Permite añadir nuevos equipos a la liga al pulsar sobre la opción 'Nuevo Equipo'. Nos paracera un modal con diferentes campos a rellenar:
+  * Nombre del equipo.
+  * Ciudad.
+  * Color.
+  * Estadio.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+* **Crear Calendario:** Permite generar automáticamente un calendario en función de los equipos que formen parte de la liga al pulsar sobre la opción 'Crear Calendario'. Nos paracera un modal con diferentes campos a rellenar:
+  * Tipo de Calendario.
+  * Fecha de Inicio.
+  * Días de Partido.
+  * Hora de Inicio.
+
+
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+* **Nuevo Partido:** Permite generar automáticamente un calendario en función de los equipos que formen parte de la liga al pulsar sobre la opción 'Crear Calendario'. Nos paracera un modal con diferentes campos a rellenar
+
+
+
+{% columns %}
+{% column %}
+El **objetivo** de esta pantalla Jornada es:
+
+* **Visualizar encuentros según su estado** (en vivo, programado o finalizado).
+* **Iniciar encuentros** según el rol.
+* **Trabajar sobre convocatoria** del partido.
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y elimina tanto el calendario como partidos** concretos.
+* **Crear Equipos.**
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+
+
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Equipos es:
+
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y eliminar el calendario**.
+* **Editar información de equipos.**
+* **Crear Equipos.**
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+
+
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Clasificación es:
+
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y eliminar el calendario**.
+* **Visualizar la clasificación.**
+* **Crear Equipos.**
+
+
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 **d. Añadir.**
 
