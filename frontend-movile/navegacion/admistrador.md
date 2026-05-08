@@ -260,7 +260,9 @@ Podemos generar el calendario de dos maneras distintas. Una vez seleccionada una
 {% endcolumn %}
 {% endcolumns %}
 
+Una vez creada la liga podemos modificarla e incluso eliminarla:
 
+* Editar liga:
 
 Toda la información generada estará disponible a través de diferentes pestañas:
 
@@ -304,7 +306,20 @@ Podrán unir por dos formas diferentes:
 El perfil es la pantalla donde el usuario puede ver y gestionar sus datos personales dentro de la aplicación.
 
 * **Editar Perfil**. Al seleccionar el icono de editar ubicado en la parte superior derecha, se mostrará una pantalla con los datos del usuario, permitiendo su modificación.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (121).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
 * **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
+
+<figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
