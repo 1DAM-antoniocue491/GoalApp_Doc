@@ -133,44 +133,26 @@ Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y
 
 3. **Usuarios.**
 
-El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación mediante invitaciones enviadas por correo electrónico, facilitando así su incorporación a nuestra liga de una forma más organizada y eficiente. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente. Aun así, consideramos que se trata de una característica importante para el futuro de la aplicación, por lo que profundizaremos más en ella en la sección de mejoras futuras, donde se detallarán las posibles ampliaciones y funcionalidades previstas.
+El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
+
+Podrán unir por dos formas diferentes:
+
+* **Generando Codigo. S**e creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+* **Invitar.**
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
-
-4. **Estadísticas**.
-
-La pantalla **Estadísticas** reúne los principales datos de rendimiento de la liga en una sola vista.\
-Su estructura general es común para todos los roles, pero cambia en un punto clave: **si el usuario es jugador, aparece además el bloque “Mis estadísticas”** con sus datos personales dentro de la competición.
-
-El objetivo de esta pantalla es permitir al usuario:
-
-* Consultar el estado estadístico de la temporada.
-* Identificar a los jugadores y equipos más destacados.
-* Revisar tendencias generales de rendimiento.
-* Si el usuario es jugador, visualizar también su aportación personal.
-
-
 
 5. **Perfil**
 
 El **Perfil** es la sección donde el usuario puede ver y gestionar su información personal dentro de la aplicación.
-
-
-
-{% columns %}
-{% column valign="middle" %}
-
 
 El **objetivo** principal de esta pantalla es:
 
 * **Ver la información personal**.
 * **Editar los datos básicos** del usuario.
 * **Cerrar la sesión actual.**
-{% endcolumn %}
 
-{% column %}
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+<figure><img src="../../.gitbook/assets/image (136).png" alt="" width="255"><figcaption></figcaption></figure>
+
+
+
