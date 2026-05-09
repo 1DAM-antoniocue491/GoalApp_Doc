@@ -2,107 +2,156 @@
 
 El usuario podrá seguir ligas y equipos de su interés, consultar resultados en directo o ya finalizados, explorar partidos programados y acceder a información detallada como clasificaciones actualizadas, alineaciones y convocatorias de cada encuentro.
 
+
+
 1. **Navegación principal.**
 
 La aplicación incluira una barra de navegación persistente con las siguientes secciones:
 
-* **Dashboard:** Se trata de la pantalla de inicio de la aplicación, que permite visualizar la información más importante sobre la liga.
-*   **Liga:** Mostrara la información de la liga.
+* **Inicio:** La **pantalla de Inicio** es la vista principal que aparece una vez que el usuario selecciona una liga. Desde aquí puede ver la información más relevante y acceder a las distintas funcionalidades relacionadas con esa liga.
+* **Calendario:** La pantalla de **Calendario** mostrara la información de la liga.
+  * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
+  * **Equipos.** Mostraran los distintos equipos que componen la liga.
+  * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
+* **Añadir:** Aparecera un menú flotante para gestionar usuarios.
+* **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
+  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
+  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
+* **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-    * Clasificación. Consultar la clasificación de la liga según los equipos.
-    * Equipo. Clasificaciones según criterios como máximos goleadores, victorias, etc.
-    * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
+3. **Dashboard (Inicio)**
 
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
-*   **Partido**: Consulta el estado de los partidos.&#x20;
+La **base visual** es la misma para todos los usuarios, pero las acciones disponibles cambian según su nivel de permiso.
 
-    * Directo. Ver los partidos en directo.
-    * Programado. Ver los partidos programados.
-    * Finalizado. Ver los partidos finalizados.
+{% columns %}
+{% column %}
 
 
+El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a su rol para que pueda:
 
-    <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
-* **Perfil:** Permite ver la información del usuario registrado.
+* **Consultar información** general sobre la liga.
+* **Actuar sobre los partidos** si tiene permisos.
+* **Acceder rápidamente a la información** más relevante.
+{% endcolumn %}
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../.gitbook/assets/image (185).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-2. **Dashboard (Inicio)**
 
-&#x20;El **dashboard** actúa como pantalla principal y se le muestra:
 
-* La bienvenida a la aplicación al usuario iniciado sesión.
-* Pondran ver el resultado de un partido en directo.
-* Programados en esa misma jornada de la liga escogida.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
-3. **Liga.**
+2. **Calendario.**
 
-Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
+La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-* **La clasificación general**. El ranking se basa según los partidos ganados (3 puntos), empatados (1 punto) y perdidos (0 puntos).&#x20;
-* **Ranking de equipos.** Según el rendimiento de los equipos.
-* **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-a. **Equipos.**&#x20;
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Jornada es:
 
-El usuario podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
+* **Visualizar encuentros según su estado** (en vivo, programado o finalizado).
+* **Trabajar sobre convocatoria** del partido.
+{% endcolumn %}
 
-* Nombre.
-* Descripción.
-* Colores principales.
-* Entrenador.
-* Delegado de campo.
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="331"><figcaption></figcaption></figure>
 
-**b. Jugadores.**
 
-El usuario podrá ver la información de cada jugador y ver sus estadísticas personales:
 
-* Nombre del equipo.
-* Posición.
-* Dorsal.
-* Fecha de nacimiento.
-* Género.
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Equipos es:
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="138"><figcaption></figcaption></figure>
+* **Visualizar equipos que** forman parte de la lig&#x61;**.**
+{% endcolumn %}
 
-4. **Partidos**.
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-El usuario podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
 
-a.  **Directo.**
 
-Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-b. **Programados**.
+{% columns %}
+{% column valign="middle" %}
+El **objetivo** de esta pantalla Clasificación es:
 
-Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
+* **Visualizar la clasificación.**
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-c. **Finalizados**.
+{% endcolumn %}
 
-Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-5. **Perfil**.
 
-El usuario podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
+3. **Añadir.**
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt="" width="317"><figcaption></figcaption></figure>
+El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación. El rol de usuario Observador no dispone de permisos para invitar a otros usuarios a la liga.
 
-Pulsando en el botón de setting se podrá:
+{% columns %}
+{% column valign="middle" %}
+El objetivo principal de add es:
 
-* Cerrar Sesión.
+* **Visualizar miembros** que forman parte de la misma.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (184).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+&#x20;
+
+4. **Estadísticas**.
+
+La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
+
+{% columns %}
+{% column valign="middle" %}
+Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (181).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+5. **Perfil**
+
+El **Perfil** es la sección donde el usuario puede ver y gestionar su información personal dentro de la aplicación.
+
+{% columns %}
+{% column valign="middle" %}
+
+
+El **objetivo** principal de esta pantalla es:
+
+* **Ver la información personal**.
+* **Editar los datos básicos** del usuario.
+* **Cerrar la sesión actual.**
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}

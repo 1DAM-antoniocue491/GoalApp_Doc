@@ -115,7 +115,7 @@ El objetivo principal de add es:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (180).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (183).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
