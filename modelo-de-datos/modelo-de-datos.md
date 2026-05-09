@@ -17,7 +17,18 @@ Incluye:
 
 Su función es servir como entidad base para todos los perfiles del sistema (jugadores, entrenadores, delegados, administradores).
 
-<table><thead><tr><th width="116.6666259765625">Campo</th><th>Descripción</th><th>Tipo de dato</th><th>Obligatorio</th><th>Único</th></tr></thead><tbody><tr><td>id_usuario (PK)</td><td>Identificador único del usuario</td><td>INT</td><td>Sí</td><td>Sí</td></tr><tr><td>nombre</td><td>Nombre completo del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>No</td></tr><tr><td>email</td><td>Correo electrónico del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>Sí</td></tr><tr><td>contraseña_hash</td><td>Contraseña encriptada</td><td>VARCHAR(255)</td><td>Sí</td><td>No</td></tr><tr><td>genero</td><td>Género del usuario</td><td>VARCHAR (50)</td><td>No</td><td>No</td></tr><tr><td>telefono</td><td>Teléfono del usuario</td><td>VARCHAR(20)</td><td>No</td><td>No</td></tr><tr><td>fecha_nacimiento</td><td>Fecha de nacimento del usuario</td><td>DATE</td><td>No</td><td>No</td></tr><tr><td>imagen_url</td><td>Imagen</td><td>VARCHAR(255)</td><td>NO</td><td>No</td></tr><tr><td>created_at</td><td>Fecha de creación</td><td>TIMESTAMP</td><td>Sí</td><td>No</td></tr><tr><td>updated_at</td><td>Fecha de actualización</td><td>TIMESTAMP</td><td>Sí</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="116.6666259765625">Campo</th><th>Descripción</th><th>Tipo de dato</th><th>Obligatorio</th><th>Único</th></tr></thead><tbody><tr><td>id_usuario (PK)</td><td>Identificador único del usuario</td><td>INT</td><td>Sí</td><td>Sí</td></tr><tr><td>nombre</td><td>Nombre completo del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>No</td></tr><tr><td>email</td><td>Correo electrónico del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>Sí</td></tr><tr><td>contraseña_hash</td><td>Contraseña encriptada</td><td>VARCHAR(255)</td><td>Sí</td><td>No</td></tr><tr><td>genero</td><td>Género del usuario</td><td>VARCHAR (50)</td><td>No</td><td>No</td></tr><tr><td>telefono</td><td>Teléfono del usuario</td><td>VARCHAR(20)</td><td>No</td><td>No</td></tr><tr><td>fecha_nacimiento</td><td>Fecha de nacimento del usuario</td><td>DATE</td><td>No</td><td>No</td></tr><tr><td>imagen_url</td><td>Imagen</td><td>VARCHAR(255)</td><td>NO</td><td>No</td></tr><tr><td>created_at</td><td>Fecha de creación</td><td>TIMESTAMPTZ</td><td>Sí</td><td>No</td></tr><tr><td>updated_at</td><td>Fecha de actualización</td><td>TIMESTAMPTZ</td><td>Sí</td><td>No</td></tr></tbody></table>
+
+#### **usuario sigue ligas**
+
+| Campo               | Descripción           | Tipo de dato | Obligatorio | Único |
+| ------------------- | --------------------- | ------------ | ----------- | ----- |
+| id\_seguimiento(PK) | Identificador del rol | INT          | Sí          | Sí    |
+| id\_usuario (FK)    | usuario asignado      | INT          | Sí          | No    |
+| id\_liga            | Liga asignada         | INT          | Sí          | No    |
+| created\_at         | Fecha de creación     | TIMESTAMPTZ  | Sí          | No    |
+
+####
 
 #### **roles**
 
@@ -37,8 +48,8 @@ Los roles permiten controlar el acceso a funcionalidades específicas.
 | id\_rol (PK) | Identificador del rol     | INT          | Sí          | Sí    |
 | nombre       | Nombre del rol            | VARCHAR(50)  | Sí          | Sí    |
 | descripcion  | Breve descripción del rol | VARCHAR(255) | No          | No    |
-| created\_at  | Fecha de creación         | TIMESTAMP    | Sí          | No    |
-| updated\_at  | Fecha de actualización    | TIMESTAMP    | Sí          | No    |
+| created\_at  | Fecha de creación         | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at  | Fecha de actualización    | TIMESTAMPTZ  | Sí          | No    |
 
 #### **usuario\_rol**
 
@@ -57,8 +68,8 @@ Permite:
 | id\_rol (FK)          | Rol asignado                 | INT          | Sí          | No    |
 | id\_liga (FK)         | Liga asignada                | INT          | Sí          | No    |
 | activo                | Liga activa                  | INT          | Sí          | No    |
-| created\_at           | Fecha de creación            | TIMESTAMP    | Sí          | No    |
-| updated\_at           | Fecha de actualización       | TIMESTAMP    | Sí          | No    |
+| created\_at           | Fecha de creación            | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at           | Fecha de actualización       | TIMESTAMPTZ  | Sí          | No    |
 
 ### **2. Jugadores y Personal Técnico**
 
@@ -83,8 +94,8 @@ Esta tabla permite diferenciar a los jugadores del resto de perfiles del sistema
 | posicion         | Posición del jugador               | VARCHAR(50)  | Sí          | No    |
 | dorsal           | Número en la camiseta              | INT          | Sí          | No    |
 | activo           | Indica si está activo en el equipo | BOOLEAN      | Sí          | No    |
-| created\_at      | Fecha de creación                  | TIMESTAMP    | Sí          | No    |
-| updated\_at      | Fecha de actualización             | TIMESTAMP    | Sí          | No    |
+| created\_at      | Fecha de creación                  | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at      | Fecha de actualización             | TIMESTAMPTZ  | Sí          | No    |
 
 ### **3. Ligas, Equipos y Temporadas**
 
@@ -98,13 +109,37 @@ Incluye:
 * Año o temporada.
 * Configuración general.
 
-| Campo         | Descripción               | Tipo de dato | Obligatorio | Único |
-| ------------- | ------------------------- | ------------ | ----------- | ----- |
-| id\_liga (PK) | Identificador de la liga  | INT          | Sí          | Sí    |
-| nombre        | Nombre de la liga         | VARCHAR(100) | Sí          | Sí    |
-| temporada     | Temporada correspondiente | VARCHAR(20)  | Sí          | No    |
-| created\_at   | Fecha de creación         | TIMESTAMP    | Sí          | No    |
-| updated\_at   | Fecha de actualización    | TIMESTAMP    | Sí          | No    |
+| Campo              | Descripción                     | Tipo de dato | Obligatorio | Único |
+| ------------------ | ------------------------------- | ------------ | ----------- | ----- |
+| id\_liga (PK)      | Identificador de la liga        | INT          | Sí          | Sí    |
+| nombre             | Nombre de la liga               | VARCHAR(100) | Sí          | Sí    |
+| temporada          | Temporada correspondiente       | VARCHAR(20)  | Sí          | No    |
+| categoria          | Categoria de la liga            | VARCHAR(50)  | No          | No    |
+| activa             | Estado de la liga               | BOOLEAN      | Sí          | No    |
+| cantidad\_partidos | Cantidad de partidos de la liga | INT          | No          | No    |
+| duracion\_partido  | Duración de los partidos        | INT          | No          | No    |
+| created\_at        | Fecha de creación               | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at        | Fecha de actualización          | TIMESTAMPTZ  | Sí          | No    |
+
+#### configuración de la liga
+
+| Campo                          | Descripción                       | Tipo de dato | Obligatorio | Único |
+| ------------------------------ | --------------------------------- | ------------ | ----------- | ----- |
+| id\_configuracion (PK)         | Identificador de la liga          | INT          | Sí          | Sí    |
+| id\_liga                       | Liga asignada                     | INT          | Sí          | Sí    |
+| hora\_partidos                 | Hora del partido                  | TIME         | Sí          | No    |
+| min\_equipos                   | Mínimo de equipos                 | INT          | Sí          | No    |
+| max\_equipos                   | Máximo de equipos                 | INT          | Sí          | No    |
+| min\_convocados                | Mínimo de convocados              | INT          | Sí          | No    |
+| max\_convocados                | Máximo de convocados              | INT          | Sí          | No    |
+| min\_plantilla                 | Mínimo de jugadores en plantilla  | INT          | Sí          | No    |
+| max\_plantilla                 | Máximo de jugadores en plantilla  | INT          | Sí          | No    |
+| min\_juadores\_equipo          | Mínimo de jugadores en el equipo  | INT          | Sí          | No    |
+| min\_jugadores\_entre\_equipos | Mínimo de jugadores entre equipos | INT          | Sí          | No    |
+| minutos\_partido               | Mínutos de partidos               | INT          | Sí          | No    |
+| max\_partidos                  | Máximo de partidos                | INT          | Sí          | No    |
+| created\_at                    | Fecha de creación                 | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at                    | Fecha de actualización            | TIMESTAMPTZ  | Sí          | No    |
 
 #### **equipos**
 
@@ -124,13 +159,15 @@ Cada equipo puede tener múltiples jugadores, pero solo un entrenador y un deleg
 | ------------------- | ------------------------------------- | ------------ | ----------- | ----- |
 | id\_equipo (PK)     | Identificador del equipo              | INT          | Sí          | Sí    |
 | nombre              | Nombre del equipo                     | VARCHAR(100) | Sí          | Sí    |
+| ciudad              | Ciudad del equipo                     | VARCHAR(255) | No          | No    |
 | escudo              | URL o referencia al escudo del equipo | VARCHAR(255) | No          | No    |
 | colores             | Colores representativos del equipo    | VARCHAR(50)  | No          | No    |
 | id\_liga (FK)       | Liga a la que pertenece               | INT          | Sí          | No    |
 | id\_entrenador (FK) | Usuario que actúa como entrenador     | INT          | Sí          | No    |
 | id\_delegado (FK)   | Usuario que actúa como delegado       | INT          | Sí          | No    |
-| created\_at         | Fecha de creación                     | TIMESTAMP    | Sí          | No    |
-| updated\_at         | Fecha de actualización                | TIMESTAMP    | Sí          | No    |
+| estadio             | Nombre del estadio                    | VARCHAR(255) | No          | No    |
+| created\_at         | Fecha de creación                     | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at         | Fecha de actualización                | TIMESTAMPTZ  | Sí          | No    |
 
 ### **4. Partidos y Eventos**
 
@@ -152,16 +189,17 @@ Es una de las tablas centrales del sistema.
 | -------------------------- | ------------------------------ | ------------ | ----------- | ----- |
 | id\_partido (PK)           | Identificador del partido      | INT          | Sí          | Sí    |
 | id\_liga (FK)              | Liga del partido               | INT          | Sí          | No    |
+| id\_jornada                | Jornada                        | INT          | Sí          | No    |
 | id\_equipo\_local (FK)     | Equipo local                   | INT          | Sí          | No    |
 | id\_equipo\_visitante (FK) | Equipo visitante               | INT          | Sí          | No    |
-| fecha                      | Fecha y hora del partido       | TIMESTAMP    | Sí          | No    |
+| fecha                      | Fecha y hora del partido       | TIMESTAMPTZ  | Sí          | No    |
 | estado                     | Programado, jugado o cancelado | VARCHAR(50)  | Sí          | No    |
 | goles\_local               | Goles del equipo local         | INT          | No          | No    |
 | goles\_visitante           | Goles del equipo visitante     | INT          | No          | No    |
-| created\_at                | Fecha de creación              | TIMESTAMP    | Sí          | No    |
-| updated\_at                | Fecha de actualización         | TIMESTAMP    | Sí          | No    |
+| created\_at                | Fecha de creación              | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at                | Fecha de actualización         | TIMESTAMPTZ  | Sí          | No    |
 
-#### **eventos\_partido**
+#### **evento\_partido**
 
 Almacena los eventos ocurridos durante un partido.
 
@@ -180,107 +218,44 @@ Incluye:
 * Equipo correspondiente.
 * Relación con el partido.
 
-| Campo            | Descripción                                | Tipo de dato | Obligatorio | Único |
-| ---------------- | ------------------------------------------ | ------------ | ----------- | ----- |
-| id\_evento (PK)  | Identificador del evento                   | INT          | Sí          | Sí    |
-| id\_partido (FK) | Partido asociado                           | INT          | Sí          | No    |
-| id\_jugador (FK) | Jugador involucrado                        | INT          | Sí          | No    |
-| tipo\_evento     | Tipo de evento (gol, tarjeta, cambio, MVP) | VARCHAR(50)  | Sí          | No    |
-| minuto           | Minuto en que ocurrió                      | INT          | Sí          | No    |
-| created\_at      | Fecha de creación                          | TIMESTAMP    | Sí          | No    |
-| updated\_at      | Fecha de actualización                     | TIMESTAMP    | Sí          | No    |
+| Campo                | Descripción                                | Tipo de dato | Obligatorio | Único |
+| -------------------- | ------------------------------------------ | ------------ | ----------- | ----- |
+| id\_convocatoria(PK) | Identificador del evento                   | INT          | Sí          | Sí    |
+| id\_partido (FK)     | Partido asociado                           | INT          | Sí          | No    |
+| id\_jugador (FK)     | Jugador involucrado                        | INT          | Sí          | No    |
+| tipo\_evento         | Tipo de evento (gol, tarjeta, cambio, MVP) | VARCHAR(50)  | Sí          | No    |
+| minuto               | Minuto en que ocurrió                      | INT          | Sí          | No    |
+| created\_at          | Fecha de creación                          | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at          | Fecha de actualización                     | TIMESTAMPTZ  | Sí          | No    |
 
-### **5. Formaciones y Alineaciones**
+### **5. Convocatoria y Alineaciones**
 
-#### **formaciones**
+#### **convocatoria**
 
-Define las formaciones tácticas disponibles para los equipos.
+Define la alineaciónes del partido para los equipos.
 
-{% hint style="success" %}
+| Campo               | Descripción                   | Tipo de dato | Obligatorio | Único |
+| ------------------- | ----------------------------- | ------------ | ----------- | ----- |
+| id\_alineacion (PK) | Identificador de la formación | INT          | Sí          | Sí    |
+| id\_partido (FK)    | Partido asignado              | INT          | Sí          | Sí    |
+| id\_jugador (FK)    | Jugador asignado              | INT          | Sí          | No    |
+| es\_titular         | Estado jugador                | BOOLEAN      | Sí          | No    |
+| created\_at         | Fecha de creación             | TIMESTAMPTZ  | Sí          | No    |
 
+#### **alineaciones**
 
-**Ejemplos:**
+Define la alineaciónes del partido para los equipos.
 
-* 4-3-3
-* 4-4-2
-* 3-5-2
-{% endhint %}
+| Campo               | Descripción                   | Tipo de dato | Obligatorio | Único |
+| ------------------- | ----------------------------- | ------------ | ----------- | ----- |
+| id\_alineacion (PK) | Identificador de la formación | INT          | Sí          | Sí    |
+| id\_partido (FK)    | Partido asignado              | INT          | Sí          | Sí    |
+| id\_jugador (FK)    | Jugador asignado              | INT          | Sí          | No    |
+| titular             | Estado jugador                | BOOLEAN      | Sí          | No    |
+| created\_at         | Fecha de creación             | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at         | Fecha de actualización        | TIMESTAMP    | Sí          | No    |
 
-Incluye:
-
-* Nombre o código de la formación.
-* Número de jugadores por línea.
-
-| Campo              | Descripción                        | Tipo de dato | Obligatorio | Único |
-| ------------------ | ---------------------------------- | ------------ | ----------- | ----- |
-| id\_formacion (PK) | Identificador de la formación      | INT          | Sí          | Sí    |
-| nombre             | Nombre de la formación (ej. 4-3-3) | VARCHAR(20)  | Sí          | Sí    |
-| created\_at        | Fecha de creación                  | TIMESTAMP    | Sí          | No    |
-| updated\_at        | Fecha de actualización             | TIMESTAMP    | Sí          | No    |
-
-#### **posicion**
-
-Define las posiciones dentro de una formación.
-
-{% hint style="success" %}
-
-
-**Ejemplos:**
-
-* GK (portero)
-* CB (central)
-* CM (centrocampista)
-* ST (delantero)
-{% endhint %}
-
-Cada posición está asociada a una formación.
-
-| Campo              | Descripción                  | Tipo de dato | Obligatorio | Único |
-| ------------------ | ---------------------------- | ------------ | ----------- | ----- |
-| id\_posicion (PK)  | Identificador de la posición | INT          | Sí          | Sí    |
-| id\_formacion (FK) | Formación a la que pertenece | INT          | Sí          | No    |
-| nombre             | Nombre de la posición        | VARCHAR(50)  | Sí          | No    |
-| created\_at        | Fecha de creación            | TIMESTAMP    | Sí          | No    |
-| updated\_at        | Fecha de actualización       | TIMESTAMP    | Sí          | No    |
-
-#### **formacion\_equipo**
-
-Relaciona las formaciones disponibles para un equipo.
-
-Permite:
-
-* Registrar qué formaciones puede utilizar un equipo.
-* Preparar alineaciones previas a los partidos.
-
-| Campo                      | Descripción            | Tipo de dato | Obligatorio | Único |
-| -------------------------- | ---------------------- | ------------ | ----------- | ----- |
-| id\_formacion\_equipo (PK) | Identificador          | INT          | Sí          | Sí    |
-| id\_equipo (FK)            | Equipo asociado        | INT          | Sí          | No    |
-| id\_formacion (FK)         | Formación asignada     | INT          | Sí          | No    |
-| created\_at                | Fecha de creación      | TIMESTAMP    | Sí          | No    |
-| updated\_at                | Fecha de actualización | TIMESTAMP    | Sí          | No    |
-
-#### **formacion\_partido**
-
-Define la formación utilizada por un equipo en un partido específico.
-
-Incluye:
-
-* Equipo.
-* Partido.
-* Formación seleccionada.
-* Alineación asociada.
-
-| Campo                       | Descripción                   | Tipo de dato | Obligatorio | Único |
-| --------------------------- | ----------------------------- | ------------ | ----------- | ----- |
-| id\_formacion\_partido (PK) | Identificador                 | INT          | Sí          | Sí    |
-| id\_partido (FK)            | Partido asociado              | INT          | Sí          | No    |
-| id\_equipo (FK)             | Equipo que usará la formación | INT          | Sí          | No    |
-| id\_formacion (FK)          | Formación utilizada           | INT          | Sí          | No    |
-| created\_at                 | Fecha de creación             | TIMESTAMP    | Sí          | No    |
-| updated\_at                 | Fecha de actualización        | TIMESTAMP    | Sí          | No    |
-
-### **6. Notificaciones**
+#### **6. Notificaciones**
 
 #### **notificaciones**
 
@@ -300,8 +275,27 @@ Incluye:
 | id\_usuario (FK)      | Usuario receptor                    | INT          | Sí          | No    |
 | mensaje               | Contenido de la notificación        | TEXT         | Sí          | No    |
 | leida                 | Indica si la notificación fue leída | BOOLEAN      | Sí          | No    |
-| created\_at           | Fecha de creación                   | TIMESTAMP    | Sí          | No    |
-| updated\_at           | Fecha de actualización              | TIMESTAMP    | Sí          | No    |
+| created\_at           | Fecha de creación                   | TIMESTAMPTZ  | Sí          | No    |
+| updated\_at           | Fecha de actualización              | TIMESTAMPTZ  | Sí          | No    |
+
+### **7. Recuperación de contraseña.**
+
+#### token
+
+| Campo             | Descripción                      | Tipo de dato | Obligatorio | Único |
+| ----------------- | -------------------------------- | ------------ | ----------- | ----- |
+| id\_token (PK)    | Identificador de la notificación | INT          | Sí          | Sí    |
+| id\_usuario (FK)  | Usuario receptor                 | INT          | Sí          | No    |
+| token             | token                            | VARCHAR(255) | Sí          | Sí    |
+| fecha\_expiración | Fecha en caducar                 | TIMESTAMPTZ  | Sí          | No    |
+| usado             | Estado                           | BOOLEAN      | Sí          | No    |
+| created\_at       | Fecha de creación                | TIMESTAMPTZ  | Sí          | No    |
+
+### **8. Invitar a un usuario.**
+
+Define las invitaciónes de un usuario a una liga:
+
+
 
 ### **7. Auditoría**
 
