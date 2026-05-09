@@ -25,10 +25,10 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 3. **Comportamiento Global.**
 
-La navegación y las funcionalidades de la aplicación para el rol de usuario Entrenador presentan un comportamiento consistente y adaptado a sus permisos:
+La navegación y las funcionalidades de la aplicación para el rol de usuario observador presentan un comportamiento consistente y adaptado a sus permisos:
 
-* **Acceso según rol y permisos:** El entrenador dispone de acceso a las secciones y funcionalidades habilitadas para la gestión de su equipo dentro de la liga.
-* **Gestión y validación de acciones:** El entrenador puede consultar información detallada relacionada con equipos, partidos y jugadores, además de gestionar acciones específicas como convocatorias y alineaciones.
+* **Acceso según rol y permisos:** El observador dispone de acceso las secciones habilitadas a su rol. Solo tendrá permisos de visulización.
+* **Gestión y validación de acciones:** El entrenador puede consultar información relacionada con equipos, partidos y jugadores.
 
 
 
@@ -39,10 +39,10 @@ El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro
 ```
 Onboarding → Creación Ligas.
 Dashboard → Información Liga escogida.
-Liga → Detalle de las Jornadas, Equipos y Clasificación.
-Añadir → Gestionar Usuarios.
+Calendario → Detalle de las Jornadas.
+Equipos → Clasificaión liga, detalle de los Partidos.
 Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
-Perfil → Editar perfil / Cerrar sesión
+Usuarios → Ver usuarios de la liga.
 ```
 
 **a. Onboarding.**
@@ -200,7 +200,7 @@ La **pantalla de Estadísticas** muestra de forma detallada la información más
 
 La página de **Usuarios** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
 
-El rol de usuario Observador no dispone de permisos para invitar a nuevos usuarios, por lo que únicamente puede visualizar a los miembros que forman parte de la liga.
+El rol de usuario Observador **no dispone de permisos para invitar a nuevos usuarios**, por lo que únicamente puede visualizar a los miembros que forman parte de la liga.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
