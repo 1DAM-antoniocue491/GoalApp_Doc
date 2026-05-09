@@ -17,7 +17,7 @@ Incluye:
 
 Su función es servir como entidad base para todos los perfiles del sistema (jugadores, entrenadores, delegados, administradores).
 
-<table><thead><tr><th width="116.6666259765625">Campo</th><th>Descripción</th><th>Tipo de dato</th><th>Obligatorio</th><th>Único</th></tr></thead><tbody><tr><td>id_usuario (PK)</td><td>Identificador único del usuario</td><td>INT</td><td>Sí</td><td>Sí</td></tr><tr><td>nombre</td><td>Nombre completo del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>No</td></tr><tr><td>genero</td><td>Género del usuario</td><td>VARCHAR (50)</td><td>No</td><td>No</td></tr><tr><td>telefono</td><td>Telefono del usuario</td><td>VARCHAR(20)</td><td>No</td><td>No</td></tr><tr><td>fecha_nacimiento</td><td>Fecha de nacimento del usuario</td><td>DATE</td><td>No</td><td>No</td></tr><tr><td>email</td><td>Correo electrónico del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>Sí</td></tr><tr><td>Telefono</td><td>Telefono del usuario</td><td>VARCHAR(100)</td><td>No</td><td>Sí</td></tr><tr><td>fecha de nacimiento</td><td>Fecha de nacimiento de</td><td>DATE</td><td>No</td><td>No</td></tr><tr><td>contraseña_hash</td><td>Contraseña encriptada</td><td>VARCHAR(255)</td><td>Sí</td><td>No</td></tr><tr><td>created_at</td><td>Fecha de creación</td><td>TIMESTAMP</td><td>Sí</td><td>No</td></tr><tr><td>updated_at</td><td>Fecha de actualización</td><td>TIMESTAMP</td><td>Sí</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="116.6666259765625">Campo</th><th>Descripción</th><th>Tipo de dato</th><th>Obligatorio</th><th>Único</th></tr></thead><tbody><tr><td>id_usuario (PK)</td><td>Identificador único del usuario</td><td>INT</td><td>Sí</td><td>Sí</td></tr><tr><td>nombre</td><td>Nombre completo del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>No</td></tr><tr><td>email</td><td>Correo electrónico del usuario</td><td>VARCHAR(100)</td><td>Sí</td><td>Sí</td></tr><tr><td>contraseña_hash</td><td>Contraseña encriptada</td><td>VARCHAR(255)</td><td>Sí</td><td>No</td></tr><tr><td>genero</td><td>Género del usuario</td><td>VARCHAR (50)</td><td>No</td><td>No</td></tr><tr><td>telefono</td><td>Teléfono del usuario</td><td>VARCHAR(20)</td><td>No</td><td>No</td></tr><tr><td>fecha_nacimiento</td><td>Fecha de nacimento del usuario</td><td>DATE</td><td>No</td><td>No</td></tr><tr><td>imagen_url</td><td>Imagen</td><td>VARCHAR(255)</td><td>NO</td><td>No</td></tr><tr><td>created_at</td><td>Fecha de creación</td><td>TIMESTAMP</td><td>Sí</td><td>No</td></tr><tr><td>updated_at</td><td>Fecha de actualización</td><td>TIMESTAMP</td><td>Sí</td><td>No</td></tr></tbody></table>
 
 #### **roles**
 
@@ -55,6 +55,8 @@ Permite:
 | id\_usuario\_rol (PK) | Identificador de la relación | INT          | Sí          | Sí    |
 | id\_usuario (FK)      | Usuario asignado             | INT          | Sí          | No    |
 | id\_rol (FK)          | Rol asignado                 | INT          | Sí          | No    |
+| id\_liga (FK)         | Liga asignada                | INT          | Sí          | No    |
+| activo                | Liga activa                  | INT          | Sí          | No    |
 | created\_at           | Fecha de creación            | TIMESTAMP    | Sí          | No    |
 | updated\_at           | Fecha de actualización       | TIMESTAMP    | Sí          | No    |
 
