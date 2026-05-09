@@ -41,10 +41,10 @@ El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro
 ```
 Onboarding → Creación Ligas.
 Dashboard → Información Liga escogida.
-Liga → Detalle de las Jornadas, Equipos y Clasificación.
-Añadir → Gestionar Usuarios.
+Calendario → Detalle de las Jornadas.
+Equipos → Clasificaión liga, detalle de los Partidos.
 Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
-Perfil → Editar perfil / Cerrar sesión
+Usuarios → Ver usuarios de la liga.
 ```
 
 **a. Onboarding.**
