@@ -25,7 +25,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Dashboard (Inicio)**
 
@@ -94,7 +94,7 @@ b. **Programados**.
 
 Podremos visualizar los partidos que se encuentren programados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán los encuentrso anteriores sobre los dos equipos, así como la convocatoria correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -104,7 +104,7 @@ b. **Finalizados**.
 
 Podremos visualizar los partidos que se encuentren finalizados según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pulsando en los tres puntitos podremos:
 
@@ -116,7 +116,7 @@ Pulsando en los tres puntitos podremos:
 
 El delagado de campo podrá observar su información personal (email, teléfono, fecha de nacimiento, género) y editar su información.
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="336"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt="" width="336"><figcaption></figcaption></figure>
 
 Pulsando en el botón de setting se podrá:
 

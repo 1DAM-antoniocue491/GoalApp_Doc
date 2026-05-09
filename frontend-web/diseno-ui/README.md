@@ -28,7 +28,7 @@ Se ha seleccionado la tipografía **Inter** debido a su diseño moderno, limpio 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -38,15 +38,14 @@ Los radios de las esquinasy espacios que se aplicarán en las tarjetas serán lo
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="190"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="190"><figcaption></figcaption></figure>
 
 **d. Componentes.**
 
 Los **componentes** son partes reutilizables de la interfaz de una aplicación que agrupan estructura, diseño y funcionalidad en un mismo elemento.
 
-|                                                                                                                                                                                                                                                                   |                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| Los tarjetas que hemos utilizado en nuestra aplicación son:                                                                                                                                                                                                       | <img src="../../.gitbook/assets/image (3).png" alt="" data-size="original"> |
-| El botón para añadir a los usuarios de una liga:                                                                                                                                                                                                                  | <img src="../../.gitbook/assets/image (4).png" alt="" data-size="original"> |
-| Los botones principales que presentará nuestra aplicación son:                                 **Primary Button:** Para acciónes principales, como guardar.                                       **Secundary Button:** Para acciones segundarias, como cancelar. | <img src="../../.gitbook/assets/image (5).png" alt="" data-size="original"> |
-|                                                                                                                                                                                                                                                                   |                                                                             |
+| Componentes                                                                                                                                                                                                                                                       | Referencias                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Los tarjetas que hemos utilizado en nuestra aplicación son:                                                                                                                                                                                                       | <img src="../../.gitbook/assets/image (13).png" alt="" data-size="original"> |
+| El botón para añadir a los usuarios de una liga:                                                                                                                                                                                                                  | <img src="../../.gitbook/assets/image (14).png" alt="" data-size="original"> |
+| Los botones principales que presentará nuestra aplicación son:                                 **Primary Button:** Para acciónes principales, como guardar.                                       **Secundary Button:** Para acciones segundarias, como cancelar. | <img src="../../.gitbook/assets/image.png" alt="" data-size="original">      |

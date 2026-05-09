@@ -124,7 +124,7 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 
 * **Volver al onboarding.** El encabezado de la aplicación permite al usuario volver a la pantalla de onboarding mediante el menú desplegable.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column valign="middle" %}
@@ -138,7 +138,7 @@ Debemos pulsar el botón 'Cambiar de liga' para volver al onboarding.
 
 * **Ver notificaciones.** Al pulsar el icono de la campana en el encabezado, el usuario podrá visualizar todas las notificaciones recibidas más recientes.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column valign="middle" %}
@@ -202,7 +202,7 @@ La página de **Usuarios** está diseñado para permitir la asignación de disti
 
 El rol de usuario Observador **no dispone de permisos para invitar a nuevos usuarios**, por lo que únicamente puede visualizar a los miembros que forman parte de la liga.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **6. Perfil.**
 
