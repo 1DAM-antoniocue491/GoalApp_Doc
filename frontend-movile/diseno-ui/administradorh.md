@@ -11,69 +11,13 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Jornada.** Mostraran los distintos equipos de una liga distinguiendose del estado en el que se encuentran (en vivo, programados, finalizados).
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
-* **Añadir:** Aparecera un menú flotante para añadir partidos, crear calendarios, añadir equipos y gestionar usuarios.
+* **Añadir:** Aparecera un menú flotante para gestionar usuarios.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
-  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
-  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-2. **Inicio Sesión y Registrarse.**
-
-Sus objetivos principales son:
-
-* Permitir el acceso a usuarios ya registrados.
-* Permitir el alta de nuevos usuarios.
-* Concentrar ambos flujos en una misma interfaz.
-* Mantener la coherencia visual del sistema desde el primer contacto.
-
-**a. Login**
-
-Permitir que un usuario ya registrado acceda a su cuenta mediante sus credenciales.
-
-* El usuario introduce su correo y contraseña.
-* El sistema valida las credenciales.
-* Si son correctas, accede al sistema.
-* Tras autenticarse, el usuario es redirigido al **Onboarding**.
-
-**b. Registro**
-
-Permitir el alta de nuevos usuarios en la plataforma.
-
-* El usuario completa sus datos básicos.
-* Debe confirmar la contraseña.
-* Debe aceptar los términos y condiciones.
-* Si el formulario es válido, se crea la cuenta.
-* Tras el registro exitoso, el usuario accede al sistema y es dirigido al **Onboarding**.
-
-3. **Onboarding.**
-
-El **onboarding** es la primera sección que aparece después del login o del registro. El onboarding será el mismo para todos los usuarios sin importar el rol.\
-Su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
-
-{% columns %}
-{% column %}
-Desde aquí el usuario puede:
-
-* **Crear una nueva liga.**
-* **Editar una liga** si tiene permisos.
-* **Unirse a una liga existente** mediante código.
-* **Consultar sus ligas.**
-* **Filtrarlas** por estado.
-* **Entrar** en una liga.
-* **Reactivar** una liga finalizada.
-* **Seleccionar favoritas.**
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-Por tanto, esta sección no es todavía un panel operativo de partido o gestión diaria, sino el **punto de acceso y organización inicial** del sistema.
-
-3. **Dashboard (Inicio)**
+2. **Dashboard (Inicio)**
 
 El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
@@ -91,18 +35,9 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
-
-Los roles contemplados en esta sección son:
-
-* **Administrador**
-* **Delegado de campo**
-* **Entrenador**
-* **Jugador / Observador.**
 
 
 
@@ -126,7 +61,7 @@ El **objetivo** de esta pantalla Jornada es:
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -146,7 +81,7 @@ El **objetivo** de esta pantalla Equipos es:
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -168,7 +103,7 @@ El **objetivo** de esta pantalla Clasificación es:
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -189,7 +124,7 @@ El objetivo principal de add es:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -197,15 +132,9 @@ El objetivo principal de add es:
 
 4. **Estadísticas**.
 
-La pantalla **Estadísticas** reúne los principales datos de rendimiento de la liga en una sola vista.\
-Su estructura general es común para todos los roles, pero cambia en un punto clave: **si el usuario es jugador, aparece además el bloque “Mis estadísticas”** con sus datos personales dentro de la competición.
+La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
 
-El objetivo de esta pantalla es permitir al usuario:
-
-* Consultar el estado estadístico de la temporada.
-* Identificar a los jugadores y equipos más destacados.
-* Revisar tendencias generales de rendimiento.
-* Si el usuario es jugador, visualizar también su aportación personal.
+Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
 
 
 
@@ -227,7 +156,7 @@ El **objetivo** principal de esta pantalla es:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
