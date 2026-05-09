@@ -27,7 +27,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Dashboard (Inicio)**
 
@@ -37,7 +37,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 * Pondran ver el resultado de un partido en directo.
 * Programados en esa misma jornada de la liga escogida.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
 3. **Liga.**
 
@@ -47,7 +47,7 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 * **Ranking de equipos.** Según el rendimiento de los equipos.
 * **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 a. **Equipos.**&#x20;
 
@@ -61,7 +61,7 @@ El jugador podrá **seguir a equipos,** mostrar la información de **temporadas 
 
 Además, podrá **consultar la plantilla** ordenados por la posición en la que juegan.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="331"><figcaption></figcaption></figure>
 
 **b. Jugadores.**
 
@@ -79,7 +79,7 @@ Además, se podrán consultar sus estadísticas personales:
 * Tarjetas.
 * MVP.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt="" width="98"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="98"><figcaption></figcaption></figure>
 
 4. **Partidos**.
 
@@ -89,7 +89,7 @@ a.  **Directo.**
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 b. **Programados**.
 

@@ -283,11 +283,11 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -295,9 +295,9 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Dentro del equipo tendremos la opción de:
 
@@ -309,11 +309,11 @@ Dentro del equipo tendremos la opción de:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -325,7 +325,7 @@ Dentro del equipo tendremos la opción de:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -343,45 +343,57 @@ La página de **Usuarios** está diseñado para permitir la asignación de disti
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo.** Debemos pulsar  el botón de sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+* **Generando Codigo.** Debemos pulsar el botón **“Generar código”** para que aparezca una ventana modal en la que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Dependiendo del rol seleccionado, será necesario completar distintos datos específicos:
+  * **Administrador.**
+  * **Entrenador.**
+    * Seleccionar el equipo.
+  * **Delegado de campo.**
+    * Seleccionar el equipo.
+  * **Jugador.**
+    * Equipo.
+    * Dorsal.
+    * Posición.
+  * **Observador.**
 
 {% columns %}
-{% column %}
-ahahahah
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
+
+Una vez elegido, pulsaremos en 'Generar codigo' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
 
 * **Invitar.**
 
-**e. Estadísticas.**
+**6. Perfil.**
 
+La pantalla de Perfil es la sección donde el usuario puede consultar y gestionar sus datos personales dentro de la aplicación. Se puede acceder a ella pulsando el icono de perfil situado en la parte derecha del encabezado.
 
-
-**f. Perfil.**
-
-El perfil es la pantalla donde el usuario puede ver y gestionar sus datos personales dentro de la aplicación.
-
-* **Editar Perfil**. Al seleccionar el icono de editar ubicado en la parte superior derecha, se mostrará una pantalla con los datos del usuario, permitiendo su modificación.
+* **Editar perfil:** Al pulsar el botón '**Editar perfil'**, el usuario podrá modificar la información de su cuenta registrada.
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="191"><figcaption></figcaption></figure>
 {% endcolumn %}
 
-{% column %}
-<figure><img src="../../.gitbook/assets/image (121).png" alt="" width="188"><figcaption></figcaption></figure>
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
-* **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
+* **Cerrar Sesión.** Al pulsar el botón de 'Cerrar sesión' se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
-<figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="191"><figcaption></figcaption></figure>
 
 
 
