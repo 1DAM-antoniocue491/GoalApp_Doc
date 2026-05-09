@@ -141,8 +141,6 @@ Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y
 
 El **Perfil** es la sección donde el usuario puede ver y gestionar su información personal dentro de la aplicación.
 
-
-
 {% columns %}
 {% column valign="middle" %}
 
@@ -151,10 +149,10 @@ El **objetivo** principal de esta pantalla es:
 
 * **Ver la información personal**.
 * **Editar los datos básicos** del usuario.
-* **Cerrar la sesión actual.**![](../../.gitbook/assets/image.png)
+* **Cerrar la sesión actual.**
 {% endcolumn %}
 
 {% column %}
-
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

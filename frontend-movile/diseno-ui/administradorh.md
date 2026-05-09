@@ -45,6 +45,13 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
+El objetivo de la pantalla de calendario es:
+
+* **Crear partidos manualmente.**
+* **Generar el calendario automáticamente.**
+* **Editar y elimina tanto el calendario como partidos** concretos.
+* **Crear Equipos.**
+
 
 
 {% columns %}
@@ -54,10 +61,6 @@ El **objetivo** de esta pantalla Jornada es:
 * **Visualizar encuentros según su estado** (en vivo, programado o finalizado).
 * **Iniciar encuentros** según el rol.
 * **Trabajar sobre convocatoria** del partido.
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y elimina tanto el calendario como partidos** concretos.
-* **Crear Equipos.**
 {% endcolumn %}
 
 {% column valign="middle" %}
@@ -73,11 +76,7 @@ El **objetivo** de esta pantalla Jornada es:
 {% column valign="middle" %}
 El **objetivo** de esta pantalla Equipos es:
 
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y eliminar el calendario**.
 * **Editar información de equipos.**
-* **Crear Equipos.**
 {% endcolumn %}
 
 {% column valign="middle" %}
@@ -93,11 +92,9 @@ El **objetivo** de esta pantalla Equipos es:
 {% column valign="middle" %}
 El **objetivo** de esta pantalla Clasificación es:
 
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y eliminar el calendario**.
 * **Visualizar la clasificación.**
-* **Crear Equipos.**
+
+
 
 
 {% endcolumn %}

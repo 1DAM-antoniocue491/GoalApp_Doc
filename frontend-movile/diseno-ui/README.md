@@ -112,7 +112,7 @@ Desde aquí el usuario puede:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

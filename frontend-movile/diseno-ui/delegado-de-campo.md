@@ -45,7 +45,7 @@ Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 * **Ranking de equipos.** Según el rendimiento de los equipos.
 * **Ranking de jugadores.**  Según el rendimiento de los jugadores.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **a. Equipos.**&#x20;
 

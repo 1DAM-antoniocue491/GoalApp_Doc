@@ -292,7 +292,7 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
