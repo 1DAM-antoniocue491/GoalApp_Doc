@@ -16,61 +16,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-2. **Inicio Sesión y Registrarse.**
-
-El registro y el inicio de sesión son procesos fundamentales en la aplicación: el registro permite a un usuario crear una cuenta nueva introduciendo sus datos personales, mientras que el inicio de sesión le permite identificarse con esas credenciales para acceder a las funcionalidades privadas del sistema.
-
-Sus objetivos principales son:
-
-* Permitir el acceso a usuarios ya registrados.
-* Permitir el alta de nuevos usuarios.
-* Concentrar ambos flujos en una misma interfaz.
-* Mantener la coherencia visual del sistema desde el primer contacto.
-
-**a. Login**
-
-Permitir que un usuario ya registrado acceda a su cuenta mediante sus credenciales.
-
-* El usuario introduce su correo y contraseña.
-* El sistema valida las credenciales.
-* Si son correctas, accede al sistema.
-* Tras autenticarse, el usuario es redirigido al **Onboarding**.
-
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
-
-**b. Registro**
-
-Permitir el alta de nuevos usuarios en la plataforma.
-
-* El usuario completa sus datos básicos.
-* Debe confirmar la contraseña.
-* Debe aceptar los términos y condiciones.
-* Si el formulario es válido, se crea la cuenta.
-* Tras el registro exitoso, el usuario accede al sistema y es dirigido al **Onboarding**.
-
-<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
-
-3. **Onboarding.**
-
-El **Onboarding** es la pantalla principal de la aplicación, a la que accede el usuario después de iniciar sesión.&#x20;
-
-\
-Su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
-
-Desde aquí el usuario puede:
-
-* **crear una nueva liga.**
-* **unirse a una liga existente** mediante código.
-* **consultar sus ligas.**
-* **filtrarlas** por estado.
-* **entrar** en una liga.
-* asignas ligas **favoritas**.
-
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
-
-Por tanto, esta sección no es todavía un panel operativo de partido o gestión diaria, sino el **punto de acceso y organización inicial** del sistema.
-
-3. **Dashboard (Inicio)**
+2. **Dashboard (Inicio)**
 
 El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
