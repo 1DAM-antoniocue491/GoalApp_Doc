@@ -49,7 +49,7 @@ Perfil → Editar perfil / Cerrar sesión
 
 **a. Onboarding.**
 
-El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
+El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta. El Onboarding es el **mismo para todos los roles**.
 
 Las funciones de Onboarding son:
 
@@ -281,11 +281,11 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -293,9 +293,9 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Dentro del equipo tendremos la opción de:
 
@@ -307,11 +307,11 @@ Dentro del equipo tendremos la opción de:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -319,11 +319,11 @@ Dentro del equipo tendremos la opción de:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -355,13 +355,13 @@ Podrán unir por dos formas diferentes:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -379,19 +379,19 @@ La pantalla de Perfil es la sección donde el usuario puede consultar y gestiona
 {% column valign="middle" %}
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="191"><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 * **Cerrar Sesión.** Al pulsar el botón de 'Cerrar sesión' se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="191"><figcaption></figcaption></figure>
 
 
 
