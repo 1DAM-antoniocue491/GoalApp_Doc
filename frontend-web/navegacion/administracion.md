@@ -159,9 +159,7 @@ Para ver todas la notificaciones debemos pulsar en 'Ver todas la notificaciones'
 Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organizadas según su tipo (todas, en vivo, resultados, etc.) y su estado (todas,leídas, no leídas).
 {% endcolumn %}
 
-{% column %}
-
-
+{% column valign="middle" %}
 <figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
