@@ -1,6 +1,6 @@
 # Entrenador
 
-El entrenador tiene acceso a la creación de convocatorias de su propio equipo para cada partido, pudiendo seleccionar a los jugadores disponibles y gestionar la lista de participantes. Además, cuenta con la posibilidad de asignar un once inicial, definiendo la alineación titular con la que comenzará el encuentro.
+El entrenador tiene acceso a la creación de convocatorias de su propio equipo para cada partido, pudiendo seleccionar a los jugadores disponibles y gestionar la lista de participantes. Además, cuenta con la posibilidad de asignar un once inicial, definiendo la alineación titular con la que comenzará el encuentro. Podrá invitar al delegado de campo y a los jugadores del equipo que pertenece.
 
 1. **Navegación principal.**
 
@@ -12,9 +12,9 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
 * **Añadir:** Aparecera un menú flotante para gestionar usuarios.
-* **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
-  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
-  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
+*   **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
+
+
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

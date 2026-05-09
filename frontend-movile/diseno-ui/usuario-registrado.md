@@ -1,6 +1,6 @@
 # Usuario Registrado
 
-El usuario podrá seguir ligas y equipos de su interés, consultar resultados en directo o ya finalizados, explorar partidos programados y acceder a información detallada como clasificaciones actualizadas, alineaciones y convocatorias de cada encuentro.
+El usuario podrá consultar de forma detallada la información correspondiente a la liga a la que pertenece, incluyendo las jornadas programadas, los equipos participantes y las estadísticas generales de la competición.
 
 
 
@@ -15,8 +15,6 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
 * **Añadir:** Aparecera un menú flotante para gestionar usuarios.
 * **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
-  * **Equipos**. Ver las estadísticas de los equipos por distintas estadísticas (goles, derrotas, victorias, etc.)
-  * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
