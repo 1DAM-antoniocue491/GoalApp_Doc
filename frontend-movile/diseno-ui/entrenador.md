@@ -17,7 +17,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Jugadores**. Ver las estadísticas de los jugadores por distintas estadísticas (goles, MVP, etc.)
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Dashboard (Inicio)**
 
@@ -52,16 +52,11 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 
 {% columns %}
-{% column %}
+{% column valign="middle" %}
 El **objetivo** de esta pantalla Jornada es:
 
 * **Visualizar encuentros según su estado** (en vivo, programado o finalizado).
-* **Iniciar encuentros** según el rol.
 * **Trabajar sobre convocatoria** del partido.
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y elimina tanto el calendario como partidos** concretos.
-* **Crear Equipos.**
 {% endcolumn %}
 
 {% column valign="middle" %}
@@ -77,11 +72,7 @@ El **objetivo** de esta pantalla Jornada es:
 {% column valign="middle" %}
 El **objetivo** de esta pantalla Equipos es:
 
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y eliminar el calendario**.
-* **Editar información de equipos.**
-* **Crear Equipos.**
+* **Visualizar equipos que** forman parte de la lig&#x61;**.**
 {% endcolumn %}
 
 {% column valign="middle" %}
@@ -97,11 +88,7 @@ El **objetivo** de esta pantalla Equipos es:
 {% column valign="middle" %}
 El **objetivo** de esta pantalla Clasificación es:
 
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y eliminar el calendario**.
 * **Visualizar la clasificación.**
-* **Crear Equipos.**
 
 
 {% endcolumn %}
@@ -117,7 +104,7 @@ El **objetivo** de esta pantalla Clasificación es:
 
 El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación. Pueden hacerse desde dos formas diferentes:
 
-* **Generar código:** Se generará un código asociado al rol seleccionado, el cual podrá compartirse con el usuario que se desea invitar para que forme parte de la liga.
+* **Generar código:** Se generará un código asociado al rol seleccionado, el cual podrá compartirse con el usuario que se desea invitar para que forme parte de la liga. El rol de entrenador solo podrá invitar al delegado de campo de su equipo y a sus jugadores.
 * **Invitar al usuario**: Mediante invitaciones por correo electrónico. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
 
 {% columns %}
@@ -164,10 +151,10 @@ El **objetivo** principal de esta pantalla es:
 
 * **Ver la información personal**.
 * **Editar los datos básicos** del usuario.
-* **Cerrar la sesión actual.**
+* **Cerrar la sesión actual.**![](../../.gitbook/assets/image.png)
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
