@@ -333,7 +333,9 @@ Dentro del equipo tendremos la opción de:
 
 4. **Estadísticas.**
 
+La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
 
+<figure><img src="../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
 **d. Añadir.**
 
