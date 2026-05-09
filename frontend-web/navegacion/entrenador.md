@@ -180,26 +180,7 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la liga, organizados en una clasificación por puntos según los resultados de los partidos.&#x20;
 
-Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
-
-*   **Crear Equipo:** Permite crear los diferentes equipos que van a formar parte de la liga, pulsando en 'Nuevo Equipo' y se nos abrirá un modal con distintos campos:
-
-    * Nombre del equipo.
-    * Ciudad.
-    * Colores principales.
-    * Estadio.
-
-
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+En la pantalla de Equipos se pueden realizar la siguiente acción:
 
 *   **Información individual de cada equipo:** Al seleccionar un equipo, se mostrará información detallada y específica relacionada con dicho equipo.&#x20;
 
@@ -207,45 +188,13 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-
-Dentro del equipo tendremos la opción de:
-
-* **Editar Equipo:** Al pulsar el botón **“Editar equipo”**, se abrirá una ventana modal desde la que se podrá modificar la información correspondiente a ese equipo.
-  * Nombre del equipo.
-  * Ciudad.
-  * Colores principales.
-  * Estadio.
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-* **Eliminar Equipo:** Al pulsar el botón **“Eliminar equipo”**, se mostrará un aviso de confirmación para verificar que se desea realizar la eliminación del equipo.
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
+<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 4. **Estadísticas.**
 
 La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
 
-<figure><img src="../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
 **5.Usuarios.**
 
