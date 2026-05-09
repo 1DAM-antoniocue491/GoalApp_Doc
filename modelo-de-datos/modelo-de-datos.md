@@ -295,7 +295,25 @@ Incluye:
 
 Define las invitaciónes de un usuario a una liga:
 
-
+| Campo               | Descripción                      | Tipo de dato  | Obligatorio | Único |
+| ------------------- | -------------------------------- | ------------- | ----------- | ----- |
+| id\_invitacion (PK) | Identificador de la notificación | INT           | Sí          | Sí    |
+| token               | token                            | VARCHAR(64)   | Sí          | Sí    |
+| codigo              | codigo asignado                  | VARCHAR(8)    | Sí          | Sí    |
+| email               | Correo electrónico               | VARCHAR(120)  | Sí          | No    |
+| nombre              | nombre usuario                   | VARCHAR (100) | No          | No    |
+| id\_liga            | Liga asignada                    | INT           | Sí          | No    |
+| id\_equipo          | Equipo asignado                  | INT           | No          | No    |
+| id\_rol             | Rol del usuario                  | INT           | Sí          | No    |
+| dorsal              | Dorsal de jugador                | VARCHAR(10)   | No          | No    |
+| posicion            | Posición del jugador             | VARCHAR(50)   | No          | No    |
+| tipo\_jugador       | Tipo de jugador                  | VARCHAR(50)   | No          | No    |
+| usado               | Estado                           | BOOLEAN       | Sí          | No    |
+| invitado\_por       | Invitado por un usuario          | INT           | Sí          | No    |
+| fecha\_expiracion   | Fecha en el que caduca           | TIMESTAMPTZ   | Sí          | No    |
+| usada               | Estado                           | BOOLEAN       | Sí          | No    |
+| created\_at         | Fecha de creación                | TIMESTAMPTZ   | Sí          | No    |
+| updated\_at         | Fecha de actualización           | TIMESTAMPTZ   | Sí          | No    |
 
 ### **7. Auditoría**
 
