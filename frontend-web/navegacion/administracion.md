@@ -337,19 +337,19 @@ La **pantalla de Estadísticas** muestra de forma detallada la información más
 
 <figure><img src="../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
-**d. Añadir.**
+**5.Usuarios.**
 
-El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
+La página de **Usuarios** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+* **Generando Codigo.** Debemos pulsar  el botón de sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+ahahahah
 
-<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
