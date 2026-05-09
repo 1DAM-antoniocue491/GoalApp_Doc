@@ -51,20 +51,21 @@ Permitir el alta de nuevos usuarios en la plataforma.
 
 3. **Onboarding.**
 
-El **onboarding** es la primera sección que aparece después del login o del registro.\
+El **onboarding** es la primera sección que aparece después del login o del registro. El onboarding será el mismo para todos los usuarios sin importar el rol.\
 Su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
 
 {% columns %}
 {% column %}
 Desde aquí el usuario puede:
 
-* **crear una nueva liga.**
-* **editar una liga** si tiene permisos.
-* **unirse a una liga existente** mediante código.
-* **consultar sus ligas.**
-* **filtrarlas** por estado.
-* **entrar** en una liga.
-* **reactivar** una liga finalizada.
+* **Crear una nueva liga.**
+* **Editar una liga** si tiene permisos.
+* **Unirse a una liga existente** mediante código.
+* **Consultar sus ligas.**
+* **Filtrarlas** por estado.
+* **Entrar** en una liga.
+* **Reactivar** una liga finalizada.
+* **Seleccionar favoritas.**
 {% endcolumn %}
 
 {% column %}
@@ -76,7 +77,7 @@ Por tanto, esta sección no es todavía un panel operativo de partido o gestión
 
 3. **Dashboard (Inicio)**
 
-El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.<br>
+El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
 La **base visual** es la misma para todos los usuarios, pero las acciones disponibles cambian según su nivel de permiso.
 
@@ -179,11 +180,8 @@ El **objetivo** de esta pantalla Clasificación es:
 
 El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación. Pueden hacerse desde dos formas diferentes:
 
-*
-
-&#x20;mediante invitaciones enviadas por correo electrónico, facilitando así su incorporación a nuestra liga de una forma más organizada y eficiente. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente. Aun así, consideramos que se trata de una característica importante para el futuro de la aplicación, por lo que profundizaremos más en ella en la sección de mejoras futuras, donde se detallarán las posibles ampliaciones y funcionalidades previstas.
-
-*
+* **Generar código:** Se generará un código asociado al rol seleccionado, el cual podrá compartirse con el usuario que se desea invitar para que forme parte de la liga.
+* **Invitar al usuario**: Mediante invitaciones por correo electrónico. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
 
 {% columns %}
 {% column valign="middle" %}
