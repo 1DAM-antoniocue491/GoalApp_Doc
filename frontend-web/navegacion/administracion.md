@@ -215,30 +215,6 @@ Podemos **generar el calendario** de dos maneras distintas. Una vez seleccionada
 
 
 
-*   **Nuevo Partido:** Permite generar manualmente un calendario en función de los equipos que formen parte de la liga. Al pulsar sobre la opción 'Nuevo Partido', se mostrará un modal con distintos campos que deberán completarse:
-
-    * Equipo Local.
-    * Equipo Visitante.
-    * Fecha y Hora.
-
-
-
-
-
-
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
 * **Nuevo Partido:** Permite generar manualmente un calendario en función de los equipos que formen parte de la liga. Al pulsar sobre la opción 'Crear encuentro', se mostrará un modal con distintos campos que deberán completarse:
   * Equipo Local.
   * Equipo Visitante.
@@ -268,7 +244,7 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (156).png" alt="" width="236"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -284,23 +260,80 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 Si únicamente se desea editar un partido, también es posible hacerlo de forma individual:
 
 * Editar Partido: Debemos pulsar el botón de 'Editar' y nos aparecerá un modal
 
 <figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
+3. **Equipos.**
+
+La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la liga, organizados en una clasificación por puntos según los resultados de los partidos.&#x20;
+
+Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
+
+*   **Crear Equipo:** Permite crear los diferentes equipos que van a formar parte de la liga, pulsando en 'Nuevo Equipo' y se nos abrirá un modal con distintos campos:
+
+    * Nombre del equipo.
+    * Ciudad.
+    * Colores principales.
+    * Estadio.
 
 
 
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-* Clasificación. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
+*   **Información individual de cada equipo:** Al seleccionar un equipo, se mostrará información detallada y específica relacionada con dicho equipo.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (114).png" alt="" width="188"><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Dentro del equipo tendremos la opción de:
+
+* **Editar Equipo:** Al pulsar el botón **“Editar equipo”**, se abrirá una ventana modal desde la que se podrá modificar la información correspondiente a ese equipo.
+  * Nombre del equipo.
+  * Ciudad.
+  * Colores principales.
+  * Estadio.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+* **Eliminar Equipo:** Al pulsar el botón **“Eliminar equipo”**, se mostrará un aviso de confirmación para verificar que se desea realizar la eliminación del equipo.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+4. **Estadísticas.**
+
+
 
 **d. Añadir.**
 
