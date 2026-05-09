@@ -81,9 +81,9 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 * **Consultar información** general sobre la liga.
 * **Acceder rápidamente a la información** más relevante.
 
-<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
-El roles contemplados en esta sección son:
+El roles contemplado en esta sección es:
 
 * **Entrenador.**
 
@@ -95,13 +95,9 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 El **objetivo** de esta pantalla Jornada es:
 
-* **Iniciar encuentros** según el rol.
 * **Trabajar sobre convocatoria** del partido.
-* **Crear partidos manualmente.**
-* **Generar el calendario automáticamente.**
-* **Editar y elimina tanto el calendario como partidos** concretos.
 
-<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
 3. **Equipos.**
 
@@ -110,7 +106,6 @@ La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la
 El **objetivo** de esta pantalla es:
 
 * **Visualizar clasificación** de la liga.
-* **Añadir nuevos equipos.**
 
 <figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
