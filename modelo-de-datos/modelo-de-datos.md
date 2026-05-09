@@ -28,8 +28,6 @@ Su función es servir como entidad base para todos los perfiles del sistema (jug
 | id\_liga            | Liga asignada         | INT          | Sí          | No    |
 | created\_at         | Fecha de creación     | TIMESTAMPTZ  | Sí          | No    |
 
-####
-
 #### **roles**
 
 Contiene los diferentes roles disponibles en el sistema, como:
