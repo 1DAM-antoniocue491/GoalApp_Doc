@@ -1,268 +1,93 @@
-# Estructura del proyecto
+# Estructura del Proyecto Backend
 
-El backend de este proyecto está desarrollado utilizando FastAPI como framework principal para la construcción de la API REST.
+El backend de GoalApp está desarrollado con **FastAPI**, implementando una arquitectura modular por capas que separa el transporte (API), la lógica de negocio (Servicios) y la persistencia (Modelos).
 
-La arquitectura sigue un **modelo por capas**, separando responsabilidades para facilitar el mantenimiento, la escalabilidad y la claridad del código.
+### Tecnologías Principales
+- **Framework**: [FastAPI](https://fastapi.tiangolo.com/)
+- **ORM**: [SQLAlchemy](https://docs.sqlalchemy.org/en/20/)
+- **Validación**: [Pydantic](https://docs.pydantic.dev/latest/)
+- **Base de Datos**: PostgreSQL (via Supabase)
+- **Autenticación**: JSON Web Tokens (JWT)
 
-Las principales tecnologías utilizadas son:
+---
 
-* [FastAPI](https://fastapi.tiangolo.com/) para la construcción de la API.
-* [SQLAlchemy](https://docs.sqlalchemy.org/en/20/) como ORM para la interacción con la base de datos.
-* [Pydantic](https://docs.pydantic.dev/latest/) para la validación de datos.
-* [JSON Web Token](https://www.ibm.com/docs/es/cics-ts/6.x?topic=cics-json-web-token-jwt) para el sistema de autenticación.
-* [MySQL](https://www.mysql.com/) como sistema gestor de base de datos.
+### 📂 Mapa de Directorios Real
 
-La estructura principal del proyecto es la siguiente:
+La estructura actual del proyecto se organiza de la siguiente manera:
 
 ```
-backend/
-│
+GoalApp_Backend/
 ├── app/
+│   ├── api/
+│   │   ├── routers/        # Endpoints de la API (Transporte)
+│   │   │   ├── auth.py
+│   │   │   ├── usuarios.py
+│   │   │   ├── ligas.py
+│   │   │   ├── equipos.py
+│   │   │   ├── jugadores.py
+│   │   │   ├── partidos.py
+│   │   │   ├── alineaciones.py
+│   │   │   ├── convocatorias.py
+│   │   │   ├── eventos.py
+│   │   │   ├── notificaciones.py
+│   │   │   ├── invitaciones.py
+│   │   │   ├── imagenes.py
+│   │   │   ├── public.py
+│   │   │   └── ...
+│   │   ├── services/       # Lógica de negocio y reglas
+│   │   │   ├── auth_service.py
+│   │   │   ├── liga_service.py
+│   │   │   ├── email_service.py
+│   │   │   └── ...
+│   │   └── dependencies.py # Inyección de dependencias (get_db, get_user)
 │   │
-│   ├── core/
-│   │   ├── config.py
-│   │   └── security.py
+│   ├── models/            # Definiciones de tablas SQLAlchemy
+│   │   ├── usuario.py
+│   │   ├── liga.py
+│   │   ├── partido.py
+│   │   └── ...
 │   │
-│   ├── database/
-│   │   ├── database.py
-│   │   └── init.sql
+│   ├── schemas/           # DTOs y validaciones Pydantic
+│   │   ├── auth.py
+│   │   ├── usuario.py
+│   │   ├── partido.py
+│   │   └── ...
 │   │
-│   ├── models/
-│   │   ├── user.py
-│   │   ├── team.py
-│   │   ├── player.py
-│   │   ├── match.py
-│   │   └── event.py
+│   ├── database/          # Conexión y configuración de DB
+│   │   └── connection.py
 │   │
-│   ├── schemas/
-│   │   ├── user_schema.py
-│   │   ├── team_schema.py
-│   │   └── match_schema.py
+│   ├── templates/        # Plantillas HTML para emails
+│   │   └── emails/
 │   │
-│   ├── services/
-│   │   ├── user_service.py
-│   │   ├── team_service.py
-│   │   └── match_service.py
-│   │
-│   ├── routers/
-│   │   ├── auth_router.py
-│   │   ├── user_router.py
-│   │   └── team_router.py
-│   │
-│   └── main.py
+│   └── main.py            # Punto de entrada de la aplicación
 │
-├── requirements.txt
-└── README.md
+├── alembic/               # Control de versiones de la DB
+├── migrations/            # Scripts de migración SQL
+├── scripts/                # Scripts de utilidad y setup
+├── tests/                 # Pruebas unitarias e integración
+└── requirements.txt       # Dependencias del proyecto
 ```
 
-***
+---
 
-### 1. Directorio `core`
+### 🛠️ Descripción de Componentes
 
-Este directorio contiene la **configuración global de la aplicación** y los elementos relacionados con la seguridad.
+#### 1. Capa de Presentación (`app/api/routers/`)
+Define los endpoints REST. Su única responsabilidad es recibir la petición, validar los datos mediante los esquemas de Pydantic y llamar al servicio correspondiente. No contiene lógica de negocio compleja.
 
-#### Ejemplo: `security.py`
+#### 2. Capa de Servicios (`app/api/services/`)
+Es el corazón de la aplicación. Aquí se implementan las reglas de negocio, validaciones cruzadas entre entidades y la orquestación de llamadas a la base de datos.
 
-Aquí se implementa la generación de tokens de autenticación mediante JSON Web Token.
+#### 3. Capa de Modelos (`app/models/`)
+Define la estructura de la base de datos PostgreSQL mediante clases de SQLAlchemy. Gestiona las relaciones entre entidades (1:N, N:N) y las restricciones de integridad.
 
-```python
-from datetime import datetime, timedelta
-from jose import jwt
+#### 4. Esquemas de Validación (`app/schemas/`)
+Utiliza Pydantic para asegurar que los datos que entran y salen de la API sean correctos. Se dividen generalmente en:
+- `Create`: Datos requeridos para crear un recurso.
+- `Update`: Datos opcionales para actualizar.
+- `Response`: Formato de salida filtrado para el cliente.
 
-SECRET_KEY = "secret"
-ALGORITHM = "HS256"
-
-def create_access_token(data: dict, expires_delta: timedelta = None):
-    to_encode = data.copy()
-
-    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=30))
-    to_encode.update({"exp": expire})
-
-    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
-
-    return encoded_jwt
-```
-
-***
-
-### 2. Directorio `database`
-
-Contiene la configuración de conexión a la base de datos y scripts de inicialización.
-
-#### Ejemplo: `database.py`
-
-Configuración de la conexión con la base de datos mediante SQLAlchemy.
-
-```python
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
-
-DATABASE_URL = "mysql+pymysql://user:password@localhost/liga_amateur"
-
-engine = create_engine(DATABASE_URL)
-
-SessionLocal = sessionmaker(
-    autocommit=False,
-    autoflush=False,
-    bind=engine
-)
-
-Base = declarative_base()
-```
-
-***
-
-#### Ejemplo: `init.sql`
-
-Script de creación inicial de tablas en MySQL.
-
-```sql
-CREATE TABLE roles (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL
-);
-
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    role_id INT,
-    FOREIGN KEY (role_id) REFERENCES roles(id)
-);
-```
-
-***
-
-### 3. Directorio `models`
-
-Define las **entidades de la base de datos** utilizando el ORM de SQLAlchemy.
-
-Cada modelo representa una tabla de la base de datos.
-
-#### Ejemplo: `user.py`
-
-```python
-from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import relationship
-from app.database.database import Base
-
-class User(Base):
-    __tablename__ = "users"
-
-    id = Column(Integer, primary_key=True, index=True)
-    username = Column(String(50))
-    email = Column(String(100))
-    password = Column(String(255))
-
-    role_id = Column(Integer, ForeignKey("roles.id"))
-
-    role = relationship("Role")
-```
-
-***
-
-### 4. Directorio `schemas`
-
-Define los **esquemas de validación** mediante Pydantic.
-
-Estos esquemas se utilizan para:
-
-* validar los datos de entrada
-* definir el formato de salida de la API
-
-#### Ejemplo: `user_schema.py`
-
-```python
-from pydantic import BaseModel
-
-class UserCreate(BaseModel):
-    username: str
-    email: str
-    password: str
-
-
-class UserResponse(BaseModel):
-    id: int
-    username: str
-    email: str
-```
-
-***
-
-### 5. Directorio `services`
-
-Contiene la **lógica de negocio del sistema**.
-
-Los servicios gestionan las operaciones sobre los modelos de datos.
-
-#### Ejemplo: `user_service.py`
-
-```python
-from sqlalchemy.orm import Session
-from app.models.user import User
-
-def get_users(db: Session):
-    return db.query(User).all()
-
-
-def create_user(db: Session, user_data):
-    user = User(**user_data.dict())
-    db.add(user)
-    db.commit()
-    db.refresh(user)
-    return user
-```
-
-***
-
-### 6. Directorio `routers`
-
-Define los **endpoints de la API REST** mediante FastAPI.
-
-Cada router agrupa las rutas relacionadas con una entidad concreta.
-
-#### Ejemplo: `user_router.py`
-
-```python
-from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
-
-from app.database.database import SessionLocal
-from app.services.user_service import get_users
-
-router = APIRouter(prefix="/users", tags=["Users"])
-
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
-
-@router.get("/")
-def read_users(db: Session = Depends(get_db)):
-    return get_users(db)
-```
-
-***
-
-### 7. Archivo `main.py`
-
-Archivo principal donde se crea la aplicación de FastAPI y se registran los routers.
-
-#### Ejemplo:
-
-```python
-from fastapi import FastAPI
-
-from app.routers import user_router
-from app.routers import auth_router
-
-app = FastAPI()
-
-app.include_router(auth_router.router)
-app.include_router(user_router.router)
-```
+#### 5. Persistencia y Configuración
+- **`app/database/connection.py`**: Gestiona la sesión de SQLAlchemy y la conexión al pool de Supabase.
+- **`app/main.py`**: Instancia la aplicación FastAPI e integra todos los routers.
+- **`alembic/`**: Permite evolucionar el esquema de la base de datos sin perder datos.
