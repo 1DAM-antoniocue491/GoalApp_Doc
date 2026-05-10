@@ -99,10 +99,20 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
         * Nombre del Jugador.
         * Check en ql caso de que sea gol en propia.
       * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-        *
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+        * Motivo.
       * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-        *
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+        * Motivo.
       * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+        * Equipo que produce el evento.
+        * Nombre del jugador que entra.
+        * Nombre del jugador que sale.
+        * Minuto en que ocurrio el evento.
 
 
   * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
@@ -124,7 +134,7 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
       * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
 
       Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
-  * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
+  * **Editar. Pulsamos el botón de** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
   * **Inicializar Partido.**&#x20;
 
 

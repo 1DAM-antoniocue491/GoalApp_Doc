@@ -164,24 +164,48 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organi
 {% endcolumn %}
 {% endcolumns %}
 
-* **Finalizar Partidos en Vivo.** Al seleccionar la opción 'Finalizar', se desplegará un modal para completar la información correspondiente. Tras rellenar todos los datos, el usuario deberá confirmar pulsando 'Finalizar partido'.
-
-
-
-*   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución
-
-
-
+* **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+  * **Añadir Evento.** Al seleccionar la opción 'Eventos', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
     * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+      * Equipo que produce el evento.
+      * Nombre del Jugador.
+      * Minuto en que ocurrio el evento.
     * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+      * Equipo que produce el evento.
+      * Nombre del Jugador.
+      * Minuto en que ocurrio el evento.
+      * Motivo.
     * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+      * Equipo que produce el evento.
+      * Nombre del Jugador.
+      * Minuto en que ocurrio el evento.
+      * Motivo.
     * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-* **Ver plantillas.** Al pulsar 'Ver plantilla', se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
-* **Ver calendarios.** Al pulsar 'Ver calendarios', se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
-* **Ver partido programado.**&#x20;
-* **Inicializar Partido.**&#x20;
-* **Convocatoria.**
-* **Alineación Titular.**
+      * Equipo que produce el evento.
+      * Nombre del jugador que entra.
+      * Nombre del jugador que sale.
+      * Minuto en que ocurrio el evento.
+  * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+  *   **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
+
+      * Equipo que produce el evento.
+      * MVP del partido.
+      * Puntución MVP
+      * Incidencias (opcional).
+
+
+* **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+  *   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
+
+      Las distintas opciones disponibles para cada jugador son las siguientes:
+
+      * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+      * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+      * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+      Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+  * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
+  * **Inicializar Partido.**&#x20;
 
 
 

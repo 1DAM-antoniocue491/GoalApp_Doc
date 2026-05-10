@@ -28,10 +28,14 @@
 
 #### **Base de datos**
 
-* **MySQL**
-  * Base de datos relacional robusta y escalable, ideal para aplicaciones web y móviles.
-  * Soporta **integridad referencial, claves foráneas, transacciones y procedimientos almacenados**.
-  * Permite consultas complejas y generación de estadísticas.
+* PostGreSQL
+  *   Base de datos relacional robusta, segura y altamente escalable, adecuada para aplicaciones web y móviles.
+
+
+  *   Ofrece soporte para integridad referencial, claves foráneas, transacciones y procedimientos almacenados, garantizando una gestión consistente y fiable de los datos.
+
+
+  * Además, permite realizar consultas complejas y procesar grandes volúmenes de información, facilitando la generación de estadísticas y el análisis avanzado de datos.
 * **Scripts y migraciones**
   * Scripts SQL para creación de tablas y relaciones.
   * Herramientas para migraciones que mantienen la base de datos sincronizada con el modelo de datos.
@@ -45,8 +49,7 @@
 * **GitBook**
   * Documentación oficial del proyecto, organizada por partes y páginas.
 * **Hosting / Despliegue**
-  * Railway o Render para desplegar el backend.
-  * Firebase Cloud para desplegar la web.
+  * Render para desplegar el backend y web.
   * Exportación de la app para Android / iOS a través de Expo.
 * **Herramientas gráficas**
   * Para diagramas ER, mockups o prototipos (Draw.io, Figma o similares).

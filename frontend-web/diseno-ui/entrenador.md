@@ -27,7 +27,7 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 * **Consultar información** general sobre la liga.
 * **Acceder rápidamente a la información** más relevante.
 
-<figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -48,6 +48,7 @@ La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la
 El **objetivo** de esta pantalla es:
 
 * **Visualizar clasificación** de la liga.
+* **Visualizar Equipos** que forman la liga
 
 <figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +71,7 @@ Podrán unir por dos formas diferentes:
 * **Generando Codigo.** Se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
 * **Invitar usuario.** Mediante invitaciones por correo electrónico. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
 
-<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
 
 5. **Perfil**
 

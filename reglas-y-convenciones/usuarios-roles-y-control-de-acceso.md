@@ -27,6 +27,7 @@ Los roles representan perfiles funcionales dentro de una liga. Algunos ejemplos 
 * **Entrenador**
 * **Delegado de campo**
 * **Jugador**
+* **Viewer**
 * (Opcionales en el futuro: Árbitro, Moderador, Analista…)
 
 Cada rol tiene permisos específicos definidos por el sistema.

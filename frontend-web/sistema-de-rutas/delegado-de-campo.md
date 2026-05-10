@@ -1,2 +1,0 @@
-# Delegado de campo
-

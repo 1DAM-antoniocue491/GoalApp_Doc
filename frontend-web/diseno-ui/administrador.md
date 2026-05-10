@@ -39,7 +39,8 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 El **objetivo** de esta pantalla Jornada es:
 
-* **Iniciar encuentros** según el rol.
+* **Iniciar encuentros**l.
+* **Finalizar encuentros.**
 * **Trabajar sobre convocatoria** del partido.
 * **Crear partidos manualmente.**
 * **Generar el calendario automáticamente.**
@@ -54,7 +55,7 @@ La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la
 El **objetivo** de esta pantalla es:
 
 * **Visualizar clasificación** de la liga.
-* **Añadir nuevos equipos.**
+* **Añadir /Editar/Eliminar equipos.**
 
 <figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
@@ -75,7 +76,7 @@ El tab de **Add** está diseñado para permitir la asignación de distintos role
 Podrán unir por dos formas diferentes:
 
 * **Generando Codigo.** Se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
-* **Invitar.**
+* **Invitar.**  Mediante invitaciones por correo electrónico. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 

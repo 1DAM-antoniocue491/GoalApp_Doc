@@ -38,13 +38,6 @@
 
 * [Arquitectura](frontend-web/arquitectura.md)
 * [Estructura del proyecto](frontend-web/estructura-del-proyecto.md)
-* [Sistema de rutas](frontend-web/sistema-de-rutas/README.md)
-  * [Administrador](frontend-web/sistema-de-rutas/administrador.md)
-  * [Entrenador](frontend-web/sistema-de-rutas/entrenador.md)
-  * [Delegado de campo](frontend-web/sistema-de-rutas/delegado-de-campo.md)
-  * [Jugador](frontend-web/sistema-de-rutas/jugador.md)
-  * [Usuario registrado](frontend-web/sistema-de-rutas/usuario-registrado.md)
-  * [Usuario no registrado](frontend-web/sistema-de-rutas/usuario-no-registrado.md)
 * [Gestión de estados](frontend-web/gestion-de-estados.md)
 * [Autenticación JWT](frontend-web/autenticacion-jwt.md)
 * [Consumo de la API](frontend-web/consumo-de-la-api.md)
