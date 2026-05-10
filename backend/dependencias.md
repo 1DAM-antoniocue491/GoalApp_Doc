@@ -133,29 +133,32 @@ class Usuario(Base):
 
 ***
 
-#### PyMySQL
+#### psycopg2-binary
 
-```txt
-pymysql
+```
+psycopg2-binary
 ```
 
-**Propósito:** Driver de MySQL para Python, necesario para que SQLAlchemy se conecte a MySQL.
+**Propósito:** Driver de PostgreSQL para Python, necesario para que SQLAlchemy se conecte a PostgreSQL.
 
 **Características:**
-- Implementación pura de Python
-- Compatible con MySQL 5.5+
-- Soporte para prepared statements
-- Conexiones seguras
+
+- Driver oficial y ampliamente utilizado
+- Alto rendimiento
+- Compatible con PostgreSQL 9.6+
+- Soporte para transacciones
+- Integración completa con SQLAlchemy
 
 **Uso en el proyecto:**
-- Conector MySQL en la URL de conexión
+
+- Conector PostgreSQL utilizado por SQLAlchemy
 
 ```python
-# Formato de la URL de conexión
-DATABASE_URL = "mysql+pymysql://usuario:password@localhost:3306/futbol_app"
+# Formato de la URL
+conexiónDATABASE_URL = "postgresql+psycopg2://usuario:password@localhost:5432/goalapp"
 ```
 
-**Documentación:** https://pymysql.readthedocs.io/
+**Documentación:** [psycopg2 documentation](https://www.psycopg.org/docs/?utm_source=chatgpt.com)
 
 ***
 
@@ -503,19 +506,19 @@ sqlalchemy==2.0.25
 
 ### 9. Resumen de Dependencias
 
-| Categoría | Paquete | Propósito |
-|-----------|---------|-----------|
-| **Framework** | fastapi | API REST |
-| **Servidor** | uvicorn | Servidor ASGI |
-| **ORM** | sqlalchemy | Mapeo objeto-relacional |
-| **Driver** | pymysql | Conector MySQL |
-| **Migraciones** | alembic | Control de versiones DB |
-| **Configuración** | python-dotenv | Variables de entorno |
-| **Validación** | pydantic | Validación de datos |
-| **Autenticación** | python-jose | JWT tokens |
-| **Hashing** | passlib | Contraseñas |
-| **Criptografía** | cryptography | Soporte criptográfico |
-| **Formularios** | python-multipart | Upload y forms |
+| Categoría         | Paquete          | Propósito               |
+| ----------------- | ---------------- | ----------------------- |
+| **Framework**     | fastapi          | API REST                |
+| **Servidor**      | uvicorn          | Servidor ASGI           |
+| **ORM**           | sqlalchemy       | Mapeo objeto-relacional |
+| **Driver**        | psycopg2-binary  | Conector PostgreSQL     |
+| **Migraciones**   | alembic          | Control de versiones DB |
+| **Configuración** | python-dotenv    | Variables de entorno    |
+| **Validación**    | pydantic         | Validación de datos     |
+| **Autenticación** | python-jose      | JWT tokens              |
+| **Hashing**       | passlib          | Contraseñas             |
+| **Criptografía**  | cryptography     | Soporte criptográfico   |
+| **Formularios**   | python-multipart | Upload y forms          |
 
 ***
 

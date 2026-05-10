@@ -68,7 +68,7 @@ username=usuario@email.com&password=contrasena123
 
 ```json
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGc...",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGci...",
     "token_type": "bearer"
 }
 ```
@@ -79,7 +79,7 @@ username=usuario@email.com&password=contrasena123
 
 ```http
 GET /api/v1/auth/me
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGc...
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGci...
 ```
 
 **Response:**
@@ -293,30 +293,86 @@ Gestión de eventos durante los partidos (goles, tarjetas, sustituciones).
 
 ***
 
-### 10. Formaciones (`/formaciones`)
+### 10. Convocatorias (`/convocatorias`)
 
-Gestión de formaciones tácticas de equipos.
+Gestión de la lista de jugadores llamados para un partido.
 
 | Método | Ruta | Descripción | Auth | Roles |
 |--------|-----|-------------|------|-------|
-| POST | `/formaciones/` | Crear formación táctica | Sí | Admin |
-| GET | `/formaciones/` | Listar todas las formaciones | No | Público |
-
-#### Esquema FormacionCreate
-
-```json
-{
-    "id_partido": 1,
-    "id_equipo": 1,
-    "esquema": "4-4-2"
-}
-```
+| POST | `/convocatorias/` | Crear convocatoria | Sí | Admin/Coach |
+| GET | `/convocatorias/partido/{id}` | Listar jugadores convocados | Sí | Usuario |
 
 ***
 
-### 11. Notificaciones (`/notificaciones`)
+### 11. Alineaciones (`/alineaciones`)
 
-Gestión de notificaciones de usuario.
+Gestión de los jugadores que inician el encuentro y sus posiciones.
+
+| Método | Ruta | Descripción | Auth | Roles |
+|--------|-----|-------------|------|-------|
+| POST | `/alineaciones/` | Definir alineación inicial | Sí | Admin/Coach |
+| GET | `/alineaciones/partido/{id}` | Consultar alineación de un partido | No | Público |
+
+***
+
+### 12. Imágenes (`/imagenes`)
+
+Gestión de subida y almacenamiento de archivos integrados con Supabase Storage.
+
+| Método | Ruta | Descripción | Auth | Roles |
+|--------|-----|-------------|------|-------|
+| POST | `/imagenes/upload` | Subir imagen (escudo/logo) | Sí | Admin |
+| GET | `/imagenes/{id}` | Obtener URL de imagen | No | Público |
+
+***
+
+### 13. Estadísticas (`/estadisticas`)
+
+Cálculo de métricas de rendimiento para ligas, equipos y jugadores.
+
+| Método | Ruta | Descripción | Auth | Roles |
+|--------|-----|-------------|------|-------|
+| GET | `/estadisticas/liga/{id}` | Clasificación general de la liga | No | Público |
+| GET | `/estadisticas/jugador/{id}` | Rendimiento individual del jugador | No | Público |
+
+***
+
+### 14. Público (`/public`)
+
+Endpoints accesibles sin autenticación para visualización externa.
+
+| Método | Ruta | Descripción | Auth | Roles |
+|--------|-----|-------------|------|-------|
+| GET | `/public/ligas` | Listado público de todas las ligas | No | Público |
+| GET | `/public/partidos/en-vivo` | Partidos que se están jugando actualmente | No | Público |
+
+***
+
+### 15. Configuración de Liga (`/liga_configuracion`)
+
+Ajustes específicos de la competición y reglas internas.
+
+| Método | Ruta | Descripción | Auth | Roles |
+|--------|-----|-------------|------|-------|
+| GET | `/liga_configuracion/{id}` | Obtener parámetros de la liga | Sí | Admin |
+| PUT | `/liga_configuracion/{id}` | Actualizar configuración de la liga | Sí | Admin |
+
+***
+
+### 16. Tokens de Recuperación (`/tokens_recuperacion`)
+
+Gestión del flujo de seguridad para el restablecimiento de contraseñas.
+
+| Método | Ruta | Descripción | Auth | Roles |
+|--------|-----|-------------|------|-------|
+| POST | `/tokens_recuperacion/solicitar` | Generar token de reset vía email | No | Público |
+| POST | `/tokens_recuperacion/validar` | Verificar token antes de cambiar password | No | Público |
+
+***
+
+### 17. Notificaciones (`/notificaciones`)
+
+Gestión de notificaciones push y alertas de usuario.
 
 | Método | Ruta | Descripción | Auth | Roles |
 |--------|-----|-------------|------|-------|
@@ -325,7 +381,7 @@ Gestión de notificaciones de usuario.
 
 ***
 
-### 12. Códigos de Respuesta HTTP
+### 18. Códigos de Respuesta HTTP
 
 La API utiliza códigos HTTP estándar:
 
@@ -342,7 +398,7 @@ La API utiliza códigos HTTP estándar:
 
 ***
 
-### 13. Ejemplos de Uso
+### 19. Ejemplos de Uso
 
 #### Obtener token de autenticación
 

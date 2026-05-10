@@ -10,7 +10,7 @@ La comunicación entre el backend de la aplicación y la base de datos se realiz
 
 ### 1. Sistema Gestor de Base de Datos
 
-El sistema utiliza **MySQL** como sistema gestor de base de datos relacional (SGBD).
+El sistema utiliza **PostgreSQL** como sistema gestor de base de datos relacional (SGBD), optimizado para despliegues en Render.
 
 Este gestor ha sido seleccionado por las siguientes razones:
 
@@ -40,7 +40,7 @@ El ORM se encarga de:
 
 #### Ejemplo de configuración de conexión
 
-El archivo `database.py` define la configuración de conexión y la creación de sesiones de base de datos.
+La configuración de conexión y la creación de sesiones de base de datos se encuentran en `app/database/connection.py`.
 
 ```python
 from sqlalchemy import create_engine
@@ -92,13 +92,13 @@ Este script se encuentra en el directorio:
 app/database/init.sql
 ```
 
-El archivo contiene las instrucciones SQL necesarias para crear las tablas principales del sistema dentro de **MySQL**.
+El archivo contiene las instrucciones SQL necesarias para crear las tablas principales del sistema dentro de **PostgreSQL**.
 
 #### Ejemplo de creación de una tabla
 
 ```sql
 CREATE TABLE roles (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL
 );
 ```
@@ -109,4 +109,4 @@ Este procedimiento permite:
 * mantener una estructura de datos consistente entre diferentes instalaciones
 * facilitar el proceso de desarrollo y pruebas
 
-El script puede ejecutarse directamente en el servidor de base de datos mediante herramientas de administración como el cliente de **MySQL** o mediante interfaces gráficas de gestión de bases de datos.
+El script puede ejecutarse directamente en el servidor de base de datos mediante herramientas de administración como el cliente de **psql** o mediante interfaces gráficas de gestión de bases de datos.

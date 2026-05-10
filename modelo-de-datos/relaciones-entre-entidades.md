@@ -1,138 +1,69 @@
-# Relaciones entre entidades
+# Relaciones entre Entidades
 
-El modelo de datos se basa en un conjunto de relaciones que garantizan la coherencia del sistema y permiten representar correctamente la estructura de ligas, equipos, usuarios y partidos. A continuación se describen las relaciones principales entre las entidades, así como su impacto en la lógica del sistema.
+El modelo de datos de GoalApp se basa en un conjunto de relaciones que garantizan la coherencia del sistema y permiten representar correctamente la estructura de ligas, equipos, usuarios y partidos.
 
 ### **1. Usuarios, Roles y Jugadores**
 
-#### **Usuarios ↔ Roles**
+#### **Usuarios $\leftrightarrow$ Roles**
+- **Tipo**: Relación **N:N**.
+- **Implementación**: Mediante la tabla intermedia `usuario_rol`.
+- **Lógica**: Un usuario puede tener múltiples roles (ej. Administrador y Coach). Esto permite un sistema de permisos granular.
 
-> Relación **N:N** mediante la tabla intermedia `usuario_rol`.
->
-> Un usuario puede tener múltiples roles (por ejemplo, Entrenador y Delegado).
->
-> Un rol puede asignarse a múltiples usuarios.
-
-Esta estructura permite un sistema flexible de permisos y control de acceso.
-
-#### **Usuarios ↔ Jugadores**
-
-> Relación **1:1** entre `usuarios` y `jugadores`.
->
-> Cada jugador corresponde a un usuario registrado.
->
-> No todos los usuarios son jugadores, pero todos los jugadores son usuarios.
-
-Esto permite que un jugador pueda iniciar sesión, recibir notificaciones y tener un perfil completo.
+#### **Usuarios $\leftrightarrow$ Jugadores**
+- **Tipo**: Relación **1:1**.
+- **Lógica**: Cada registro en la tabla `jugadores` debe estar vinculado a un único usuario. No todos los usuarios son jugadores, pero todo jugador es un usuario.
 
 ### **2. Ligas, Equipos y Jugadores**
 
-#### **Ligas ↔ Equipos**
+#### **Ligas $\leftrightarrow$ Equipos**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Una liga contiene múltiples equipos. Cada equipo pertenece estrictamente a una sola liga.
 
-> Relación **1:N**.
->
-> Una liga puede tener múltiples equipos.
->
-> Cada equipo pertenece a una única liga.
+#### **Equipos $\leftrightarrow$ Jugadores**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Un equipo tiene una plantilla de múltiples jugadores. Cada jugador pertenece a un solo equipo.
 
-Esto garantiza que los partidos solo se programen dentro de la misma liga.
-
-#### **Equipos ↔ Jugadores**
-
-> Relación **1:N**.
->
-> Un equipo puede tener muchos jugadores.
->
-> Cada jugador pertenece a un único equipo.
-
-#### **Equipos ↔ Entrenador / Delegado**
-
-> Relación **1:1** con `usuarios` para cada rol.
->
-> Cada equipo tiene:
->
-> * Un entrenador asignado.
-> * Un delegado asignado.
-
-Ambos son usuarios del sistema, pero no necesariamente jugadores.
+#### **Equipos $\leftrightarrow$ Personal Técnico**
+- **Tipo**: Relación **1:1** (opcional).
+- **Lógica**: Cada equipo puede tener asignado un Entrenador (`id_entrenador`) y un Delegado (`id_delegado`). Ambos campos son **nullable**, permitiendo que el equipo exista antes de asignar el personal.
 
 ### **3. Partidos y Eventos**
 
-#### **Equipos ↔ Partidos**
+#### **Ligas y Jornadas $\leftrightarrow$ Partidos**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Los partidos se agrupan por Liga y por Jornada.
 
-> Relación **N:N**, representada mediante dos FK en `partidos`:
->
-> * equipo\_local
-> * equipo\_visitante
->
-> Ambos equipos deben pertenecer a la misma liga.
+#### **Equipos $\leftrightarrow$ Partidos**
+- **Tipo**: Relación **N:N** (representada por dos claves foráneas).
+- **Lógica**: Un partido vincula un `equipo_local` y un `equipo_visitante`. Ambos deben pertenecer a la misma liga.
 
-#### **Partidos ↔ Eventos**
+#### **Partidos $\leftrightarrow$ Eventos**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Un partido genera múltiples eventos (goles, tarjetas, etc.).
 
-> Relación **1:N**.
->
-> Un partido puede tener múltiples eventos.
->
-> Cada evento está asociado a un jugador y a un equipo.
+#### **Jugadores $\leftrightarrow$ Eventos**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Cada evento registra la acción de un jugador específico.
 
-#### **Jugadores ↔ Eventos**
+### **4. Convocatorias y Alineaciones**
 
-> Relación **1:N**.
->
-> Un jugador puede generar múltiples eventos (goles, tarjetas, cambios).
->
-> Cada evento debe estar vinculado a un jugador válido.
+#### **Partidos $\leftrightarrow$ Convocatorias**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Para cada partido se crea una lista de jugadores convocados.
 
-### **4. Formaciones y Alineaciones**
+#### **Partidos $\leftrightarrow$ Alineaciones**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Se define la alineación inicial del partido, asignando jugadores a posiciones específicas (almacenadas como texto).
 
-#### **Formaciones ↔ Posiciones**
+### **5. Comunicación y Acceso**
 
-> Relación **1:N**.
->
-> Una formación define varias posiciones (GK, CB, CM, etc.).
+#### **Usuarios $\leftrightarrow$ Notificaciones**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Un usuario recibe múltiples notificaciones; cada notificación pertenece a un solo usuario.
 
-#### **Equipos ↔ Formaciones**
-
-> Relación **N:N** mediante `formacion_equipo`.
->
-> Un equipo puede tener varias formaciones disponibles.
->
-> Una formación puede ser utilizada por varios equipos.
-
-#### **Partidos ↔ Formaciones**
-
-> Relación **N:N** mediante `formacion_partido`.
->
-> Cada equipo selecciona una formación para cada partido.
->
-> La alineación debe respetar la formación asignada.
-
-### **5. Notificaciones**
-
-#### **Usuarios ↔ Notificaciones**
-
-> Relación **1:N**.
->
-> Un usuario puede recibir múltiples notificaciones.
->
-> Cada notificación tiene un único destinatario.
+#### **Ligas/Equipos $\leftrightarrow$ Invitaciones**
+- **Tipo**: Relación **1:N**.
+- **Lógica**: Las invitaciones permiten vincular un nuevo usuario a una liga o equipo específico con un rol predefinido.
 
 ### **6. Auditoría y Consistencia**
-
-Todas las tablas principales incluyen campos de auditoría:
-
-* `created_at`
-* `updated_at`
-
-Estas relaciones permiten:
-
-* Trazabilidad de cambios.
-* Control de integridad.
-* Depuración eficiente.
-
-### **7. Resumen General de Relaciones**
-
-* **Usuarios** se relacionan con **roles**, **jugadores** y **notificaciones**.
-* **Jugadores** se relacionan con **equipos**, **partidos** (a través de eventos) y **formaciones** (a través de alineaciones).
-* **Equipos** se relacionan con **ligas**, **jugadores**, **entrenadores**, **delegados** y **partidos**.
-* **Partidos** se relacionan con **equipos**, **eventos** y **formaciones**.
-* **Formaciones** se relacionan con **posiciones**, **equipos** y **partidos**.
+Todas las entidades principales implementan el patrón de auditoría mediante los campos `created_at` y `updated_at`, asegurando la trazabilidad de los datos en todo el sistema.

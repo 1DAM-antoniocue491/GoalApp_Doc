@@ -1,105 +1,59 @@
 # Diagrama MER
 
-El **Modelo Entidad–Relación (MER)** representa gráficamente la estructura de la base de datos y las relaciones entre las entidades principales del sistema. Este diagrama sirve como referencia visual para comprender cómo se conectan los usuarios, equipos, ligas, partidos y demás componentes del proyecto.
-
-A continuación se presentan los diagramas organizados por áreas funcionales, junto con una breve explicación de cada uno.
+El **Modelo Entidad–Relación (MER)** representa la estructura de la base de datos y las relaciones entre las entidades principales del sistema. Este documento sirve como referencia técnica para comprender la arquitectura de datos de GoalApp.
 
 ### **1. Visión General del Modelo**
 
-Este diagrama muestra todas las entidades principales del sistema y sus relaciones. Incluye:
+El sistema se basa en una arquitectura relacional donde la integridad de los datos se garantiza mediante claves foráneas y restricciones de dominio.
 
-* Usuarios, roles y jugadores
-* Equipos y ligas
-* Partidos y eventos
-* Formaciones y alineaciones
-* Notificaciones
-
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-Este diagrama permite obtener una visión completa del sistema y entender cómo interactúan las distintas partes entre sí.
+**Entidades Principales:**
+* Usuarios, Roles y Jugadores
+* Ligas y Equipos
+* Partidos, Eventos y Jornadas
+* Convocatorias y Alineaciones
+* Notificaciones e Invitaciones
 
 ### **2. Usuarios y Roles**
 
-Este diagrama detalla la relación entre:
+La gestión de identidades permite una flexibilidad total en la asignación de permisos.
 
-* `usuarios`
-* `roles`
-* `usuario_rol`
-* `jugadores`
+*   **Usuarios $\leftrightarrow$ Roles**: Relación **N:N** mediante la tabla intermedia `usuario_rol`. Un usuario puede desempeñar múltiples funciones (ej. ser Coach y Administrador simultáneamente).
+*   **Usuarios $\leftrightarrow$ Jugadores**: Relación **1:1**. Todo jugador debe tener una cuenta de usuario asociada, pero no todo usuario es necesariamente un jugador.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+### **3. Ligas, Equipos y Jugadores**
 
-#### Puntos clave:
+La jerarquía organizativa asegura que la competición sea coherente.
 
-* Un usuario puede tener múltiples roles.
-* Un jugador siempre está asociado a un usuario.
-* La tabla intermedia `usuario_rol` implementa la relación N:N.
-
-### **3. Equipos, Ligas y Jugadores**
-
-Este diagrama muestra cómo se relacionan:
-
-* `ligas`
-* `equipos`
-* `jugadores`
-
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### Puntos clave:
-
-* Cada equipo pertenece a una liga.
-* Cada jugador pertenece a un equipo.
-* Cada equipo tiene asignado un entrenador y un delegado (ambos usuarios).
+*   **Ligas $\leftrightarrow$ Equipos**: Relación **1:N**. Cada equipo pertenece a una única liga.
+*   **Equipos $\leftrightarrow$ Jugadores**: Relación **1:N**. Cada jugador está vinculado a un equipo.
+*   **Equipos $\leftrightarrow$ Personal Técnico**: Cada equipo tiene un Entrenador y un Delegado asignados (Usuarios). Estos campos son **opcionales (nullable)** para permitir la creación de equipos antes de asignar la plantilla técnica.
 
 ### **4. Partidos y Eventos**
 
-Este diagrama representa:
+El núcleo operativo del sistema gestiona la ejecución de los encuentros.
 
-* `partidos`
-* `eventos_partido`
+*   **Equipos $\leftrightarrow$ Partidos**: Relación **N:N** representada por `id_equipo_local` e `id_equipo_visitante`. Ambos equipos deben pertenecer obligatoriamente a la misma liga.
+*   **Ligas $\leftrightarrow$ Partidos**: Relación **1:N**. Los partidos se agrupan por la liga a la que pertenecen.
+*   **Jornadas $\leftrightarrow$ Partidos**: Relación **1:N**. Los partidos se organizan cronológicamente en jornadas.
+*   **Partidos $\leftrightarrow$ Eventos**: Relación **1:N**. Un partido registra múltiples eventos (goles, tarjetas, cambios, MVP).
+*   **Jugadores $\leftrightarrow$ Eventos**: Relación **1:N**. Cada evento está vinculado al jugador que lo protagoniza.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+### **5. Convocatorias y Alineaciones**
 
-#### Puntos clave:
+El proceso de preparación del partido se divide en dos etapas:
 
-* Un partido siempre se da entre dos equipos de la misma liga.
-* Un partido puede tener múltiples eventos.
-* Cada evento está asociado a un jugador y a un partido.
+*   **Convocatorias**: Relación **1:N** entre Partido y Jugadores. Define la lista de disponibles para el encuentro.
+*   **Alineaciones**: Relación **1:N** entre Partido y Jugadores. Define quiénes inician el partido y su posición (almacenada como `String` para flexibilidad táctica).
 
-### **5. Formaciones y Alineaciones**
+### **6. Notificaciones e Invitaciones**
 
-Este diagrama incluye:
+El sistema de comunicación y acceso se gestiona mediante:
 
-* `formaciones`
-* `posicion`
-* `formacion_equipo`
-* `formacion_partido`
+*   **Usuarios $\leftrightarrow$ Notificaciones**: Relación **1:N**. Cada alerta tiene un único destinatario.
+*   **Ligas/Equipos $\leftrightarrow$ Invitaciones**: Relación para gestionar la entrada de nuevos usuarios mediante tokens y códigos específicos por rol.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+### **7. Notas sobre la Implementación Técnica**
 
-#### Puntos clave:
-
-* Una formación define un conjunto de posiciones.
-* Un equipo puede tener varias formaciones disponibles.
-* En cada partido, un equipo selecciona una formación concreta.
-* Las alineaciones deben respetar la formación definida.
-
-### **6. Notificaciones**
-
-Este diagrama muestra la relación entre:
-
-* `notificaciones`
-* `usuarios`
-
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### Puntos clave:
-
-* Cada notificación tiene un usuario destinatario.
-* Se registra el estado (leída/no leída) y la fecha de envío.
-
-### **7. Notas sobre el MER**
-
-* Todas las relaciones críticas están reforzadas mediante claves foráneas.
-* Las cardinalidades reflejan las reglas de negocio del sistema.
-* El modelo está diseñado para permitir escalabilidad y futuras ampliaciones.
+*   **No Unicidad de Nombre**: A diferencia de otras entidades, el nombre de la `Liga` **no es único**, permitiendo que diferentes administradores creen ligas con nombres similares.
+*   **Auditoría**: Todas las tablas principales implementan los campos `created_at` y `updated_at` para trazabilidad completa.
+*   **Eliminación de Módulos**: El antiguo sistema de formaciones tácticas (tablas `formaciones`, `posiciones`, etc.) ha sido eliminado en favor de un sistema de alineaciones más flexible.

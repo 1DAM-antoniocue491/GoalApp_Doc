@@ -13,7 +13,7 @@ La autenticación se basa en **JSON Web Tokens (JWT)** con las siguientes caract
 | Característica | Implementación |
 |----------------|----------------|
 | Algoritmo de firma | HS256 (HMAC con SHA-256) |
-| Tiempo de expiración | 60 minutos (configurable) |
+| Tiempo de expiración | Configurable vía `ACCESS_TOKEN_EXPIRE_MINUTES` en `.env` (valor real: 30 días en ejemplo) |
 | Clave secreta | 64 bytes generados con `secrets.token_urlsafe(64)` |
 | Payload mínimo | Solo contiene `sub` (ID del usuario) |
 
@@ -46,7 +46,7 @@ El sistema implementa **Role-Based Access Control**:
 | Rol | Permisos |
 |-----|----------|
 | `admin` | Acceso total al sistema |
-| `coach` | Gestión de su equipo y formaciones |
+| `coach` | Gestión de su equipo y alineaciones |
 | `delegate` | Registrar eventos de partidos asignados |
 | `player` | Ver su propia información y estadísticas |
 | `viewer` | Ver información pública |
@@ -106,16 +106,17 @@ usuario = db.query(Usuario).filter(Usuario.email == email).first()
 
 #### Configuración Actual
 
+La configuración se gestiona dinámicamente mediante `settings.get_cors_origins_list()` en el middleware de FastAPI.
+
 ```python
 # En app/main.py
-ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:5173",
-    "http://localhost:8081",
-    "http://localhost:19006",
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:5173",
-]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.get_cors_origins_list(),
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 ```
 
 #### Recomendaciones para Producción
@@ -188,7 +189,7 @@ server {
 
 #### Archivo .env
 
-El archivo `.env` contiene información sensible y **NUNCA** debe subirse al repositorio:
+El archivo `. la env` contiene información sensible y **NUNCA** debe subirse al repositorio:
 
 ```gitignore
 # .gitignore
@@ -203,7 +204,7 @@ El archivo `.env` contiene información sensible y **NUNCA** debe subirse al rep
 |----------|---------------------|
 | `SECRET_KEY` | Permite falsificar tokens JWT |
 | `DATABASE_URL` | Acceso completo a la base de datos |
-| Credenciales MySQL | Acceso directo a datos |
+| Credenciales DB | Acceso directo a datos |
 
 #### Generación de SECRET_KEY
 
@@ -302,14 +303,14 @@ FLUSH PRIVILEGES;
 
 ```env
 # URL con usuario dedicado
-DATABASE_URL=mysql+pymysql://goalapp_user:contrasena_segura@localhost:3306/futbol_app
+DATABASE_URL=postgresql+psycopg2://goalapp_user:contrasena_segura@localhost:5432/futbol_app
 ```
 
 #### Backup Automático
 
 ```bash
 # Script de backup diario
-mysqldump -u goalapp_user -p futbol_app > backup_$(date +%Y%m%d).sql
+pg_dump -U goalapp_user futbol_app > backup_$(date +%Y%m%d).sql
 ```
 
 ***
@@ -360,36 +361,3 @@ Consultar el archivo `ERRORES_SEGURIDAD_AUTENTICACION.md` para el análisis deta
 | Sin mecanismo de revocación de tokens | MEDIA | Documentado |
 | Sin rate limiting en login | MEDIA | Recomendación |
 | `datetime.utcnow()` deprecado | BAJA | Documentado |
-
-***
-
-### 11. Checklist de Seguridad para Producción
-
-#### Antes del Despliegue
-
-- [ ] Cambiar `SECRET_KEY` a un valor seguro y único
-- [ ] Cambiar todas las contraseñas por defecto
-- [ ] Configurar HTTPS con certificado válido
-- [ ] Configurar CORS solo para dominios de producción
-- [ ] Deshabilitar `DATABASE_ECHO` (no mostrar SQL en logs)
-- [ ] Crear usuario de base de datos con permisos limitados
-- [ ] Configurar firewall (solo puertos 80, 443, 8000)
-- [ ] Configurar rate limiting
-- [ ] Revisar logs para no exponer información sensible
-
-#### Monitoreo Continuo
-
-- [ ] Revisar logs de autenticación regularmente
-- [ ] Monitorear intentos de login fallidos
-- [ ] Configurar alertas para actividad sospechosa
-- [ ] Mantener dependencias actualizadas
-- [ ] Realizar auditorías de seguridad periódicas
-
-***
-
-### 12. Recursos Adicionales
-
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/) - Principales vulnerabilidades web
-- [FastAPI Security](https://fastapi.tiangolo.com/tutorial/security/) - Documentación oficial
-- [JWT Best Practices](https://auth0.com/blog/jwt-authentication-best-practices/) - Buenas prácticas JWT
-- [CORS MDN](https://developer.mozilla.org/es/docs/Web/HTTP/CORS) - Documentación CORS

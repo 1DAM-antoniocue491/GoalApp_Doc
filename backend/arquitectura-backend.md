@@ -4,12 +4,11 @@ El backend de la aplicación está desarrollado utilizando el framework **FastAP
 
 Este enfoque permite que el código sea **más mantenible, escalable y fácil de testear**, ya que cada capa se encarga de una función específica dentro de la aplicación.
 
-La aplicación se estructura en cuatro capas principales:
+La aplicación se estructura en tres capas principales:
 
 * Capa de presentación (API / Routers)
 * Capa de lógica de negocio (Services)
 * Capa de acceso a datos (Models / ORM)
-* Capa de persistencia (Base de datos)
 
 La comunicación entre capas sigue un flujo descendente donde cada capa interactúa únicamente con la inmediatamente inferior.
 
@@ -37,7 +36,7 @@ Base de Datos
 
 #### 1.1. Capa de Presentación (Routers)
 
-La capa de presentación está implementada mediante **routers de FastAPI**.
+La capa de presentación está implementada mediante **routers de FastAPI**, ubicados en `app/api/routers/`.
 
 Su función es:
 
@@ -49,8 +48,7 @@ Su función es:
 
 Cada recurso de la API tiene su propio router.
 
-Ejemplo:
-
+Ejemplo de estructura:
 ```
 app/api/routers/
 ├── auth.py
@@ -58,7 +56,18 @@ app/api/routers/
 ├── equipos.py
 ├── jugadores.py
 ├── partidos.py
-└── ligas.py
+├── ligas.py
+├── alineaciones.py
+├── convocatorias.py
+├── eventos.py
+├── imagenes.py
+├── invitaciones.py
+├── notificaciones.py
+├── public.py
+├── roles.py
+├── estadisticas.py
+├── tokens_recuperacion.py
+└── liga_configuracion.py
 ```
 
 Ejemplo de endpoint:
@@ -78,7 +87,7 @@ En este punto el router **no contiene lógica compleja**, únicamente gestiona l
 
 ### 2. Capa de Servicios (Lógica de Negocio)
 
-La capa de servicios contiene la **lógica de negocio de la aplicación**.
+La capa de servicios contiene la **lógica de negocio de la aplicación**. Se encuentra ubicada en `app/api/services/`.
 
 Aquí se implementan las reglas que determinan cómo se procesan los datos antes de almacenarlos o devolverlos al cliente.
 
@@ -97,7 +106,8 @@ app/api/services/
 ├── jugador_service.py
 ├── equipo_service.py
 ├── partido_service.py
-└── auth_service.py
+├── auth_service.py
+└── ... (demás servicios por dominio)
 ```
 
 Ejemplo:
@@ -126,7 +136,7 @@ Esta capa permite que la lógica de negocio esté **desacoplada de la API**.
 
 ### 3. Capa de Datos (ORM)
 
-La capa de datos está implementada mediante **SQLAlchemy**, que actúa como ORM (Object Relational Mapper).
+La capa de datos está implementada mediante **SQLAlchemy**, que actúa como ORM (Object Relational Mapper). Los modelos se definen en `app/models/`.
 
 Un ORM permite interactuar con la base de datos mediante objetos Python en lugar de escribir consultas SQL manualmente.
 
@@ -156,7 +166,7 @@ Los modelos también definen:
 
 ### 4. Capa de Persistencia
 
-La capa de persistencia corresponde a la base de datos relacional **MySQL**.
+La capa de persistencia corresponde a la base de datos relacional **PostgreSQL**, optimizada para despliegues en Render.
 
 En ella se almacenan:
 
@@ -168,13 +178,13 @@ En ella se almacenan:
 * Eventos
 * Notificaciones
 
-La comunicación entre la aplicación y la base de datos se realiza a través de **SQLAlchemy** mediante sesiones de base de datos.
+La comunicación entre la aplicación y la base de datos se realiza a través de **SQLAlchemy** mediante sesiones de base de datos gestionadas en `app/database/connection.py`.
 
 ***
 
 ### 5. Validación de Datos
 
-La validación de datos se realiza mediante la librería **Pydantic**.
+La validación de datos se realiza mediante la librería **Pydantic**. Los esquemas se definen en `app/schemas/`.
 
 Los esquemas definen:
 
