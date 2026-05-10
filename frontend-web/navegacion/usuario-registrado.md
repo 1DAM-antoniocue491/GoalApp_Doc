@@ -132,7 +132,7 @@ Debemos pulsar el botón 'Cambiar de liga' para volver al onboarding.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -158,7 +158,7 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organi
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -186,7 +186,7 @@ En la pantalla de Equipos se pueden realizar la siguiente acción:
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
@@ -214,7 +214,7 @@ La pantalla de Perfil es la sección donde el usuario puede consultar y gestiona
 {% column valign="middle" %}
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
 {% endcolumn %}

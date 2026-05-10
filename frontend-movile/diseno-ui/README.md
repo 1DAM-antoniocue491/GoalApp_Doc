@@ -12,7 +12,7 @@ La **guía de estilos** es un documento que recoge las normas de diseño para ma
 
 Para la interfaz de la aplicación se ha optado por una **paleta de colores oscuros**, tomando como referencia el diseño visual de otras aplicaciones similares relacionadas con el fútbol.
 
-<table><thead><tr><th align="center" valign="middle">Uso</th><th>Colores</th></tr></thead><tbody><tr><td align="center" valign="middle">Los colores para los fondos:              </td><td><img src="../../.gitbook/assets/image (4).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para los textos:</td><td><img src="../../.gitbook/assets/image (3).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores de las tarjetas:</td><td><img src="../../.gitbook/assets/image (5).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para comprobar acciones:</td><td><img src="../../.gitbook/assets/image (6).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th align="center" valign="middle">Uso</th><th>Colores</th></tr></thead><tbody><tr><td align="center" valign="middle">Los colores para los fondos:              </td><td><img src="../../.gitbook/assets/image (4).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para los textos:</td><td><img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores de las tarjetas:</td><td><img src="../../.gitbook/assets/image (5).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para comprobar acciones:</td><td><img src="../../.gitbook/assets/image (6).png" alt="" data-size="original"></td></tr></tbody></table>
 
 b. **Tipografía.**
 
@@ -112,7 +112,7 @@ Desde aquí el usuario puede:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

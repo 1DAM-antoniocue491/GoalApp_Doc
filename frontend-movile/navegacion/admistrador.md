@@ -56,107 +56,10 @@ Dashboard → Información Liga escogida.
 Liga → Detalle de las Jornadas, Equipos y Clasificación.
 Añadir → Gestionar Usuarios.
 Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
-Perfil → Editar perfil / Cerrar sesión
+Perfil → Editar perfil / Cerrar sesió
 ```
 
-**a. Onboarding.**
-
-El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
-
-Las funciones de Onboarding son:
-
-* **Crear liga.** Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
-  * Nombre de la liga.
-  * Temporada.
-  * Categoría.
-  * Cantidad máxima de partidos.
-  * Minutos posibles de los partidos.
-
-
-
-{% columns %}
-{% column valign="middle" %}
-
-
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="188"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
-
-* **Editar y eliminar**, desde el cual es posible modificar y actualizar la configuración de la misma e incluso eliminarla. En esta sección se puede editar información adicional relacionada con la liga, permitiendo una gestión más completa y personalizada. Si pulsa en los ajustes de la liga, se abre el modal **Configuración de Liga**, donde puede configurar datos como:
-  * Nombre de la liga.
-  * Temporada.
-  * Categoría.
-  * Número mínimo y máximo de equipos.
-  * Mínimo y máximo de convocados.
-  * Mínimo y máximo de jugadores que forman parte de la plantilla.
-  * Duración de los partidos.
-  * Cantidad máxima de partidos.
-
-{% columns %}
-{% column valign="middle" %}
-<div align="center"><figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="188"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**. Si el código es válido, la liga se añade a su cuenta y tendrá los permisos del rol asignado.
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<div align="center"><figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
-
-* **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
-
-
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (107).png" alt="" width="188"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-* **Reactivar una liga.** Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
-  Cuando la reactiva:
-  * La liga vuelve a estar activa.
-  * Conserva todos sus datos.
-  * Desaparece del filtro **Finalizadas.**
-  * Vuelve a **Todas.**
-  * La acción principal cambia a **Entrar**.
-
-{% columns %}
-{% column %}
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-**b. Dashboard.**
+5. **Dashboard.**
 
 El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
@@ -176,9 +79,17 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
-* **Finalizar Partidos en Vivo.** Al seleccionar la opción 'Finalizar', se desplegará un modal para completar la información correspondiente. Tras rellenar todos los datos, el usuario deberá confirmar pulsando 'Finalizar partido'.
+* **Ver calendario.** Al pulsar en 'Ver calendario' se nos refigirá a calendario a todos los partidos programados de esa liga.
 
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
 
+{% column %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución
 
@@ -188,16 +99,23 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
     * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
     * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
     * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-* **Ver plantillas.** Al pulsar 'Ver plantilla', se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
-* **Ver calendarios.** Al pulsar 'Ver calendarios', se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
-* **Ver partido programado.**&#x20;
+
+
+*   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
+
+    Las distintas opciones disponibles para cada jugador son las siguientes:
+
+    * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+    * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+    * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+    Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+* **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
 * **Inicializar Partido.**&#x20;
-* **Convocatoria.**
-* **Alineación Titular.**
 
 
 
-2. **Calendario.**
+6. **Calendario.**
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
@@ -213,11 +131,11 @@ Dentro de los **tres puntitos** que aparecen en el encabezado, tenemos diferente
 {% column valign="middle" %}
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -256,7 +174,7 @@ Podemos generar el calendario de dos maneras distintas. Una vez seleccionada una
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -278,7 +196,7 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -292,11 +210,11 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -311,13 +229,13 @@ Toda la información generada estará disponible a través de diferentes pestañ
 
 <figure><img src="../../.gitbook/assets/image (114).png" alt="" width="188"><figcaption></figcaption></figure>
 
-**d. Añadir.**
+7. **Añadir.**
 
 El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.&#x20;
 
 {% columns %}
 {% column %}
@@ -331,13 +249,29 @@ Podrán unir por dos formas diferentes:
 {% endcolumn %}
 {% endcolumns %}
 
-* **Invitar.**
+*   **Invitar.** Debemos pulsar el botón '**Invitar'** y seleccionar el rol del usuario que queremos incorporar a la liga. A continuación, se deberá completar la información necesaria según el rol elegido y, finalmente, pulsar nuevamente el botón '**Invitar'** para confirmar la acción.
 
-**e. Estadísticas.**
+    Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+8. **Estadísticas.**
+
+La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
+
+Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
 
 
 
-**f. Perfil.**
+9. **Perfil.**
 
 El perfil es la pantalla donde el usuario puede ver y gestionar sus datos personales dentro de la aplicación.
 
@@ -359,6 +293,6 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 
 
 
-3. **Restricciones.**
+10. **Restricciones.**
 
 El administrador no contiene ninguna restricción contiene todos los permisos de la aplicación.

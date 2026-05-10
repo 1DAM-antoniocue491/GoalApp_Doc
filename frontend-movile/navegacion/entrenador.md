@@ -73,13 +73,49 @@ El **onboarding** su función es situar al usuario dentro de GoalApp antes de en
 El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
 * **Volver al onboarding.** El encabezado de la aplicación permite al usuario regresar a la pantalla de onboarding al ser pulsado.
+
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+
 * **Ver notificaciones.** Al pulsar el icono de la campana en el encabezado, el usuario podrá visualizar todas las notificaciones recibidas, organizadas según su tipo (todas, en vivo, resultados, etc.). Para cerrar la pantalla pulsaremos el botón de retroceder.
-* **Ver plantillas.** Al pulsar ‘Ver plantilla’, se mostrará una pantalla con las plantillas de los equipos que están disputando el partido.
-* **Ver calendarios.** Al pulsar ‘Ver calendarios’, se redirigirá al usuario a la pestaña de calendario, mostrando los partidos en estado programado.
-* **Ver partido programado.**&#x20;
-* **Inicializar Partido.**&#x20;
-* **Convocatoria.**
-* **Alineación Titular.**
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (112).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+* **Ver calendario.** Al pulsar en 'Ver calendario' se nos refigirá a calendario a todos los partidos programados de esa liga.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+
+
+*   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
+
+    Las distintas opciones disponibles para cada jugador son las siguientes:
+
+    * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+    * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+    * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+    Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+* **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
+
+
 
 **c. Calendario.**
 
