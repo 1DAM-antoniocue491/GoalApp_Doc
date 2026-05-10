@@ -49,8 +49,8 @@ La seguridad se centra en proteger el acceso a la información, garantizar la au
 
 * El sistema utiliza un modelo RBAC donde los permisos dependen del **rol del usuario dentro de cada liga**.
 * Un usuario puede tener roles distintos en distintas ligas.
-* El acceso se define por el rol, no por el usuario.
-* Los roles se asignan automáticamente según la participación del usuario (administrador, entrenador, delegado, jugador).
+* El acceso se define usuario.
+* Los roles se asignan automáticamente según la participación del usuario (administrador, entrenador, delegado, jugador, onservador).
 
 ### **Autenticación y protección de credenciales**
 
@@ -63,7 +63,7 @@ La seguridad se centra en proteger el acceso a la información, garantizar la au
 ### **Restricciones de acceso**
 
 * Usuarios no autenticados solo pueden ver información pública.
-* Usuarios autenticados acceden a funcionalidades según su rol.
+* Usuarios autenticados acceden a funcionalidades según su rol, desde decada liga.
 * Acciones sensibles (crear ligas, asignar roles, gestionar equipos) están restringidas a administradores.
 
 ### **Validación de acciones**

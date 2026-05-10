@@ -54,9 +54,9 @@ Registro de partidos programados o jugados, así como eventos asociados (goles, 
 
 <details>
 
-<summary><strong>Formaciones tácticas y alineaciones</strong></summary>
+<summary>Convocatorias <strong>y alineaciones</strong></summary>
 
-Definición de formaciones disponibles y alineaciones utilizadas por cada equipo en cada partido.
+Definición de convocatorias y alineaciones utilizadas por cada equipo en cada partido.
 
 </details>
 

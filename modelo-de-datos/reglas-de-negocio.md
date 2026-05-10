@@ -10,11 +10,9 @@ Las reglas se agrupan por áreas funcionales para facilitar su comprensión.
 
 * El sistema utiliza un modelo RBAC: las acciones permitidas dependen del **rol del usuario dentro de cada liga**.
 * Un usuario puede tener **roles distintos en ligas distintas**.
-* El acceso se define por el **rol**, no por el usuario en sí.
 
 #### **Autenticación y visibilidad**
 
-* Todo usuario debe registrarse para utilizar el sistema.
 * Usuarios no autenticados solo pueden acceder a información pública.
 * Usuarios autenticados acceden a funcionalidades según su rol.
 
@@ -26,6 +24,7 @@ Los roles se asignan automáticamente según la participación del usuario en un
 * Al asignar un entrenador a un equipo, el usuario obtiene el rol **Entrenador** en esa liga.
 * Al asignar un delegado, obtiene el rol **Delegado de campo**.
 * Al añadir un jugador a un equipo, obtiene el rol **Jugador** en esa liga.
+* Al añadir un observador a un equipo, obtiene el rol **Observador** en esa liga.
 
 #### **Relación con el modelo de datos**
 
@@ -38,9 +37,8 @@ Los roles se asignan automáticamente según la participación del usuario en un
 
 Una liga puede estar en uno de los siguientes estados:
 
-* **CREADA**: editable.
 * **CONFIGURACIÓN**: se añaden equipos y datos previos.
-* **EN COMPETICIÓN**: partidos activos.
+* **EN CURSO:** partidos activos.
 * **FINALIZADA**: solo consulta.
 
 #### **Reglas de transición**
@@ -108,9 +106,11 @@ No es obligatorio asignarlos al crear el equipo, pero **sí antes de disputar pa
 
 #### **Estados del partido**
 
-* Pendiente
+* Programado
 * En juego
 * Finalizado
+* Cancelado.
+* Suspendido
 
 Las transiciones deben ser coherentes con el flujo de competición.
 
@@ -133,16 +133,12 @@ Tipos permitidos:
 
 #### **Reglas de uso**
 
-* Un equipo solo puede usar formaciones que tenga asignadas (`formacion_equipo`).
-* En cada partido, el equipo debe seleccionar una formación (`formacion_partido`).
 * La alineación debe respetar:
-  * El número de jugadores de la formación.
-  * Las posiciones definidas en la formación.
+  * Los jugadores que esten convocados.
 
 #### **Restricciones**
 
-* No se permite registrar alineaciones sin formación asignada.
-* Las posiciones deben coincidir con las definidas en la tabla `posicion`.
+* No se permite registrar alineaciones de jugadores que no esten convocados.
 
 ## **7. Notificaciones**
 
@@ -170,10 +166,8 @@ Tipos permitidos:
 ## **9. Resumen de Reglas Críticas**
 
 * El acceso depende del rol del usuario en cada liga.
-* Un jugador siempre es un usuario.
 * Un usuario puede tener roles distintos en distintas ligas.
 * Los equipos deben tener entrenador y delegado antes de competir.
 * Los partidos solo se registran entre equipos de la misma liga.
 * Los eventos deben asociarse a jugadores válidos y convocados.
-* Las alineaciones deben respetar la formación asignada.
 * Las ligas siguen un ciclo de vida con restricciones estrictas.
