@@ -19,7 +19,7 @@ El Administrador es el responsable global del sistema y de la gestión de ligas.
 * Gestionar usuarios y asignación de roles.
 * Acceder a estadísticas globales.
 * Gestionar configuración general del sistema.
-* Gestionar la clasificación general basada en estadísticas.
+* Consultar estadísticas de la liga..
 
 ***
 
@@ -32,17 +32,14 @@ El Entrenador es el usuario responsable de un equipo concreto dentro de una liga
 
 * Gestión deportiva del equipo.
 * Gestión de jugadores del equipo.
-* Definición de formaciones, alineaciones y convocatorias.
-* Planificación de entrenamientos.
+* Definición de alineaciones y convocatorias.
 
 **Acciones permitidas:**
 
-* Crear, editar y eliminar jugadores de su equipo.
-* Crear, editar y eliminar formaciones y alineaciones.
-* Editar información interna del equipo (nombre, escudo y datos del equipo).
-* Consultar estadísticas de su equipo y jugadores.
+* Invitar a jugadores de su equipo.
+* Crear, editar y eliminar convocatorias y alineaciones.
+* Consultar estadísticas de la liga.
 * Consultar partidos, calendario y clasificación de la liga.
-* Crear, editar y eliminar calendario de entrenamientos.
 
 ***
 
@@ -60,9 +57,7 @@ El Delegado de campo es el usuario encargado de registrar los eventos que ocurre
 
 * Registrar eventos de partido (goles, tarjetas, cambios, MVP) únicamente en partidos asignados.
 * Editar o eliminar eventos registrados en partidos asignados.
-* Consultar su asignación de partidos y horarios.
-* Consultar clasificación de jugadores según estadísticas.
-* Marcar inicio y fin de partido (opcional según configuración).
+* Marcar inicio y fin de partido.
 
 ***
 
@@ -73,16 +68,12 @@ El Jugador es un usuario que forma parte de un equipo dentro de una liga.
 
 **Responsabilidades principales:**
 
-* Consulta de información deportiva de su equipo y liga.
-* Seguimiento de partidos y estadísticas.
+* Consulta de la liga y al equipo al que pertenece.
 
 **Acciones permitidas:**
 
-* Consultar información de su equipo.
-* Consultar la ficha de los jugadores del equipo.
-* Consultar clasificación de jugadores basada en estadísticas.
-* Consultar partidos, resultados y clasificación.
-* Recibir notificaciones de calendario de partidos y entrenamientos.
+* Ver ligas, equipos y partidos.
+* Consultar clasificaciones y estadísticas.
 
 ***
 
@@ -93,12 +84,9 @@ El Usuario básico o espectador es un usuario que accede al sistema con fines de
 
 **Responsabilidades principales:**
 
-* Consulta de ligas, equipos, partidos y estadísticas públicas.
+* Consulta de la liga y al equipo al que pertenece.
 
 **Acciones permitidas:**
 
 * Ver ligas, equipos y partidos.
-* Consultar clasificaciones y estadísticas públicas.
-* Consultar clasificación de jugadores basada en estadísticas.
-* Seguir equipos y jugadores como favoritos.
-* Recibir notificaciones generales relacionadas con elementos seguidos.
+* Consultar clasificaciones y estadísticas.
