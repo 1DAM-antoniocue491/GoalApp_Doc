@@ -171,9 +171,7 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 
 Las limitaciones que presenta este usuario son:
 
-* No podrá crear ligas de fútbol.
-* No podrá crear equipos.
+* No podrá crear/ editar/eliminar equipos.
 * No podrá asignar roles ni eliminarlos.
-* No podra crear un evento.
-* No podrá consultar estadísticar personales de un jugador.
-* No podrá ver estadísticas personales del jugador.
+* No podra crear/editar/eliminar un evento.
+* No podrá editar la liga que se ha unido.
