@@ -80,6 +80,7 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
+*
 * **Ver calendario.** Al pulsar en 'Ver calendario' se nos refigirá a calendario a todos los partidos programados de esa liga.
 
 {% columns %}
@@ -106,6 +107,8 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 
     Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
 * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
+
+
 
 6. &#x20;**Calendario.**
 
