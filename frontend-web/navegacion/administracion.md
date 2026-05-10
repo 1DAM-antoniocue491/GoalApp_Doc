@@ -47,78 +47,7 @@ Estadísticas → Ver estadísticas de los Equipos y Jugadores.
 Usuarios → Ver usuarios de la liga.
 ```
 
-**a. Onboarding.**
 
-El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta. El Onboarding es el **mismo para todos los roles**.
-
-Las funciones de Onboarding son:
-
-* **Crear liga.** Si pulsa **Crear liga**, se abre el modal **Nueva Liga**, donde puede configurar datos como:
-  * Nombre de la liga.
-  * Temporada.
-  * Categoría.
-  * Cantidad máxima de partidos.
-  * Minutos posibles de los partidos.
-
-
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-Cuando confirma la acción, la liga se crea y el usuario queda asociado como **administrador**.
-
-* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**. Si el código es válido, la liga se añade a su cuenta y tendrá los permisos del rol asignado.
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-* **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
-
-
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-* **Reactivar una liga.** Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
-  Cuando la reactiva:
-  * La liga vuelve a estar activa.
-  * Conserva todos sus datos.
-  * Desaparece del filtro **Finalizadas.**
-  * Vuelve a **Todas.**
-  * La acción principal cambia a **Entrar**.
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
 
 **b. Dashboard.**
 
@@ -164,48 +93,77 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organi
 {% endcolumn %}
 {% endcolumns %}
 
-* **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-  * **Añadir Evento.** Al seleccionar la opción 'Eventos', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
-    * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
-      * Equipo que produce el evento.
-      * Nombre del Jugador.
-      * Minuto en que ocurrio el evento.
-    * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-      * Equipo que produce el evento.
-      * Nombre del Jugador.
-      * Minuto en que ocurrio el evento.
-      * Motivo.
-    * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-      * Equipo que produce el evento.
-      * Nombre del Jugador.
-      * Minuto en que ocurrio el evento.
-      * Motivo.
-    * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-      * Equipo que produce el evento.
-      * Nombre del jugador que entra.
-      * Nombre del jugador que sale.
-      * Minuto en que ocurrio el evento.
-  * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-  *   **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
+*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
 
-      * Equipo que produce el evento.
-      * MVP del partido.
-      * Puntución MVP
-      * Incidencias (opcional).
+    * **Añadir Evento.** Al seleccionar la opción 'Eventos', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+      * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+        * Motivo.
+      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+        * Motivo.
+      *   **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+
+          * Equipo que produce el evento.
+          * Nombre del jugador que entra.
+          * Nombre del jugador que sale.
+          * Minuto en que ocurrio el evento.
+
+          <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="249"><figcaption></figcaption></figure>
+    * **Ver plantillas:** Al seleccionar la opción '**Convocatoria'**, se deberá elegir el equipo que se desea consultar. A continuación, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+
+    <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="188"><figcaption></figcaption></figure>
+
+    * **Finalizar partido:** Al seleccionar la opción '**Finalizar'**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
 
 
-* **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
-  *   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
 
-      Las distintas opciones disponibles para cada jugador son las siguientes:
+{% columns %}
+{% column %}
 
-      * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
-      * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
-      * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
 
-      Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
-  * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-  * **Inicializar Partido.**&#x20;
+* Equipo que produce el evento.
+* MVP del partido.
+* Puntución MVP
+* Incidencias (opcional).
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="117"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+*   **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+
+    *   **Añadir convocatoria y alineación.** La convocatoria se podrá añadir hasta una hora antes del partido. En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
+
+        Las distintas opciones disponibles para cada jugador son las siguientes:
+
+        * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+        * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+        * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+        Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+
+    <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="183"><figcaption></figcaption></figure>
+
+    * **Editar:** Pulsamos en 'Editar' podemos aparecerá un modal para editar el editar el partido.
+
+    <figure><img src="../../.gitbook/assets/image (5).png" alt="" width="252"><figcaption></figcaption></figure>
+
+
+
+    * **Inicializar partido:** Al pulsar el botón '**Inicializar partido'**, se mostrará una ventana modal de confirmación para validar el cambio de estado. Tras seleccionar la opción '**Inicializar partido'**, y si los datos son correctos, el encuentro pasará automáticamente al estado '**En vivo'.**
+
+    <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="248"><figcaption></figcaption></figure>
 
 
 
@@ -288,6 +246,80 @@ Si únicamente se desea editar un partido, también es posible hacerlo de forma 
 
 <figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
+Podremos ver los partidos según el estado en el que se encuentren:
+
+*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+
+    * **Añadir Evento.** Al seleccionar la opción 'Eventos', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+      * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+        * Motivo.
+      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+        * Equipo que produce el evento.
+        * Nombre del Jugador.
+        * Minuto en que ocurrio el evento.
+        * Motivo.
+      *   **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+
+          * Equipo que produce el evento.
+          * Nombre del jugador que entra.
+          * Nombre del jugador que sale.
+          * Minuto en que ocurrio el evento.
+
+          <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="249"><figcaption></figcaption></figure>
+    * **Ver plantillas:** Al seleccionar la opción '**Convocatoria'**, se deberá elegir el equipo que se desea consultar. A continuación, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+
+    <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="188"><figcaption></figcaption></figure>
+
+    * **Finalizar partido:** Al seleccionar la opción '**Finalizar'**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
+
+
+
+{% columns %}
+{% column %}
+
+
+* Equipo que produce el evento.
+* MVP del partido.
+* Puntución MVP
+* Incidencias (opcional).
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="117"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+*   **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+
+    *   **Añadir convocatoria y alineación.** La convocatoria se podrá añadir hasta una hora antes del partido. En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
+
+        Las distintas opciones disponibles para cada jugador son las siguientes:
+
+        * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+        * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+        * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+        Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+
+    <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="183"><figcaption></figcaption></figure>
+
+    * **Editar:** Pulsamos en 'Editar' podemos aparecerá un modal para editar el editar el partido.
+
+    <figure><img src="../../.gitbook/assets/image (5).png" alt="" width="252"><figcaption></figcaption></figure>
+
+
+
+    * **Inicializar partido:** Al pulsar el botón '**Inicializar partido'**, se mostrará una ventana modal de confirmación para validar el cambio de estado. Tras seleccionar la opción '**Inicializar partido'**, y si los datos son correctos, el encuentro pasará automáticamente al estado '**En vivo'.**
+
+    <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="248"><figcaption></figcaption></figure>
+
 3. **Equipos.**
 
 La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la liga, organizados en una clasificación por puntos según los resultados de los partidos.&#x20;
@@ -305,11 +337,11 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -317,9 +349,9 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Dentro del equipo tendremos la opción de:
 
@@ -331,11 +363,11 @@ Dentro del equipo tendremos la opción de:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -347,7 +379,7 @@ Dentro del equipo tendremos la opción de:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -385,7 +417,7 @@ Podrán unir por dos formas diferentes:
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -403,19 +435,19 @@ La pantalla de Perfil es la sección donde el usuario puede consultar y gestiona
 {% column valign="middle" %}
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 * **Cerrar Sesión.** Al pulsar el botón de 'Cerrar sesión' se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
 
 
 

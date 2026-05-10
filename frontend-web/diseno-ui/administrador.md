@@ -26,7 +26,7 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 * **Editar una liga.**
 * **Editar los partidos**.
 * **Cambiar el estado** de los partidos
-* **Añadir la convocatoria** de los partidos.
+* **Añadir la convocatoria** e **alineación** de los partidos.
 * **Acceder rápidamente a la información** más relevante.
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
@@ -44,6 +44,7 @@ El **objetivo** de esta pantalla Jornada es:
 * **Trabajar sobre convocatoria** del partido.
 * **Crear partidos manualmente.**
 * **Generar el calendario automáticamente.**
+* **Cambiar estado de los partidos.**
 * **Editar y elimina tanto el calendario como partidos** concretos.
 
 <figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
