@@ -4,11 +4,7 @@ El administrador tiene el control total de la aplicación. Se encarga de crear y
 
 Puede crear ligas, equipos, añadir o eliminar jugadores, publicar convocatorias y alineaciones para los partidos, gestionar calendarios y resultados, y controlar el acceso de los usuarios. También supervisa que no haya errores y que la experiencia de uso sea correcta.
 
-
-
 1. **Estructura de navegación.**
-
-
 
 ```
 ```
@@ -29,10 +25,8 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 La navegación y las funcionalidades de la aplicación para usuarios autenticados presentan un comportamiento consistente y completo:
 
-* **Acceso completo según rol y permisos:** Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
+* **Acceso completo según rol y permisos:** Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.
 * **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
-
-
 
 4. **Flujo de usuario.**
 
@@ -46,8 +40,6 @@ Equipos → Clasificaión liga, detalle de los Partidos.
 Estadísticas → Ver estadísticas de los Equipos y Jugadores. 
 Usuarios → Ver usuarios de la liga.
 ```
-
-
 
 **b. Dashboard.**
 
@@ -77,15 +69,13 @@ Para ver todas la notificaciones debemos pulsar en 'Ver todas la notificaciones'
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (148).png" alt="" width="288"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (147).png" alt="" width="288"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organizadas según su tipo (todas, en vivo, resultados, etc.) y su estado (todas,leídas, no leídas).
+Si hubiesemos pulsado en 'Ver todas las notificaciones' estás estarían organizadas según su tipo (todas, en vivo, resultados, etc.) y su estado (todas,leídas, no leídas).
 {% endcolumn %}
 
 {% column valign="middle" %}
@@ -100,12 +90,12 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organi
         * Equipo que produce el evento.
         * Nombre del Jugador.
         * Minuto en que ocurrio el evento.
-      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.
         * Equipo que produce el evento.
         * Nombre del Jugador.
         * Minuto en que ocurrio el evento.
         * Motivo.
-      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.
         * Equipo que produce el evento.
         * Nombre del Jugador.
         * Minuto en que ocurrio el evento.
@@ -124,16 +114,12 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organi
 
     * **Finalizar partido:** Al seleccionar la opción '**Finalizar'**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
 
-
-
 {% columns %}
 {% column %}
-
-
-* Equipo que produce el evento.
-* MVP del partido.
-* Puntución MVP
-* Incidencias (opcional).
+- Equipo que produce el evento.
+- MVP del partido.
+- Puntución MVP
+- Incidencias (opcional).
 {% endcolumn %}
 
 {% column %}
@@ -159,13 +145,9 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones'  estás estarían organi
 
     <figure><img src="../../.gitbook/assets/image (5).png" alt="" width="252"><figcaption></figcaption></figure>
 
-
-
     * **Inicializar partido:** Al pulsar el botón '**Inicializar partido'**, se mostrará una ventana modal de confirmación para validar el cambio de estado. Tras seleccionar la opción '**Inicializar partido'**, y si los datos son correctos, el encuentro pasará automáticamente al estado '**En vivo'.**
 
     <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="248"><figcaption></figcaption></figure>
-
-
 
 2. **Calendario.**
 
@@ -181,8 +163,6 @@ Podemos **generar el calendario** de dos maneras distintas. Una vez seleccionada
   * Días de Partido.
   * Hora de los partidos.
 
-
-
 {% columns %}
 {% column valign="middle" %}
 <figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
@@ -192,8 +172,6 @@ Podemos **generar el calendario** de dos maneras distintas. Una vez seleccionada
 <figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 * **Nuevo Partido:** Permite generar manualmente un calendario en función de los equipos que formen parte de la liga. Al pulsar sobre la opción 'Crear encuentro', se mostrará un modal con distintos campos que deberán completarse:
   * Equipo Local.
@@ -212,7 +190,7 @@ Podemos **generar el calendario** de dos maneras distintas. Una vez seleccionada
 
 Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 
-* **Editar calendario**: Función para gestionar y actualizar los partidos de la liga.  Al pulsar sobre la opción 'Editar calendario', se mostrará un modal con distintos campos que pueden modificarse:
+* **Editar calendario**: Función para gestionar y actualizar los partidos de la liga. Al pulsar sobre la opción 'Editar calendario', se mostrará un modal con distintos campos que pueden modificarse:
   * Tipo de Calendario.
   * Fecha de Inicio.
   * Días de Partido.
@@ -220,7 +198,7 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -232,7 +210,7 @@ Una vez creado el calendario podemos modificarlo e incluso eliminarlo:
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column valign="middle" %}
@@ -255,12 +233,12 @@ Podremos ver los partidos según el estado en el que se encuentren:
         * Equipo que produce el evento.
         * Nombre del Jugador.
         * Minuto en que ocurrio el evento.
-      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.
         * Equipo que produce el evento.
         * Nombre del Jugador.
         * Minuto en que ocurrio el evento.
         * Motivo.
-      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.
         * Equipo que produce el evento.
         * Nombre del Jugador.
         * Minuto en que ocurrio el evento.
@@ -279,16 +257,12 @@ Podremos ver los partidos según el estado en el que se encuentren:
 
     * **Finalizar partido:** Al seleccionar la opción '**Finalizar'**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
 
-
-
 {% columns %}
 {% column %}
-
-
-* Equipo que produce el evento.
-* MVP del partido.
-* Puntución MVP
-* Incidencias (opcional).
+- Equipo que produce el evento.
+- MVP del partido.
+- Puntución MVP
+- Incidencias (opcional).
 {% endcolumn %}
 
 {% column %}
@@ -314,26 +288,21 @@ Podremos ver los partidos según el estado en el que se encuentren:
 
     <figure><img src="../../.gitbook/assets/image (5).png" alt="" width="252"><figcaption></figcaption></figure>
 
-
-
     * **Inicializar partido:** Al pulsar el botón '**Inicializar partido'**, se mostrará una ventana modal de confirmación para validar el cambio de estado. Tras seleccionar la opción '**Inicializar partido'**, y si los datos son correctos, el encuentro pasará automáticamente al estado '**En vivo'.**
 
     <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="248"><figcaption></figcaption></figure>
 
 3. **Equipos.**
 
-La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la liga, organizados en una clasificación por puntos según los resultados de los partidos.&#x20;
+La **pantalla de Equipos** muestra los diferentes equipos que forman parte de la liga, organizados en una clasificación por puntos según los resultados de los partidos.
 
 Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 
-*   **Crear Equipo:** Permite crear los diferentes equipos que van a formar parte de la liga, pulsando en 'Nuevo Equipo' y se nos abrirá un modal con distintos campos:
-
-    * Nombre del equipo.
-    * Ciudad.
-    * Colores principales.
-    * Estadio.
-
-
+* **Crear Equipo:** Permite crear los diferentes equipos que van a formar parte de la liga, pulsando en 'Nuevo Equipo' y se nos abrirá un modal con distintos campos:
+  * Nombre del equipo.
+  * Ciudad.
+  * Colores principales.
+  * Estadio.
 
 {% columns %}
 {% column valign="middle" %}
@@ -345,9 +314,7 @@ Las diferentes opciones que podemos hacer en la pantalla de Equipos son:
 {% endcolumn %}
 {% endcolumns %}
 
-*   **Información individual de cada equipo:** Al seleccionar un equipo, se mostrará información detallada y específica relacionada con dicho equipo.&#x20;
-
-
+* **Información individual de cada equipo:** Al seleccionar un equipo, se mostrará información detallada y específica relacionada con dicho equipo.
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -382,8 +349,6 @@ Dentro del equipo tendremos la opción de:
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 4. **Estadísticas.**
 
@@ -433,8 +398,6 @@ La pantalla de Perfil es la sección donde el usuario puede consultar y gestiona
 
 {% columns %}
 {% column valign="middle" %}
-
-
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
@@ -448,8 +411,6 @@ La pantalla de Perfil es la sección donde el usuario puede consultar y gestiona
 * **Cerrar Sesión.** Al pulsar el botón de 'Cerrar sesión' se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="191"><figcaption></figcaption></figure>
-
-
 
 3. **Restricciones.**
 

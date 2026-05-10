@@ -2,8 +2,6 @@
 
 El rol de delegado de campo una vez registrado e iniciado sesión permitirá registrar eventos en los partidos.
 
-
-
 1. **Estructura de navegación.**
 
 El apartado de (tabs), disponible en modo completo para usuarios autenticados, que contiene las secciones principales de la aplicación: _Dashboard_, Calendarios, estadisticas y _Perfil_. Estas secciones permiten al usuario navegar entre los distintos apartados de forma sencilla mediante una barra de navegación.
@@ -81,41 +79,30 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
-*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-
-    *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
-
-        * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
-          * Equipo que produce el evento.
-          * Nombre del Jugador.
-          * Check en ql caso de que sea gol en propia.
-        * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-          * Equipo que produce el evento.
-          * Nombre del Jugador.
-          * Minuto en que ocurrio el evento.
-          * Motivo.
-        * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-          * Equipo que produce el evento.
-          * Nombre del Jugador.
-          * Minuto en que ocurrio el evento.
-          * Motivo.
-        * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-          * Equipo que produce el evento.
-          * Nombre del jugador que entra.
-          * Nombre del jugador que sale.
-          * Minuto en que ocurrio el evento.
-
-
-    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-
-
-*   **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
-
-
-
-    * **Inicializar Partido.** Pulsando el botón de 'Iniciar' el partido cambiará de estado al 'en vivo'.
-
-
+* **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+  * **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+    * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+      * Equipo que produce el evento.
+      * Nombre del Jugador.
+      * Check en ql caso de que sea gol en propia.
+    * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.
+      * Equipo que produce el evento.
+      * Nombre del Jugador.
+      * Minuto en que ocurrio el evento.
+      * Motivo.
+    * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.
+      * Equipo que produce el evento.
+      * Nombre del Jugador.
+      * Minuto en que ocurrio el evento.
+      * Motivo.
+    * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+      * Equipo que produce el evento.
+      * Nombre del jugador que entra.
+      * Nombre del jugador que sale.
+      * Minuto en que ocurrio el evento.
+  * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+* **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+  * **Inicializar Partido.** Pulsando el botón de 'Iniciar' el partido cambiará de estado al 'en vivo'.
 
 6. **Calendario.**
 
@@ -123,25 +110,16 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 Toda la información generada estará disponible a través de diferentes pestañas:
 
-*   **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
-
-    *   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-
-
-
-        * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-        *   **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
-
-            * Equipo que produce el evento.
-            * MVP del partido.
-            * Puntución MVP
-            * Incidencias.
-
-
-    * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
-      * **Inicializar Partido.** Pulsando el botón de 'Iniciar' el partido cambiará de estado al 'en vivo'.
-
-
+* **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
+  * **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+    * **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
+      * Equipo que produce el evento.
+      * MVP del partido.
+      * Puntución MVP
+      * Incidencias.
+  * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+    * **Inicializar Partido.** Pulsando el botón de 'Iniciar' el partido cambiará de estado al 'en vivo'.
 * **Equipos**. Se mostraran los diferentes equipos que contiene la liga.
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
@@ -156,7 +134,7 @@ El tab de **Add** está diseñado para permitir la asignación de distintos role
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.&#x20;
+* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
 
 {% columns %}
 {% column %}
@@ -190,9 +168,7 @@ La **pantalla de Estadísticas** muestra de forma detallada la información más
 
 Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
 
-<figure><img src="../../.gitbook/assets/image (187).png" alt="" width="188"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (186).png" alt="" width="188"><figcaption></figcaption></figure>
 
 9. **Perfil.**
 
@@ -213,8 +189,6 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 * **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
 <figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
 
 10. **Restricciones.**
 
