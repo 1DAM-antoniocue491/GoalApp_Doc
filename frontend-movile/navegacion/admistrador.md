@@ -269,6 +269,8 @@ La **pantalla de Estadísticas** muestra de forma detallada la información más
 
 Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
 
+<figure><img src="../../.gitbook/assets/image (187).png" alt="" width="188"><figcaption></figcaption></figure>
+
 
 
 9. **Perfil.**
