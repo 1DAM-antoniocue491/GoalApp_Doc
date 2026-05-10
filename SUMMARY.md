@@ -109,3 +109,16 @@
 ## Extras y mejoras futuras
 
 * [Integración de Códigos QR](extras-y-mejoras-futuras/integracion-de-codigos-qr.md)
+
+## Manuales de Usuarios
+
+***
+
+* [Móvil](movil/README.md)
+  * [Administrador](movil/administrador.md)
+  * [Entrenador](movil/entrenador.md)
+  * [Delegado de campo](movil/delegado-de-campo.md)
+  * [Usuario Registrado](movil/usuario-registrado.md)
+  * [Usuario Sin Registrar](movil/usuario-sin-registrar.md)
+* [WEB](web/README.md)
+  * [Administrador](web/administrador.md)
