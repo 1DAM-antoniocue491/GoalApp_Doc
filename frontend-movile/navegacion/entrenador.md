@@ -36,19 +36,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-3. **Comportamiento Global.**
-
-La navegación y las funcionalidades de la aplicación para usuarios autenticados presentan un comportamiento consistente y completo:
-
-* **Sin cabecera:**\
-  Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
-* **Acceso completo según rol y permisos:**\
-  Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
-* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
-
-
-
-4. **Flujo de usuario.**
+3. **Flujo de usuario.**
 
 El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
@@ -60,7 +48,7 @@ Estadísticas → Ver estadísticas de los Equipos y Jugadores.
 Perfil → Editar perfil / Cerrar sesión
 ```
 
-5. **Dashboard.**
+4. **Dashboard.**
 
 El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
@@ -105,25 +93,73 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
       Las distintas opciones disponibles para cada jugador son las siguientes:
 
       * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
-        * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
-          * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+      * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+      * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
 
       Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
   * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
 
 
 
-6. &#x20;**Calendario.**
+5. **Calendario.**
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-* **Jornada**. Se podrán ver todos los partidos según el estado en el que se encuentren (en vivo, programados o finalizados).
-* **Equipo.**
-* **Clasificación.**
+Toda la información generada estará disponible a través de diferentes pestañas:
+
+*   **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
+
+    *   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+
+        *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+
+            * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+              * Equipo que produce el evento.
+              * Nombre del Jugador.
+              * Minutos que ocurrrio el evento.
+            * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+              * Equipo que produce el evento.
+              * Nombre del Jugador.
+              * Minuto en que ocurrio el evento.
+              * Motivo.
+            * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+              * Equipo que produce el evento.
+              * Nombre del Jugador.
+              * Minuto en que ocurrio el evento.
+              * Motivo.
+            * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+              * Equipo que produce el evento.
+              * Nombre del jugador que entra.
+              * Nombre del jugador que sale.
+              * Minuto en que ocurrio el evento.
+
+
+        * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+
+
+    * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+      *   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
+
+          Las distintas opciones disponibles para cada jugador son las siguientes:
+
+          * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+          * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+          * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+          Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+
+
+* **Equipos**. Se mostraran los diferentes equipos que contiene la liga.
+
+<figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
+
+* **Clasificación**. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
+
+<figure><img src="../../.gitbook/assets/image (114).png" alt="" width="188"><figcaption></figcaption></figure>
 
 
 
-7. **Añadir.**
+6. **Añadir.**
 
 El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
 
@@ -162,11 +198,13 @@ Podrán unir por dos formas diferentes:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-8. **Estadísticas.**
+
+
+7. **Estadísticas.**
 
 La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
 

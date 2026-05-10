@@ -36,15 +36,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-3. **Comportamiento Global.**
-
-La navegación y las funcionalidades de la aplicación para usuarios autenticados presentan un comportamiento consistente y completo:
-
-* **Sin cabecera:** Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
-* **Acceso completo según rol y permisos:** Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
-* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
-
-4. **Flujo de usuario.**
+3. **Flujo de usuario.**
 
 El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
@@ -89,32 +81,39 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
-* **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-  *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
 
-      * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
-        * Equipo que produce el evento.
-        * Nombre del Jugador.
-        * Check en ql caso de que sea gol en propia.
-      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-        *
-      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-        *
-      * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+    *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+
+        * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
+          * Equipo que produce el evento.
+          * Nombre del Jugador.
+          * Check en ql caso de que sea gol en propia.
+        * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+          * Equipo que produce el evento.
+          * Nombre del Jugador.
+          * Minuto en que ocurrio el evento.
+          * Motivo.
+        * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
+          * Equipo que produce el evento.
+          * Nombre del Jugador.
+          * Minuto en que ocurrio el evento.
+          * Motivo.
+        * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
+          * Equipo que produce el evento.
+          * Nombre del jugador que entra.
+          * Nombre del jugador que sale.
+          * Minuto en que ocurrio el evento.
 
 
-  * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-  *   **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
-
-      * Equipo que produce el evento.
-      * MVP del partido.
-      * Puntución MVP
-      * Incidencias.
+    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
 
 
-* **Partidos Programados:**&#x50;ara los partidos en programados se podrán hacer las siguientes acciones:
-  * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-  * **Inicializar Partido.**&#x20;
+*   **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+
+
+
+    * **Inicializar Partido.** Pulsando el botón de 'Iniciar' el partido cambiará de estado al 'en vivo'.
 
 
 
@@ -122,51 +121,32 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-
-
 Toda la información generada estará disponible a través de diferentes pestañas:
 
 *   **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
 
-    * **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-      *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
-
-          *   **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
-
-              * Equipo que produce el evento.
-              * Nombre del Jugador.
-              * Check en ql caso de que sea gol en propia.
-
-
-          * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-            *
-          * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-            *
-          * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-
-
-      * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-      * **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
-        * Equipo que produce el evento.
-        * MVP del partido.
-        * Puntución MVP
-        * Incidencias.
+    *   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
 
 
 
-    *   **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+        * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+        *   **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
+
+            * Equipo que produce el evento.
+            * MVP del partido.
+            * Puntución MVP
+            * Incidencias.
 
 
-
-        * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-        *   **Partidos Finalizados.**
+    * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+      * **Inicializar Partido.** Pulsando el botón de 'Iniciar' el partido cambiará de estado al 'en vivo'.
 
 
 * **Equipos**. Se mostraran los diferentes equipos que contiene la liga.
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
 
-* **Clasificación**. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
+* Clasificación. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
 
 <figure><img src="../../.gitbook/assets/image (114).png" alt="" width="188"><figcaption></figcaption></figure>
 
