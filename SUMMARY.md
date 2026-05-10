@@ -23,6 +23,7 @@
 * [Requisitos no funcionales](objetivos-y-requisitos/requisitos-no-funcionales.md)
 * [Requisitos de interfaz](objetivos-y-requisitos/requisitos-de-interfaz.md)
 * [Casos de uso](objetivos-y-requisitos/casos-de-uso.md)
+* [Difucultades Encontradas](objetivos-y-requisitos/difucultades-encontradas.md)
 
 ## Modelo de datos
 
