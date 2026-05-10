@@ -80,7 +80,6 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
-*
 * **Ver calendario.** Al pulsar en 'Ver calendario' se nos refigirá a calendario a todos los partidos programados de esa liga.
 
 {% columns %}
@@ -93,20 +92,24 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
+*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
 
 
 
+    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
 
-*   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
 
-    Las distintas opciones disponibles para cada jugador son las siguientes:
+* **Partidos Programados:**&#x50;ara los partidos en programados se podrán hacer las siguientes acciones:
+  *   **Añadir convocatoria y alineación.** En la misma tarjeta del partido aparece un botón denominado '**Convocatoria'**. Al pulsarlo, se mostrarán todos los usuarios con rol de jugador pertenecientes a ambos equipos, diferenciados entre equipo local y visitante.
 
-    * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
-    * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
-    * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+      Las distintas opciones disponibles para cada jugador son las siguientes:
 
-    Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
-* **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
+      * **Fuera:** El jugador no podrá disputar el partido, ya que no ha sido convocado.
+        * **Suplente:** El jugador estará disponible para participar en el encuentro en caso de sustitución.
+          * **Titular:** El jugador comenzará el partido formando parte de la alineación inicial.
+
+      Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
+  * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
 
 
 
