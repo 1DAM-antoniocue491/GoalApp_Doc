@@ -18,7 +18,7 @@ El sistema contempla los siguientes roles principales:
 * **Administrador (Admin)**
 * **Entrenador (Coach)**
 * **Jugador (Player)**
-* **Usuario básico / Espectador (Viewer)**
+* **Observador (Viewer)**
 * **Delegado de campo (Delegate)**
 
 ***
@@ -31,8 +31,8 @@ Jerarquía:
 
 * **Admin**
   * **Coach**
-    * **Player**
-      * **Viewer**
+  * **Player**
+    * **Viewer**
 
 Esto implica:
 

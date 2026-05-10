@@ -6,10 +6,8 @@ Esta sección define las reglas de negocio relacionadas con la gestión de usuar
 
 El sistema utiliza un modelo de **Control de Acceso Basado en Roles (RBAC)**. Esto significa que:
 
-* Todas las acciones disponibles dependen del **rol asignado al usuario dentro de cada liga**.
-* El acceso se determina por el **rol**, no por la identidad del usuario.
-* Un usuario puede tener **roles diferentes en distintas ligas**.
-* Los permisos no se asignan directamente a usuarios, sino a roles.
+* El sistema utiliza un modelo RBAC: las acciones permitidas dependen del **rol del usuario dentro de cada liga**.
+* Un usuario puede tener **roles distintos en ligas distintas**.
 
 #### **Reglas principales**
 

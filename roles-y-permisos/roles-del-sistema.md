@@ -69,11 +69,12 @@ El Jugador es un usuario que forma parte de un equipo dentro de una liga.
 **Responsabilidades principales:**
 
 * Consulta de la liga y al equipo al que pertenece.
+* Podrá ver sus estadísticas personales.
 
 **Acciones permitidas:**
 
 * Ver ligas, equipos y partidos.
-* Consultar clasificaciones y estadísticas.
+* Consultar clasificaciones y estadísticas personales.
 
 ***
 
