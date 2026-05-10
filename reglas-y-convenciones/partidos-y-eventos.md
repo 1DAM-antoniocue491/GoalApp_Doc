@@ -95,14 +95,12 @@ El sistema puede ampliarse con nuevos tipos de eventos en el futuro.
 #### **Tarjetas**
 
 * **Tarjeta amarilla**: se registra sin restricciones adicionales.
-* **Tarjeta roja**:
-  * El jugador queda expulsado.
-  * No puede recibir eventos posteriores incompatibles (por ejemplo, goles o cambios).
+* **Tarjeta roja**: se registra sin restricciones adicionales.
 
 #### **Cambios**
 
 * Solo pueden realizarse entre jugadores convocados.
-* No se permiten cambios que contradigan la formación o alineación definida.
+* No se permiten cambios que contradigan convocatoria o alineación definida.
 
 #### **MVP**
 

@@ -31,6 +31,31 @@ El diseño modular permite añadir:
 
 A continuación se detallan las funcionalidades planificadas o previstas para futuras versiones del sistema.
 
+### **Códigos QR**
+
+El botón “Compartir” genera:
+
+* Un **informe** para WhatsApp
+* Un **QR** con acceso temporal
+
+Esto permite compartir:
+
+* Partidos
+* Clasificaciones
+* Estadísticas
+
+El QR puede tener expiración o permisos limitados.
+
+#### **Evento de Rojas**
+
+Actualmente, el jugador que ha sido convocado tiene la posibilidad de participar en el siguiente partido.
+
+En futuras versiones, se incorporará una restricción que impedirá que el jugador sea convocado, por lo que no podrá disputar el próximo encuentro.
+
+#### **Descargar informes completos.**
+
+En futuras versiones de la aplicación, se añadirá la posibilidad de visualizar un informe completo con toda la información relevante de la liga, incluyendo estadísticas, clasificación, resultados, equipos y jugadores. Además, desde esta sección se permitirá descargar dicho informe en formato PDF para su consulta o almacenamiento.
+
 ### **Historial completo de estadísticas**
 
 Actualmente se almacena el valor final por partido. En futuras versiones se podrá:
@@ -45,17 +70,6 @@ Esto requerirá nuevas tablas para:
 * Estadísticas acumuladas.
 * Versionado de datos.
 
-### **Panel web administrativo**
-
-Se prevé la integración de un panel web que permita:
-
-* Gestión avanzada de ligas y equipos.
-* Administración de roles y permisos.
-* Visualización de estadísticas globales.
-* Herramientas de moderación.
-
-El modelo de datos ya soporta esta ampliación gracias al sistema RBAC por liga.
-
 ### **Consultas optimizadas para estadísticas y clasificaciones**
 
 Se incorporarán:
@@ -67,15 +81,6 @@ Se incorporarán:
   * Asistentes
   * Porteros con más porterías a cero
   * Jugador del partido
-
-### **Soporte para múltiples temporadas**
-
-El sistema podrá gestionar:
-
-* Temporadas históricas.
-* Estadísticas acumuladas por temporada.
-* Repetición de equipos en distintas ediciones de una liga.
-* Migración automática de jugadores entre temporadas.
 
 ### **Soporte para torneos y formatos avanzados**
 
@@ -107,6 +112,12 @@ El modelo de datos podrá ampliarse con:
 * Métricas avanzadas.
 * Datos históricos detallados.
 * Resultados de modelos predictivos.
+
+#### **Clasificación**
+
+Actualmente, los resultados de los partidos no actualizan automáticamente la clasificación de la liga.
+
+En futuras versiones, se implementará un sistema automático encargado de recalcular y actualizar la clasificación en función de los resultados obtenidos en cada encuentro.
 
 ## **3. Consideraciones Técnicas para la Escalabilidad**
 

@@ -73,8 +73,6 @@ Las estadísticas se generan exclusivamente a partir de los eventos registrados 
 * Goles anotados
 * Tarjetas amarillas
 * Tarjetas rojas
-* Partidos jugados
-* Minutos jugados (si se implementa en el futuro)
 * MVP del partido
 
 #### **Estadísticas de equipo**

@@ -46,7 +46,6 @@ Los jugadores son miembros activos de los equipos y participan directamente en l
   * Un equipo
   * Una liga
 * Un usuario puede ser jugador en varias ligas, siempre que pertenezca a equipos distintos.
-* Un jugador debe estar **activo** para poder participar en partidos.
 
 ### **Restricciones de participación**
 
@@ -54,7 +53,6 @@ Para garantizar la validez de los eventos y estadísticas:
 
 * No se permite registrar eventos de partido (goles, tarjetas, cambios) asociados a jugadores que **no estén convocados**.
 * Un jugador solo puede recibir eventos si pertenece a uno de los equipos del partido.
-* Un jugador expulsado (tarjeta roja) no puede recibir eventos posteriores que contradigan las reglas de la competición.
 
 ### **Relación entre jugadores y roles**
 

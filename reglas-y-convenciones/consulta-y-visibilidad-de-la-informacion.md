@@ -31,6 +31,10 @@ No pueden acceder a:
 * Eventos en tiempo real
 * Gestión de equipos o ligas
 
+Toda la información será local es de prueba.
+
+
+
 ### **Usuarios autenticados**
 
 Los usuarios autenticados pueden acceder a información adicional según su rol dentro de cada liga.
@@ -39,32 +43,30 @@ Los usuarios autenticados pueden acceder a información adicional según su rol 
 
 Puede ver:
 
-* Información de su equipo
-* Convocatorias
-* Estadísticas personales
-* Estadísticas de su equipo
-* Calendario y resultados de la liga
+* Información de su equipo.
+* Convocatorias.
+* Estadísticas personales.
+* Estadísticas de su equipo.
+* Calendario y resultados de la liga.
 
 No puede ver:
 
-* Gestión de equipos
-* Gestión de roles
-* Configuración de la liga
+* Gestión de equipos.
+* Gestión de roles.
+* Configuración de la liga.
 
 #### **Entrenador**
 
 Puede ver y gestionar:
 
-* Convocatorias
-* Alineaciones
-* Formaciones
-* Información interna del equipo
-* Estadísticas de sus jugadores
+* Convocatorias.
+* Alineaciones.
+* estadísticas de su equipo.
 
 No puede:
 
-* Modificar configuraciones de la liga
-* Gestionar otros equipos
+* Modificar configuraciones de la liga.
+* Gestionar otros equipos.
 
 #### **Delegado de campo**
 
@@ -93,13 +95,13 @@ Tiene acceso completo a:
 
 ## **3. Visibilidad según el estado de la liga**
 
-#### **Liga en estado CREADA o CONFIGURACIÓN**
+#### **Liga en estado CONFIGURACIÓN**
 
 * Solo administradores pueden ver y editar configuraciones internas.
 * Entrenadores y delegados pueden ver su equipo si ya han sido asignados.
 * Jugadores solo ven información básica si ya pertenecen a un equipo.
 
-#### **Liga en estado EN COMPETICIÓN**
+#### **Liga en estado EN CURSO**
 
 * Toda la información pública está disponible para invitados.
 * Entrenadores, delegados y jugadores acceden a información operativa.
@@ -127,7 +129,6 @@ Tiene acceso completo a:
 
 * Invitados pueden ver marcador en tiempo real.
 * Delegados pueden registrar eventos.
-* Entrenadores pueden ver estadísticas en vivo.
 * Administradores pueden supervisar pero no modificar equipos.
 
 #### **Partido FINALIZADO**

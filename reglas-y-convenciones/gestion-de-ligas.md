@@ -10,21 +10,15 @@ Las ligas siguen un ciclo de vida basado en estados. Cada estado determina qué 
 
 Una liga puede encontrarse en uno de los siguientes estados:
 
-* **CREADA** La liga ha sido creada y es completamente editable.
-* **CONFIGURACIÓN** Se añaden equipos, se asignan roles y se completan los datos previos al inicio.
-* **EN COMPETICIÓN** La liga está activa y se disputan partidos oficiales.
-* **FINALIZADA** La liga está cerrada y solo disponible en modo consulta.
+* **CONFIGURACIÓN**: Se añaden equipos, se asignan roles y se completan los datos previos al inicio.
+* **EN CURSO:** La liga está activa y se disputan partidos oficiales.
+* **FINALIZADA**:La liga está cerrada y solo disponible en modo consulta.
 
 ## **2. Reglas de transición entre estados**
 
 El sistema controla estrictamente cómo puede avanzar una liga entre estados para garantizar coherencia.
 
-#### **De CREADA → CONFIGURACIÓN**
-
-* Puede realizarse en cualquier momento.
-* No requiere condiciones previas.
-
-#### **De CONFIGURACIÓN → EN COMPETICIÓN**
+#### **De CONFIGURACIÓN → EN CURSO**
 
 * La liga debe tener **al menos dos equipos registrados**.
 * Todos los equipos deben tener asignados:
@@ -32,7 +26,7 @@ El sistema controla estrictamente cómo puede avanzar una liga entre estados par
   * 1 delegado de campo
 * No se permite iniciar la competición si faltan roles esenciales.
 
-#### **De EN COMPETICIÓN → FINALIZADA**
+#### **De EN EN CURSO→ FINALIZADA**
 
 * Todos los partidos deben estar en estado **FINALIZADO**.
 * No puede finalizarse si quedan partidos pendientes o en curso.
