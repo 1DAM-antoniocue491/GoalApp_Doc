@@ -2,7 +2,7 @@
 
 La navegación de nuestra aplicación esta diseñada para ser de forma sencilla e intuitiva, permitiendo a los usuarios poder acceder rapidamente a diferentes funcionalidades a través de la aplicación.
 
-1. &#x20;**Inicio Sesión y Registrarse.**
+1. **Inicio Sesión y Registrarse.**
 
 Sus objetivos principales son:
 
@@ -24,11 +24,9 @@ Permitir que un usuario ya registrado acceda a su cuenta mediante sus credencial
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 **b. Registro**
 
@@ -61,12 +59,8 @@ Las funciones de Onboarding son:
   * Cantidad máxima de partidos.
   * Minutos posibles de los partidos.
 
-
-
 {% columns %}
 {% column valign="middle" %}
-
-
 <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
@@ -93,11 +87,9 @@ Cuando confirma la acción, la liga se crea y el usuario queda asociado como **a
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 * **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**. Si el código es válido, la liga se añade a su cuenta y tendrá los permisos del rol asignado.
 
@@ -113,19 +105,15 @@ Cuando confirma la acción, la liga se crea y el usuario queda asociado como **a
 
 * **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
 
-
-
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
 <figure><img src="../../.gitbook/assets/image (107).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 * **Reactivar una liga.** Si una liga está en estado **finalizado**, solo el **administrador** puede usar **Reactivar liga**.\
   Cuando la reactiva:
@@ -144,6 +132,3 @@ Cuando confirma la acción, la liga se crea y el usuario queda asociado como **a
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
-

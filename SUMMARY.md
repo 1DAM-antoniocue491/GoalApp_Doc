@@ -111,8 +111,6 @@
 
 ## Manuales de Usuarios
 
-***
-
 * [Móvil](movil/README.md)
   * [Administrador](movil/administrador.md)
   * [Entrenador](movil/entrenador.md)

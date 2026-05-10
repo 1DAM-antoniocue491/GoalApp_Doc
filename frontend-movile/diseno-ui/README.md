@@ -2,8 +2,6 @@
 
 La interfaz de esta aplicación esta diseñada para facilitar **la creación y la gestión de ligas de fútbol de forma sencilla e intuitiva**. El diseño prioriza la claridad visual y la facilidad de navegación, permitiendo a los usuarios acceder rápidamente a las principales funciones de la aplicación, como crear una liga, añadir equipos, consultar la clasificación, estadísticas, ver el calendario de partidos. La aplicación cuanta con una interfaz diferente según el rol que contenga el usuario (administrador, entrenador, delegado de campo, jugador, usuario regitrado y usuario no registrado).
 
-
-
 1. **Guía de Estilos.**
 
 La **guía de estilos** es un documento que recoge las normas de diseño para mantener una apariencia y funcionamiento coherente.
@@ -12,7 +10,7 @@ La **guía de estilos** es un documento que recoge las normas de diseño para ma
 
 Para la interfaz de la aplicación se ha optado por una **paleta de colores oscuros**, tomando como referencia el diseño visual de otras aplicaciones similares relacionadas con el fútbol.
 
-<table><thead><tr><th align="center" valign="middle">Uso</th><th>Colores</th></tr></thead><tbody><tr><td align="center" valign="middle">Los colores para los fondos:              </td><td><img src="../../.gitbook/assets/image (4) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para los textos:</td><td><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores de las tarjetas:</td><td><img src="../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para comprobar acciones:</td><td><img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th align="center" valign="middle">Uso</th><th>Colores</th></tr></thead><tbody><tr><td align="center" valign="middle">Los colores para los fondos:</td><td><img src="../../.gitbook/assets/image (4) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para los textos:</td><td><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores de las tarjetas:</td><td><img src="../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"></td></tr><tr><td align="center" valign="middle">Los colores para comprobar acciones:</td><td><img src="../../.gitbook/assets/image (8).png" alt="" data-size="original"></td></tr></tbody></table>
 
 b. **Tipografía.**
 
@@ -31,8 +29,6 @@ Se ha seleccionado la tipografía **Inter** debido a su diseño moderno, limpio 
 c. **Espacios y Radios.**
 
 Los radios de las esquinasy espacios que se aplicarán en las tarjetas serán los siguientes valores, definidos para mantener un diseño más suave y moderno en la interfaz:
-
-
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="190"><figcaption></figcaption></figure>
 
@@ -61,7 +57,7 @@ Permitir que un usuario ya registrado acceda a su cuenta mediante sus credencial
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (177).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (176).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -97,7 +93,7 @@ Desde aquí el usuario puede:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

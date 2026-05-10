@@ -14,15 +14,11 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
     * Jugadores. Clasificaciones de jugadores máximos goleadores, MVP, etc.
 
     <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="227"><figcaption></figcaption></figure>
-
-
-*   **Partido**: Consulta el estado de los partidos.&#x20;
+*   **Partido**: Consulta el estado de los partidos.
 
     * Directo. Ver los partidos en directo.
     * Programado. Ver los partidos programados.
     * Finalizado. Ver los partidos finalizados.
-
-
 
     <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="203"><figcaption></figcaption></figure>
 * **Perfil:** Permite ver la información del usuario registrado.
@@ -31,25 +27,25 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
 
 2. **Dashboard (Inicio)**
 
-&#x20;El **dashboard** actúa como pantalla principal y se le muestra:
+El **dashboard** actúa como pantalla principal y se le muestra:
 
 * La bienvenida a la aplicación al usuario iniciado sesión.
 * Pondran ver el resultado de un partido en directo.
 * Programados en esa misma jornada de la liga escogida.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="155"><figcaption></figcaption></figure>
 
 3. **Liga.**
 
 Dentro de la sección de liga, el usuario puede ver diferentes clasificaciones:
 
-* **La clasificación general**. El ranking se basa según los partidos ganados (3 puntos), empatados (1 punto) y perdidos (0 puntos).&#x20;
+* **La clasificación general**. El ranking se basa según los partidos ganados (3 puntos), empatados (1 punto) y perdidos (0 puntos).
 * **Ranking de equipos.** Según el rendimiento de los equipos.
-* **Ranking de jugadores.**  Según el rendimiento de los jugadores.
+* **Ranking de jugadores.** Según el rendimiento de los jugadores.
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-a. **Equipos.**&#x20;
+a. **Equipos.**
 
 El jugador podrá **seguir a equipos,** mostrar la información de **temporadas pasadas** si hubiese y **visualizar datos:**
 
@@ -85,7 +81,7 @@ Además, se podrán consultar sus estadísticas personales:
 
 El jugador podrá visualizar los distintos partidos, claramente diferenciados según su estado: en directo, programados o finalizados.
 
-a.  **Directo.**
+a. **Directo.**
 
 Podremos visualizar los partidos que se estén disputando en directo según la liga que seleccionemos. Al pulsar sobre un partido, se mostrarán sus estadísticas (tarjetas amarillas, tarjetas rojas y goles), así como la alineación correspondiente.
 

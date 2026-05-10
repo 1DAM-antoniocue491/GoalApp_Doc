@@ -1,8 +1,6 @@
 # Usuario Registrado
 
-El usuario una vez registrado e iniciado sesión accederá a una interfaz mucho más amplia que el usuario sin registrar.&#x20;
-
-
+El usuario una vez registrado e iniciado sesión accederá a una interfaz mucho más amplia que el usuario sin registrar.
 
 1. **Estructura de navegación.**
 
@@ -91,19 +89,11 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 
 Toda la información generada estará disponible a través de diferentes pestañas:
 
-*   **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
-
-    *   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-
-
-
-        * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-
-
-    * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
-      * **Visualizar partidos programados.**
-
-
+* **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
+  * **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+  * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+    * **Visualizar partidos programados.**
 * **Equipos**. Se mostraran los diferentes equipos que contiene la liga.
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
@@ -116,17 +106,13 @@ Toda la información generada estará disponible a través de diferentes pestañ
 
 El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación. Solo se podrán visualizar los usuarios que forman parte de la liga.
 
-
-
 8. **Estadísticas.**
 
 La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
 
 Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
 
-<figure><img src="../../.gitbook/assets/image (187).png" alt="" width="188"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (186).png" alt="" width="188"><figcaption></figcaption></figure>
 
 9. **Perfil.**
 
@@ -147,8 +133,6 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 * **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
 
 <figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
 
 10. **Restricciones.**
 

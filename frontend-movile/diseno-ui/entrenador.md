@@ -12,9 +12,7 @@ La aplicación incluira una barra de navegación persistente con las siguientes 
   * **Equipos.** Mostraran los distintos equipos que componen la liga.
   * **Clasificación**. Mostrara la clasificación de los equipos que componen la liga.
 * **Añadir:** Aparecera un menú flotante para gestionar usuarios.
-*   **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
-
-
+* **Estadísticas**: La **pantalla de estadísticas** es la sección donde el usuario puede consultar datos y métricas relacionadas con los equipos o los jugadores.
 * **Perfil:** La **pantalla de perfil** es la sección donde el usuario puede consultar su información personal dentro de la aplicación.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -27,8 +25,6 @@ La **base visual** es la misma para todos los usuarios, pero las acciones dispon
 
 {% columns %}
 {% column %}
-
-
 El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a su rol para que pueda:
 
 * **Consultar información** general sobre la liga.
@@ -41,15 +37,9 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 {% endcolumn %}
 {% endcolumns %}
 
-
-
-
-
 2. **Calendario.**
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
-
-
 
 {% columns %}
 {% column valign="middle" %}
@@ -64,10 +54,6 @@ El **objetivo** de esta pantalla Jornada es:
 {% endcolumn %}
 {% endcolumns %}
 
-
-
-
-
 {% columns %}
 {% column valign="middle" %}
 El **objetivo** de esta pantalla Equipos es:
@@ -76,13 +62,9 @@ El **objetivo** de esta pantalla Equipos es:
 {% endcolumn %}
 
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (190).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (189).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
-
-
 
 {% columns %}
 {% column valign="middle" %}
@@ -95,8 +77,6 @@ El **objetivo** de esta pantalla Clasificación es:
 <figure><img src="../../.gitbook/assets/image (191).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 3. **Añadir.**
 
@@ -117,8 +97,6 @@ El objetivo principal de add es:
 {% endcolumn %}
 {% endcolumns %}
 
-&#x20;
-
 4. **Estadísticas**.
 
 La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
@@ -133,16 +111,12 @@ Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 5. **Perfil**
 
 El **Perfil** es la sección donde el usuario puede ver y gestionar su información personal dentro de la aplicación.
 
 {% columns %}
 {% column valign="middle" %}
-
-
 El **objetivo** principal de esta pantalla es:
 
 * **Ver la información personal**.
