@@ -123,7 +123,16 @@ El tab de **Add** está diseñado para permitir la asignación de distintos role
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.&#x20;
+*   **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.&#x20;
+
+    Dependiendo del rol seleccionado, será necesario completar distintos datos específicos:
+
+    * **Delegado de campo.**
+      * Seleccionar el equipo.
+    * **Jugador.**
+      * Equipo.
+      * Dorsal.
+      * Posición.
 
 {% columns %}
 {% column %}

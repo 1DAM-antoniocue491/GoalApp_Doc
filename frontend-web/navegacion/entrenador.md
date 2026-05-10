@@ -203,15 +203,12 @@ La página de **Usuarios** está diseñado para permitir la asignación de disti
 Podrán unir por dos formas diferentes:
 
 * **Generando Codigo.** Debemos pulsar el botón **“Generar código”** para que aparezca una ventana modal en la que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Dependiendo del rol seleccionado, será necesario completar distintos datos específicos:
-  * **Entrenador.**
-    * Seleccionar el equipo.
   * **Delegado de campo.**
     * Seleccionar el equipo.
   * **Jugador.**
     * Equipo.
     * Dorsal.
     * Posición.
-  * **Observador.**
 
 {% columns %}
 {% column valign="middle" %}
