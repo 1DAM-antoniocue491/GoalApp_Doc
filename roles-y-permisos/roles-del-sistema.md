@@ -36,7 +36,7 @@ El Entrenador es el usuario responsable de un equipo concreto dentro de una liga
 
 **Acciones permitidas:**
 
-* Invitar a jugadores de su equipo.
+* Invitar a jugadores y delegado de campo a su equipo.
 * Crear, editar y eliminar convocatorias y alineaciones.
 * Consultar estadísticas de la liga.
 * Consultar partidos, calendario y clasificación de la liga.
