@@ -10,7 +10,7 @@ La aplicación permitirá:
 * Crear y programar **partidos**, asignando fechas y equipos.
 * Introducir **resultados**, goles, tarjetas e incidencias.
 * Generar automáticamente la **clasificación**, actualizada tras cada partido.
-* Consultar **estadísticas básicas**, como máximos goleadores o rachas de resultados.
+* Consultar **estadísticas básicas.**
 * Diferenciar **roles de usuario**, limitando las acciones según permisos (administrador o usuario).
 
 ***
@@ -33,7 +33,7 @@ La aplicación permitirá el registro e inicio de sesión de usuarios, así como
 Los usuarios podrán crear y administrar ligas de fútbol, estableciendo su información general y su sistema de puntuación. Las funcionalidades contempladas son:
 
 * Crear, editar y eliminar ligas
-* Definir datos generales (nombre, temporada, categoría, descripción, logo)
+* Definir datos generales (nombre, temporada, categoría, descripción)
 * Configurar sistema de puntuación (victoria, empate, derrota)
 
 **3. Gestión de equipos**
@@ -42,38 +42,36 @@ La aplicación permitirá registrar equipos dentro de una liga y administrar su 
 
 * Crear, editar y eliminar equipos
 * Asignar un equipo a una liga
-* Añadir información general (ciudad, colores, fecha de creación, descripción, logo)
-* Registrar entrenador y capitán
+* Añadir información general (ciudad, colores, fecha de creación, descripción)
+* Registrar entrenador y delegado de campo.
 * Consultar historial de temporadas
 
-**4. Gestión de jugadores y entrenadores**
+**4. Gestión de jugadores, entrenadores y delegado de campo**
 
-Los usuarios podrán dar de alta jugadores y entrenadores asociados a un equipo, así como editar o eliminar su información. Incluye:
+El administrador podrán dar de alta jugadores, entrenadores y delegado de campo asociados a un equipo, así como editar o eliminar su información. Incluye:
 
-* Crear, editar y eliminar jugadores
-* Asociar jugadores a un equipo y liga
-* Crear, editar y eliminar entrenadores
+* Invitar jugadores
+* Invitar entrenadores
 * Asignar entrenador a un equipo
+* Invitar a un delegado de campo.
+* Asignar a un delegado a un equipo.
 
 **5. Gestión de partidos**
 
 El sistema permitirá generar y organizar partidos dentro de una liga, gestionar su estado y registrar resultados. Se contemplan funcionalidades como:
 
-* Programar partidos (fecha, hora inicio y fin)
 * Generar calendario automático
+* Generar partidos de forma manual.
 * Registrar resultados (goles local/visitante)
 * Cambiar estado del partido (programado, jugado, cancelado)
 * Visualizar próximos partidos
 
-**6. Gestión de alineaciones y formaciones**
+**6. Gestión de alineaciones y convocatorias.**
 
-La aplicación incluirá un módulo de gestión táctica para organizar alineaciones y formaciones tanto por equipo como por partido:
+La aplicación incluirá un módulo para visualizar la convocatoria del partido y su alineación correspondiente:
 
-* Crear formaciones (ej: 4-3-3, 5-4-1)
-* Definir posiciones por formación (GK, CB, CM…)
-* Asignar formación a un equipo
+* Asignar convocatoria a un equipo
 * Registrar alineación del partido (titulares y suplentes)
-* Registrar formación usada en un partido
 
 **7. Estadísticas y visualización**
 
@@ -112,7 +110,6 @@ El MVP incluirá:
 * Crear liga
 * Editar liga
 * Eliminar liga
-* Definir nombre, temporada y categoría
 
 **3. Gestión mínima de equipos**
 
@@ -123,14 +120,12 @@ El MVP incluirá:
 
 **4. Gestión mínima de jugadores**
 
-* Crear jugador
-* Editar jugador
-* Eliminar jugador
-* Asociar jugador a un equipo
+* Invitar jugador a un equipo.
 
 **5. Gestión mínima de partidos**
 
 * Generar calendario automático
+* Generar calendario manual.
 * Registrar resultado del partido (goles local/visitante)
 * Visualizar próximos partidos
 
@@ -138,4 +133,4 @@ El MVP incluirá:
 
 * Ver clasificación de la liga
 * Ver resultados de partidos
-* Ver lista de equipos y jugadores
+* Ver lista de usuarios que forman parte de la liga.
