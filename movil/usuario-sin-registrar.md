@@ -1,2 +1,0 @@
-# Usuario Sin Registrar
-

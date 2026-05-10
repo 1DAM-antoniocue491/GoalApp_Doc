@@ -115,7 +115,7 @@
   * [Administrador](movil/administrador.md)
   * [Entrenador](movil/entrenador.md)
   * [Delegado de campo](movil/delegado-de-campo.md)
+  * [Jugador](manuales-de-usuarios/movil/jugador.md)
   * [Usuario Registrado](movil/usuario-registrado.md)
-  * [Usuario Sin Registrar](movil/usuario-sin-registrar.md)
 * [WEB](web/README.md)
   * [Administrador](web/administrador.md)
