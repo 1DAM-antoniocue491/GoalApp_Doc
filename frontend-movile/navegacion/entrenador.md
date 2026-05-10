@@ -242,4 +242,5 @@ Las limitaciones que presenta este usuario son:
 * No podrá crear equipos.
 * No podrá asignar roles ni eliminarlos.
 * Ni registrar eventos de un partidos.
+* No se podrán cambiar los estados del partidos.
 * No podrá consultar estadísticas personales de un jugador.

@@ -218,4 +218,9 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 
 10. **Restricciones.**
 
-El administrador no contiene ninguna restricción contiene todos los permisos de la aplicación.
+Las limitaciones que presenta este usuario son:
+
+* No podrá crear ligas de fútbol.
+* No podrá crear equipos.
+* No podrá asignar roles ni eliminarlos.
+* No podrá consultar estadísticas personales de un jugador.

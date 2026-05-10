@@ -48,6 +48,7 @@
 * [Navegación](frontend-web/navegacion/README.md)
   * [Administración](frontend-web/navegacion/administracion.md)
   * [Usuario sin Registrar](frontend-web/navegacion/usuario-sin-registrar.md)
+* [Despliegue](frontend-web/despliegue.md)
 
 ## Frontend Movile
 
@@ -59,7 +60,6 @@
   * [Delegado de Campo](frontend-movile/navegacion/delegado-de-campo.md)
   * [Jugador](frontend-movile/navegacion/jugador.md)
   * [Usuario Registrado](frontend-movile/navegacion/usuario-registrado.md)
-  * [Usuario sin Registrar](frontend-movile/navegacion/usuario-sin-registrar.md)
 * [Gestión de estados](frontend-movile/gestion-de-estados.md)
 * [Autenticación JWT](frontend-movile/autenticacion-jwt.md)
 * [Consumo de la API](frontend-movile/consumo-de-la-api.md)
@@ -69,7 +69,6 @@
   * [Delegado de Campo](frontend-movile/diseno-ui/delegado-de-campo.md)
   * [Jugador](frontend-movile/diseno-ui/jugador.md)
   * [Usuario Registrado](frontend-movile/diseno-ui/usuario-registrado.md)
-  * [Usuario No Registrado](frontend-movile/diseno-ui/usuario-no-registrado.md)
 
 ## Backend
 

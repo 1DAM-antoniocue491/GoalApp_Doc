@@ -36,15 +36,7 @@ Las navegaciones que podemos encontrar en nuestra aplicación a traves de un tab
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-3. **Comportamiento Global.**
-
-La navegación y las funcionalidades de la aplicación para usuarios autenticados presentan un comportamiento consistente y completo:
-
-* **Sin cabecera:** Dado que el usuario ya ha iniciado sesión, no se muestran mensajes ni botones que inviten a registrarse o iniciar sesión.
-* **Acceso completo según rol y permisos:** Todas las secciones y acciones disponibles en la aplicación se habilitan de acuerdo con el rol del usuario.&#x20;
-* **Validación de acciones sensibles:** Permite modificar información del perfil o ver información detallada de equipos, partidos e incluso jugadores.
-
-4. **Flujo de usuario.**
+3. **Flujo de usuario.**
 
 El **flujo de usuario** describe cómo se desplaza un usuario autenticado dentro de la aplicación y qué acciones puede realizar en cada sección:
 
@@ -89,53 +81,42 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 {% endcolumn %}
 {% endcolumns %}
 
-*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-
-    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-
-
-* **Partidos Programados:**&#x50;ara los partidos en programados se podrán hacer las siguientes acciones:
-  * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-
-
+* **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
+  * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+* **Partidos Programados:** Visualizar partidos programados.
 
 6. **Calendario.**
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
-
-
 Toda la información generada estará disponible a través de diferentes pestañas:
 
 *   **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
 
-    * **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-      * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
+    *   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
 
 
 
-    *   **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+        * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
 
 
-
-        * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-
-
+    * **Partidos Programados:** Para los partidos en programados se podrán hacer las siguientes acciones:
+      * **Visualizar partidos programados.**
 
 
 * **Equipos**. Se mostraran los diferentes equipos que contiene la liga.
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt="" width="188"><figcaption></figcaption></figure>
 
-* **Clasificación**. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
+* Clasificación. Permitirá visualizar la clasificación de la liga, ordenada en función de la puntuación obtenida por cada equipo.
 
 <figure><img src="../../.gitbook/assets/image (114).png" alt="" width="188"><figcaption></figcaption></figure>
 
 7. **Añadir.**
 
-El tab de **Add** está diseñado para permitir la visualización de los roles de los usuarios dentro de la aplicación.
+El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación. Solo se podrán visualizar los usuarios que forman parte de la liga.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="188"><figcaption></figcaption></figure>
+
 
 8. **Estadísticas.**
 
@@ -167,7 +148,9 @@ El perfil es la pantalla donde el usuario puede ver y gestionar sus datos person
 
 <figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
 
-3. **Restricciones.**
+
+
+10. **Restricciones.**
 
 Las limitaciones que presenta este usuario son:
 
