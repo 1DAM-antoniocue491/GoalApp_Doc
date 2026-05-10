@@ -60,15 +60,7 @@ Estadísticas → Ver estadísticas de los Equipos y Jugadores.
 Perfil → Editar perfil / Cerrar sesión
 ```
 
-**a. Onboarding.**
-
-El **onboarding** su función es situar al usuario dentro de GoalApp antes de entrar al dashboard de una liga concreta.
-
-* **Unirme a una liga.** Si pulsa **Unirme**, se abre un modal para introducir un **código de invitación**.\
-  Si el código es válido, la liga se añade a su cuenta y después podrá entrar con el rol asignado.
-* **Entrar en una liga.** Si pulsa **Entrar** en una tarjeta, accede directamente al dashboard de esa liga.
-
-**b. Dashboard.**
+5. **Dashboard.**
 
 El **dashboard según el rol** es la pantalla principal de trabajo dentro de una liga.
 
@@ -115,9 +107,7 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
     Una vez tengamos escogido a todos los jugadores, los cambios podrán ser almacenados pulsando el botón de 'Guardar'.
 * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
 
-
-
-**c. Calendario.**
+6. &#x20;**Calendario.**
 
 La pantalla **Calendario** organiza los encuentros de la liga principalmente por **jornadas**, pero también permite visualizarlos por **equipos** y por **clasificación**, ofreciendo distintas formas de consultar la competición.
 
@@ -125,14 +115,69 @@ La pantalla **Calendario** organiza los encuentros de la liga principalmente por
 * **Equipo.**
 * **Clasificación.**
 
-**e. Estadísticas.**
 
-**f. Perfil.**
+
+7. **Añadir.**
+
+El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
+
+Podrán unir por dos formas diferentes:
+
+* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.&#x20;
+
+{% columns %}
+{% column %}
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+*   **Invitar.** Debemos pulsar el botón '**Invitar'** y seleccionar el rol del usuario que queremos incorporar a la liga. A continuación, se deberá completar la información necesaria según el rol elegido y, finalmente, pulsar nuevamente el botón '**Invitar'** para confirmar la acción.&#x20;
+
+    Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+8. **Estadísticas.**
+
+La **pantalla de Estadísticas** muestra de forma detallada la información más relevante de la liga, tanto a nivel de equipos como de jugadores. En esta sección se recopilan y presentan las estadísticas más importantes generadas a lo largo de la competición, permitiendo consultar el rendimiento general de la liga.
+
+Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
+
+<figure><img src="../../.gitbook/assets/image (187).png" alt="" width="188"><figcaption></figcaption></figure>
+
+8. **Perfil.**
 
 El perfil es la pantalla donde el usuario puede ver y gestionar sus datos personales dentro de la aplicación.
 
 * **Editar Perfil**. Al seleccionar el icono de editar ubicado en la parte superior derecha, se mostrará una pantalla con los datos del usuario, permitiendo su modificación.
+
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/image (121).png" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
 * **Cerrar Sesión.** Al pulsar el botón de ‘Cerrar sesión’, se mostrará un aviso de confirmación y, si el usuario acepta, será redirigido a la pantalla de inicio de sesión.
+
+<figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
