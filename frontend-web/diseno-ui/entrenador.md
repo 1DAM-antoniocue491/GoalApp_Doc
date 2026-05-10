@@ -29,10 +29,6 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 
 <figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
-El roles contemplado en esta sección es:
-
-* **Entrenador.**
-
 
 
 2. **Calendario.**
@@ -53,7 +49,7 @@ El **objetivo** de esta pantalla es:
 
 * **Visualizar clasificación** de la liga.
 
-<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
 
 4. **Estadísticas.**
 
@@ -61,7 +57,7 @@ La **pantalla de Estadísticas** muestra de forma detallada la información más
 
 Esta pantalla permite al usuario analizar fácilmente la evolución de la liga y comparar el rendimiento entre equipos y jugadores de manera clara y organizada.
 
-<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -71,8 +67,8 @@ El tab de **Add** está diseñado para permitir la asignación de distintos role
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo. S**e creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
-* **Invitar.**
+* **Generando Codigo.** Se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+* **Invitar usuario.** Mediante invitaciones por correo electrónico. Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 

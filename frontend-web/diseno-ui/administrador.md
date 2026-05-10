@@ -31,13 +31,6 @@ El objetivo del dashboard es ofrecer a cada usuario una vista inicial adaptada a
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
-Los roles contemplados en esta sección son:
-
-* **Administrador**
-* **Delegado de campo**
-* **Entrenador**
-* **Jugador / Observador.**
-
 
 
 2. **Calendario.**
@@ -81,7 +74,7 @@ El tab de **Add** está diseñado para permitir la asignación de distintos role
 
 Podrán unir por dos formas diferentes:
 
-* **Generando Codigo. S**e creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
+* **Generando Codigo.** Se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.
 * **Invitar.**
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>

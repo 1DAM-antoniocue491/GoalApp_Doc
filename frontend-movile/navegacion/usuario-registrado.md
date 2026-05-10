@@ -175,3 +175,5 @@ Las limitaciones que presenta este usuario son:
 * No podrá asignar roles ni eliminarlos.
 * No podra crear/editar/eliminar un evento.
 * No podrá editar la liga que se ha unido.
+* No podrá ser convocado.
+* No podrá pertener a la alineación inicial.
