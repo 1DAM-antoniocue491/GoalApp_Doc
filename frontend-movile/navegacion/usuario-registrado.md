@@ -81,40 +81,21 @@ El **dashboard según el rol** es la pantalla principal de trabajo dentro de una
 
 {% columns %}
 {% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
-* **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-  *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
+*   **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
 
-      * **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
-        * Equipo que produce el evento.
-        * Nombre del Jugador.
-        * Check en ql caso de que sea gol en propia.
-      * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-        *
-      * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-        *
-      * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-
-
-  * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-  *   **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
-
-      * Equipo que produce el evento.
-      * MVP del partido.
-      * Puntución MVP
-      * Incidencias.
+    * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
 
 
 * **Partidos Programados:**&#x50;ara los partidos en programados se podrán hacer las siguientes acciones:
   * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-  * **Inicializar Partido.**&#x20;
 
 
 
@@ -129,28 +110,7 @@ Toda la información generada estará disponible a través de diferentes pestañ
 *   **Jornada**. Se diferencian por los partidos estados (en vivo, programados, finalizados).
 
     * **Partidos en Vivo.** Para los partidos en vivo se podrán hacer las siguientes acciones:
-      *   **Añadir Evento.** Al seleccionar la opción 'Añadir evento', se mostrará un modal que permite elegir entre diferentes tipos de evento, como gol, tarjeta amarilla, tarjeta roja o sustitución:
-
-          *   **Gol**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente. Además, se dispone de una opción para marcar si se trata de un gol en propia puerta.
-
-              * Equipo que produce el evento.
-              * Nombre del Jugador.
-              * Check en ql caso de que sea gol en propia.
-
-
-          * **Amarilla**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-            *
-          * **Roja**. La información a completar incluye el equipo que ha generado el evento y el jugador correspondiente.&#x20;
-            *
-          * **Sustitución**. Se deberá indicar el equipo responsable del evento, junto con el jugador que abandona el terreno de juego y el que entra en su sustitución.
-
-
       * **Ver plantillas.** Al seleccionar la opción '**Ver plantilla'**, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
-      * **Finalizar partido:** Al seleccionar la opción **“Finalizar”**, se mostrará una ventana modal con la información correspondiente al cierre del partido.
-        * Equipo que produce el evento.
-        * MVP del partido.
-        * Puntución MVP
-        * Incidencias.
 
 
 
@@ -159,7 +119,8 @@ Toda la información generada estará disponible a través de diferentes pestañ
 
 
         * **Visualizar Alineación.** Una vez almacenada la convocatoria, al pulsar el botón '**Alineación'** se mostrarán los jugadores titulares y los suplentes disponibles para posibles sustituciones durante el partido.
-        *   **Partidos Finalizados.**
+
+
 
 
 * **Equipos**. Se mostraran los diferentes equipos que contiene la liga.
@@ -172,37 +133,9 @@ Toda la información generada estará disponible a través de diferentes pestañ
 
 7. **Añadir.**
 
-El tab de **Add** está diseñado para permitir la asignación de distintos roles a los usuarios dentro de la aplicación.
+El tab de **Add** está diseñado para permitir la visualización de los roles de los usuarios dentro de la aplicación.
 
-Podrán unir por dos formas diferentes:
-
-* **Generando Codigo.** Debemos pulsar sobre el icono de la llave para que aparezca un modal en el que podremos seleccionar el rol que tendrá el usuario dentro de la liga. Una vez elegido, pulsaremos en 'Generar' y se creará un código de invitación que podrá compartirse con el usuario. Posteriormente, este deberá introducir dicho código en el apartado 'Unirse a liga' del dashboard para acceder a la liga.&#x20;
-
-{% columns %}
-{% column %}
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-*   **Invitar.** Debemos pulsar el botón '**Invitar'** y seleccionar el rol del usuario que queremos incorporar a la liga. A continuación, se deberá completar la información necesaria según el rol elegido y, finalmente, pulsar nuevamente el botón '**Invitar'** para confirmar la acción.
-
-    Sin embargo, debido a la falta de tiempo durante el desarrollo del proyecto, esta funcionalidad no ha podido implementarse completamente.
-
-{% columns %}
-{% column valign="middle" %}
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
 
 8. **Estadísticas.**
 
