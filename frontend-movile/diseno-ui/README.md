@@ -55,40 +55,25 @@ Sus objetivos principales son:
 
 **a. Login**
 
-Permitir que un usuario ya registrado acceda a su cuenta mediante sus credenciales.
-
 {% columns %}
-{% column %}
-
-
-* El usuario introduce su correo y contraseña.
-* El sistema valida las credenciales.
-* Si son correctas, accede al sistema.
-* Tras autenticarse, el usuario es redirigido al **Onboarding**.
+{% column valign="middle" %}
+Permitir que un usuario ya registrado acceda a su cuenta mediante sus credenciales.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (177).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 **b. Registro**
 
-Permitir el alta de nuevos usuarios en la plataforma.
-
 {% columns %}
-{% column %}
-
-
-* El usuario completa sus datos básicos.
-* Debe confirmar la contraseña.
-* Debe aceptar los términos y condiciones.
-* Si el formulario es válido, se crea la cuenta.
-* Tras el registro exitoso, el usuario accede al sistema y es dirigido al **Onboarding**.
+{% column valign="middle" %}
+Permitir el alta de nuevos usuarios en la plataforma.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (178).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
