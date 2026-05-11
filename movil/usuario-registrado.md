@@ -95,7 +95,7 @@ También es posible visualizar las estadisticas personales del jugador.
 
 Por último debajo de las tarjetas nos aparece los goles por equipo, indicándonos cuantos goles lleva cada equipo, como su propio nombre indica.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 
 

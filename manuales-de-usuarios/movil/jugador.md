@@ -44,11 +44,9 @@ Posteriormente, el usuario deberá pulsar el botón “Entrar” para poder acce
 {% endcolumn %}
 
 {% column %}
-<img src="../../.gitbook/assets/unknown (11).png" alt="" width="188">
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 **TERCER PASO: VER EQUIPOS**
 
