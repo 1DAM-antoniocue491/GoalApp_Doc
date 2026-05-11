@@ -44,11 +44,9 @@ Posteriormente, el usuario deberá pulsar el botón “Entrar” para poder acce
 {% endcolumn %}
 
 {% column %}
-<img src="../.gitbook/assets/unknown (11).png" alt="" width="188">
+<figure><img src="../.gitbook/assets/image (84).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 **TERCER PASO: GENERAR CONVOCATORIA // ALINEACIÓN**
 
@@ -58,7 +56,7 @@ Una vez allí, haremos clic en Jornada> Programados al acceder, se mostrarán to
 
 A continuación pulsaremos en Convocatoria.
 
-<img src="../.gitbook/assets/unknown (20).png" alt="" height="249" width="142">
+<figure><img src="../.gitbook/assets/image (79).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Nos saldrá dos equipos:
 

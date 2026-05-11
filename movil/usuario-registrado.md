@@ -44,11 +44,9 @@ Posteriormente, el usuario deberá pulsar el botón “Entrar” para poder acce
 {% endcolumn %}
 
 {% column %}
-<img src="../.gitbook/assets/unknown (11).png" alt="" width="188">
+<figure><img src="../.gitbook/assets/image (110).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 **TERCER PASO: VER EQUIPOS**
 
@@ -64,7 +62,19 @@ En la parte superior, bajo el menú “equipos” se indica que hay un total de 
 
 Al clicar en cualquiera de los clubes de la competición, nos dará información precisa de los datos de la temporada así como el próximo encuentro que disputan. Los datos de la temporada se muestran con las siguientes siglas:
 
-<img src="../.gitbook/assets/unknown (30).png" alt="" height="270" width="121">
+{% columns %}
+{% column %}
+<img src="../.gitbook/assets/unknown (30).png" alt="" width="188">
+
+
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/image (148).png" alt="" width="188"><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
 
 * PV: Partidos Jugados
 * “V”, “E” y/o “D”: Victoria, empate o Derrota
