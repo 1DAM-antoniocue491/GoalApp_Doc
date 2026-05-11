@@ -69,6 +69,7 @@
   * [Delegado de Campo](frontend-movile/diseno-ui/delegado-de-campo.md)
   * [Jugador](frontend-movile/diseno-ui/jugador.md)
   * [Usuario Registrado](frontend-movile/diseno-ui/usuario-registrado.md)
+* [Despliegue](frontend-movile/despliegue.md)
 
 ## Backend
 
