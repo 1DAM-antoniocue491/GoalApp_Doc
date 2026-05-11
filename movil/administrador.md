@@ -198,8 +198,6 @@ A continuación pulsaremos en “Editar” en su interior se abrirá una ventana
 {% column %}
 <img src="../.gitbook/assets/unknown (23).png" alt="" height="76" width="127">
 
-&#x20;
-
 <img src="../.gitbook/assets/unknown (20).png" alt="" height="249" width="142">
 {% endcolumn %}
 
@@ -291,7 +289,7 @@ Por último debajo de las tarjetas nos aparece los goles por equipo, indicándon
 
 **DECIMOTERCER PASO: USUARIO**
 
-Para ver nuestros datos como usuario, debemos clicar en la barra inferior, en el extremo derecho en la sección “perfil”. Una vez accedemos nos sale una tarjeta donde nos muestra nuestra información personal. Inferior a esta tarjeta nos permitirá hacernos premium o en su contraparte, cerrar sesión.
+Para ver nuestros datos como usuario, debemos clicar en la barra inferior, en el extremo derecho en la sección “perfil”. Una vez accedemos nos sale una tarjeta donde nos muestra nuestra información personal. Aparece una tarjeta con la que podemos cerrar sesión.
 
 {% columns %}
 {% column %}

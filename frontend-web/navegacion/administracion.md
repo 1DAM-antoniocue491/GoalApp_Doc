@@ -107,7 +107,7 @@ Si hubiesemos pulsado en 'Ver todas las notificaciones' estás estarían organiz
           * Nombre del jugador que sale.
           * Minuto en que ocurrio el evento.
 
-          <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="249"><figcaption></figcaption></figure>
+          <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="249"><figcaption></figcaption></figure>
     * **Ver plantillas:** Al seleccionar la opción '**Convocatoria'**, se deberá elegir el equipo que se desea consultar. A continuación, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
 
     <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="188"><figcaption></figcaption></figure>
@@ -250,7 +250,7 @@ Podremos ver los partidos según el estado en el que se encuentren:
           * Nombre del jugador que sale.
           * Minuto en que ocurrio el evento.
 
-          <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="249"><figcaption></figcaption></figure>
+          <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="249"><figcaption></figcaption></figure>
     * **Ver plantillas:** Al seleccionar la opción '**Convocatoria'**, se deberá elegir el equipo que se desea consultar. A continuación, se mostrarán los jugadores titulares y suplentes de ambos equipos participantes en el partido.
 
     <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="188"><figcaption></figcaption></figure>
